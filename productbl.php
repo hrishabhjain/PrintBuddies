@@ -1,5 +1,6 @@
 <?php
-header('Access-Control-Allow-Origin: http://localhost');
+header('content-type: application/json; charset=utf-8');
+header("access-control-allow-origin: *");
 include_once("Product.php");
 
 if(isset($_GET['id']))
