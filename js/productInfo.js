@@ -69,6 +69,7 @@ function addProductForBidding(quantity,timestamp)
         data[key1]['Quantity']=quantity;
         data[key1]['Date']=timestamp;
     }
+    console.log(quantity);
     //data=encodeURIComponent(JSON.stringify(data));
     data=JSON.stringify(data);
     console.log(data);
