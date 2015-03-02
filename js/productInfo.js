@@ -29,7 +29,7 @@ setProductInfo=function(data)
                 html+='<option value=\"'+data[key1][key2][i]+'">'+data[key1][key2][i]+'</option>';
             html+="</select>"
         }
-        html+="<br><label>Quantity</label><br><input type='number' name='Quantity' id='quantity' class='select-main'><br><label>Product Ready by : </label><br><input type='date' name='date' id='date' class='select-main'>"+'<br><button class="addtocart"  value="Add for Bidding" onclick="checkFields()"> <i class="fa fa-shopping-cart fa-fw"></i> Add to Cart </button>';
+        html+="<br><label>Quantity</label><br><input type='number' name='Quantity' id='quantity' class='select-main'><br><label>Product Ready by : </label><br><input type='date' name='date' id='date' class='select-main'>"+'<br><button class="addtocart"  value="Submit" onclick="checkFields()"> <i class="fa fa-shopping-cart fa-fw"></i> Add to Cart </button>';
     }
     document.getElementById(container_name).innerHTML=html;
 }
@@ -38,10 +38,11 @@ function checkFields()
     var quantity=document.getElementById('quantity').value;
     var date=new Date(document.getElementById('date').value);
 
-    if(!(quantity)){
+    if(isNaN(quantity)){
         alert('Enter a Valid Quantity');
         return;
     }
+
     var timestamp=date.getTime();
     if(isNaN(timestamp)){
         alert('Please Enter a valid Date');
@@ -62,20 +63,21 @@ function addProductForBidding(quantity,timestamp)
                 flag=1;
                 continue;
             }
-            console.log(key2);
             var attribute_value=document.getElementById(key2).value;
             data[key1][key2]=attribute_value;
         }
         data[key1]['Quantity']=quantity;
         data[key1]['Date']=timestamp;
     }
-    console.log(quantity);
-    //data=encodeURIComponent(JSON.stringify(data));
-    data=JSON.stringify(data);
-    console.log(data);
+    data=encodeURIComponent(JSON.stringify(data));
     myXHR("bidbl.php?data="+data,{callback: redirect,method:"GET"});
+
 }
 redirect=function(data)
 {
+    window.location.href='cart.php';
+    //data=JSON.parse(data);
+    //if(data[err]!=null)
+       // alert('Could not add item. Please try again');
 
 }

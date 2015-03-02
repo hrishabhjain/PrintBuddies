@@ -1,4 +1,3 @@
-/* CSS crunched with Crunch - http://crunchapp.net/ */
 body {
   background: #ffffff;
 }
@@ -7,7 +6,7 @@ body {
   color: #ffffff;
 }
 input {
-  background-color: #f76b5c;
+  background-color: #ffffff;
 }
 .fa {
   color: #ffffff;
@@ -24,7 +23,7 @@ a:hover {
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
-  background-color: #008dce;
+  background-color: #034D50;
   color: #ffffff;
 }
 .form-control {
@@ -38,11 +37,11 @@ hr {
   border-top: 1px solid #aaaaaa;
 }
 .btn.color1 {
-  background-color: #008dce;
+  background-color: #31B167;
   color: #ffffff;
 }
 .btn.color1:hover {
-  background-color: #006bac;
+  background-color: #034D50;
   color: #ffffff;
 }
 .btn.color2 {
@@ -74,7 +73,7 @@ a.color1 {
   color: #31B167;
 }
 a.color1:hover {
-  color: #008dce;
+  color: #034D50;
 }
 a.color2 {
   color: #034D50;
@@ -99,7 +98,7 @@ a.color3:hover {
 }
 .input1 {
   background-color: #22d1ff;
-  border: 1px #11c0ff solid;
+  border: 1px #034D50 solid;
   color: #ffffff;
 }
 .input2 {
@@ -367,7 +366,7 @@ a.color3:hover {
   color: #ffffff;
 }
 .menu3dmega li .dropdown-menu {
-  background-color: #2c3e50;
+  background-color: #034D50;
 }
 .menu3dmega .dropdown-menu > ul > li > a {
   color: #ffffff;
@@ -443,7 +442,7 @@ a.color3:hover {
   border-top: 1px solid #ffffff;
 }
 .menu3dmega.skin-blue-dark > ul > li:hover {
-  background-color: #2c3e50;
+  background-color: #034D50;
   color: #ffffff;
 }
 .menu3dmega.skin-blue-dark > ul > li:hover i {
@@ -473,7 +472,7 @@ a.color3:hover {
   color: #ffffff;
 }
 .menu-links ul > li > a:hover {
-  background-color: #008dce;
+  background-color: #034D50;
 }
 .quick-cart {
   background-color: transparent;
@@ -517,7 +516,7 @@ a.color3:hover {
 }
 .top-searchs {
   background-color: #31B167;
-  color: #11c0ff;
+  color: #034D50;
 }
 .top-searchs .title {
   color: #ffffff;
@@ -553,28 +552,28 @@ a.color3:hover {
   color: #ffffff;
 }
 .box-block .box-content .box-products .carousel-controls .carousel-control:hover {
-  background-color: #008dce;
+  background-color: #034D50;
 }
 .box-content .box-heading {
-  background-color: #008dce;
+  background-color: #034D50;
 }
 .box-content .carousel-controls {
   background-color: #31B167;
 }
 .box-content .carousel-controls .carousel-control:hover {
-  background-color: #008dce;
+  background-color: #034D50;
 }
 .box-content .carousel-controls .left {
-  border-left: 1px solid #11c0ff;
+  border-left: 1px solid #034D50;
 }
 .box-content .carousel-controls .right {
-  border-left: 1px solid #11c0ff;
+  border-left: 1px solid #034D50;
 }
 .sidebar > .box-content > .carousel-controls > .left {
-  border-right: 1px solid #11c0ff;
+  border-right: 1px solid #034D50;
 }
 .page-sidebar > .box-content > .carousel-controls > .left {
-  border-right: 1px solid #11c0ff;
+  border-right: 1px solid #034D50;
 }
 .nav-bg {
   background: #31B167;
@@ -620,7 +619,7 @@ a.color3:hover {
   background-color: #d84c3d;
 }
 .product-block .product-meta .small-btns .btn-addtocart {
-  background-color: #11c0ff;
+  background-color: #034D50;
 }
 .product-block .product-meta .small-btns .btn-addtocart:hover {
   background-color: #22d1ff;
@@ -648,10 +647,10 @@ a.color3:hover {
   background-color: #444444;
 }
 .rec-banner.darkblue .banner {
-  background-color: #008dce;
+  background-color: #034D50;
 }
 .rec-banner.lightblue .banner {
-  background-color: #11c0ff;
+  background-color: #034D50;
 }
 .rec-banner.orange .banner {
   background-color: #feaa37;
@@ -702,7 +701,7 @@ a.color3:hover {
   color: #ffffff;
 }
 .subscribe .formbox button:hover {
-  background-color: #008dce;
+  background-color: #034D50;
 }
 .ani-image {
   -moz-transform-origin: 50% 50%;
@@ -720,7 +719,7 @@ a.color3:hover {
   color: #ffffff;
 }
 .blog-block .entry-row .date {
-  background-color: #11c0ff;
+  background-color: #034D50;
   color: #ffffff;
 }
 .blog-block .entry-row .blog-text {
@@ -747,7 +746,7 @@ a.color3:hover {
   background: none;
 }
 .blog-block .box-content > .carousel-controls .carousel-control {
-  background: #11c0ff;
+  background: #034D50;
 }
 .blog-block .box-content > .carousel-controls .carousel-control:hover {
   background: #22d1ff;
@@ -851,17 +850,17 @@ footer .copyrights {
   color: #eeeeee;
 }
 .big-unit .btn {
-  background-color: #006bac;
+  background-color: #034D50;
 }
 .big-unit .btn:hover {
-  background-color: #008dce;
+  background-color: #034D50;
   color: #ffffff;
 }
 .big-unit a:hover {
   color: #ff9e8f;
 }
 .page-sidebar > .box-heading {
-  background-color: #006bac;
+  background-color: #034D50;
 }
 .panel-default > .panel-heading {
   background-color: #31B167;
@@ -871,16 +870,16 @@ footer .copyrights {
   color: #ffffff;
 }
 .panel-default > .panel-heading.opened {
-  background-color: #11c0ff;
+  background-color: #31B167;
 }
 .panel-default > .panel-heading.opened:hover {
-  background-color: #31B167;
+  background-color: #034D50;
 }
 .panel-default > .panel-heading.closed {
   background-color: #31B167;
 }
 .panel-default > .panel-heading.closed:hover {
-  background-color: #11c0ff;
+  background-color: #31B167;
 }
 .panel-group .panel-heading + .panel-collapse .panel-body {
   border: none !important;
@@ -971,7 +970,7 @@ footer .copyrights {
   color: #31B167;
 }
 .blog-summery p a:hover {
-  color: #11c0ff;
+  color: #034D50;
 }
 .blogimage {
   background-color: #034D50;
@@ -1012,7 +1011,7 @@ footer .copyrights {
 .pagination > li > span:hover,
 .pagination > li > a:focus,
 .pagination > li > span:focus {
-  background-color: #006bac;
+  background-color: #034D50;
 }
 .pagination > .active > a,
 .pagination > .active > span,
@@ -1020,7 +1019,7 @@ footer .copyrights {
 .pagination > .active > span:hover,
 .pagination > .active > a:focus,
 .pagination > .active > span:focus {
-  background-color: #006bac;
+  background-color: #034D50;
   color: #ffffff;
 }
 .pagination > .disabled > span,
@@ -1030,7 +1029,7 @@ footer .copyrights {
 .pagination > .disabled > a:hover,
 .pagination > .disabled > a:focus {
   background-color: #22d1ff;
-  color: #11c0ff;
+  color: #034D50;
 }
 .pager li > a,
 .pager li > span {
@@ -1060,7 +1059,7 @@ footer .copyrights {
   border-left: 1px #ffffff solid;
 }
 .blog-single .post-info .sharethis:hover {
-  background: #008dce;
+  background: #034D50;
 }
 .blog-single .post-info .sharethis ul > li a {
   color: #ffffff;
@@ -1167,13 +1166,13 @@ footer .copyrights {
   color: #ffffff;
 }
 .category-heading ul li a:hover {
-  background-color: #008dce;
+  background-color: #034D50;
   color: #ffffff;
 }
 .category-heading .nav .open > a,
 .category-heading .nav .open > a:hover,
 .category-heading .nav .open > a:focus {
-  background-color: #008dce;
+  background-color: #034D50;
   color: #ffffff;
 }
 .tooltip {
@@ -1273,8 +1272,8 @@ footer .copyrights {
 }
 .categorycount {
   -moz-border-radius: 50%;
-  background-color: #008dce;
-  border: 1px #006bac solid;
+  background-color: #034D50;
+  border: 1px #034D50 solid;
   color: #ffffff;
 }
 .shopby {
@@ -1334,7 +1333,7 @@ footer .copyrights {
   color: #ffffff;
 }
 .list-product .category-list-btns .btn-addtocart:hover {
-  background-color: #008dce;
+  background-color: #034D50;
 }
 .list-product .category-list-btns .btn-wishlist {
   background-color: #f76b5c;
@@ -1430,7 +1429,7 @@ footer .copyrights {
   color: #ffffff;
 }
 .product-details .product-big-btns .btn-addtocart:hover {
-  background-color: #008dce;
+  background-color: #034D50;
 }
 .product-details .product-big-btns .btn-wishlist {
   background-color: #d84c3d;
@@ -1451,13 +1450,13 @@ footer .copyrights {
   color: #ffffff;
 }
 .product-details .product-big-btns .btn-sendtofriend:hover {
-  background-color: #11c0ff;
+  background-color: #034D50;
 }
 .product-details-tabs .tab-content a {
   color: #31B167;
 }
 .product-details-tabs .tab-content a:hover {
-  color: #008dce;
+  color: #034D50;
 }
 .product-details-tabs .tab-content .pagination > li > a,
 .product-details-tabs .tab-content .pagination > li > span {
@@ -1590,8 +1589,8 @@ footer .copyrights {
   color: #ffffff;
 }
 .checkout-op .op-number {
-  background-color: #008dce;
-  border: 1px #006bac solid;
+  background-color: #034D50;
+  border: 1px #034D50 solid;
   color: #ffffff;
 }
 .checkout-op ul > li:hover {
@@ -1642,7 +1641,7 @@ footer .copyrights {
     border-color: transparent transparent transparent #ffffff;
   }
   .menuHeadingdropdown:hover {
-    background-color: #008dce;
+    background-color: #034D50;
   }
 }
 .addtocart{
@@ -1652,5 +1651,5 @@ footer .copyrights {
     color: #ffffff;
 }
 .addtocart:hover{
-    background-color: #008dce;
+    background-color: #034D50;
 }
