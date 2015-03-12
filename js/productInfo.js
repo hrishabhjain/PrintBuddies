@@ -38,13 +38,19 @@ function checkFields()
     var quantity=document.getElementById('quantity').value;
     var date=new Date(document.getElementById('date').value);
 
-    if(isNaN(quantity)){
-        alert('Enter a Valid Quantity');
+    if(quantity==''){
+        alert(' Please Enter a Valid Quantity.');
+        return;
+    }else if(isNaN(quantity)){
+        alert('Please Enter a Valid Quantity.');
         return;
     }
 
     var timestamp=date.getTime();
-    if(isNaN(timestamp)){
+    if(timestamp==''){
+        alert('Please Enter a valid Date.');
+        return;
+    }else if(isNaN(timestamp)){
         alert('Please Enter a valid Date');
         return;
     }

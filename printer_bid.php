@@ -1,6 +1,6 @@
 <?php
 
-$printer_username=$_SESSION['printer_username']='PrintBuddies01';
+
 
 
 ?>
@@ -86,7 +86,7 @@ $printer_username=$_SESSION['printer_username']='PrintBuddies01';
                             <div class="name">
                                 <h3><a href="product.html"  >Bid ID : PB_{{_id}}</a></h3>
                             </div>
-                            <br><a href="#a" class="btn normal color2" onclick="OnClickBidButton()">Bid</a> </div>
+                            <br><a href="#a" class="btn normal color2" onclick="getCompleteBid('{{_id}}')">Bid</a> </div>
                     </div>
                 </div>
                 <div class="col-md-25 hidden-sm hidden-xs p-wr"><div class="product-attrb-wr"><div class="product-attrb">
@@ -181,8 +181,23 @@ $printer_username=$_SESSION['printer_username']='PrintBuddies01';
 <script id="handlebar-info-7" type="text/x-handlebars-">
 
                 <div class="cart-box-tm">
-                    <div class="tm1" style="background-color:#31B145">Rs.{{Price}}</div>
-                    <div class="tm2" style="background-color:#31B145">{{OnTime}}</div>
+                    <div class="tm1" style="background-color:#fff">Your Bid &nbsp; &nbsp; Rs.</div>
+                    <div class="tm2" style="background-color:#fff"><input type="text" name="price" id="price"  style="border: 1px #aaaaaa solid ; height: 35px" value=""></div>
+                </div>
+                <div class="cart-box-tm">
+                    <div class="tm1" style="background-color:#fff ; margin-top: 5px"><label class="checkbox" for="checkbox1">On time Delivery <input type="checkbox"  id="Ontime"></label></div>
+                    <div class="tm2" style="background-color:#fff;"> <a href="#a" class="btn normal color2" onclick="postBid()">Bid</a></div>
+                </div>
+
+
+
+
+</script>
+<script id="handlebar-info-8" type="text/x-handlebars-">
+
+                <div class="cart-box-tm">
+                    <div class="tm1" style="background-color:#77E9A7">Rs.{{Price}}</div>
+                    <div class="tm2" style="background-color:#77E9A7">{{OnTime}}</div>
                 </div>
 
 </script>
@@ -233,7 +248,6 @@ $printer_username=$_SESSION['printer_username']='PrintBuddies01';
 
                 <div class="clearfix f-space0"></div>
 
-                <button class="btn large color1 pull-right" onclick="window.location.href='login.php'">Proceed to Post Bid</button>
                 <div class="clearfix f-space30"></div>
             </div>
         </div>

@@ -108,8 +108,8 @@ class MySql implements DBAuth {
             $curdate = date("d-m-Y H:i:s");
             $dir=date("M-y");
             $logdate=date("d-m-y");
-            $path="C:\wamp\www\Springtime\Internal"."/".$dir;
-            //$path= $_SERVER."/".$dir;
+            //$path="C:\wamp\www\Springtime\Internal"."/".$dir;
+            $path= $_SERVER['DOCUMENT_ROOT']."/".$dir;
             //$path="boxingtool/Query_Log"."/".$dir;
             $myfile=$logdate.'.txt';
             if( is_dir($dir) === false )

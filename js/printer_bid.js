@@ -1,7 +1,15 @@
 var reveal_html="";
+var reveal_bidId="";
+var printer_username="";
 function getExistingBid()
 {
+    myXHR("printerbl.php?method=getSession",{callback:setSession,method:"GET"});
     myXHR("printerbl.php?method=getExistingBid",{callback:displayBids,method:"GET"});
+}
+setSession=function(data)
+{
+    data=JSON.parse(data);
+    printer_username=data['printer_username'];
 }
 displayBids=function(data)
 {
@@ -46,9 +54,11 @@ displayBids=function(data)
     }
     document.getElementById(container_name).innerHTML=html;
 
+
 }
 function getCompleteBid(bid_id)
 {
+    reveal_bidId=bid_id;
     myXHR("printerbl.php?method=getBidById&BidId="+bid_id,{callback:displayBidInReveal,method:"GET"});
 
 }
@@ -115,20 +125,24 @@ displayBidPriceReveal=function(data)
     var container_name="myModal";
     var source_info3 = document.getElementById("handlebar-info-6").innerHTML;
     var template_info3= Handlebars.compile(source_info3);
-    var username='<?php echo $printer_username ?>';
-    console.log(username);
+
     var source_info4 = document.getElementById("handlebar-info-7").innerHTML;
     var template_info4= Handlebars.compile(source_info4);
-    reveal_html+='    <div class="col-md-35 col-sm-12 col-xs-12 box-block page-sidebar"><div class="box-heading"><span>Bids</span></div><div class="box-content cart-box-wr" id="box-content cart-box-wr">';
+
+    var source_info5 = document.getElementById("handlebar-info-8").innerHTML;
+    var template_info5= Handlebars.compile(source_info5);
+    reveal_html+='<div class="col-md-35 col-sm-12 col-xs-12 box-block page-sidebar"><div class="box-heading"><span>Bids</span></div><div class="box-content cart-box-wr" id="box-content cart-box-wr">';
     for(var key in data)
     {
-        if(data[key]['Username']==username)
+        if(data[key]['Username']==printer_username)
         {
-
+            reveal_html+=template_info5(data[key]);
+            continue;
         }
         reveal_html+=template_info3(data[key]);
     }
-    reveal_html+='</div><div class="clearfix f-space30"></div></div></div><a class="close-reveal-modal">&#215;</a>';
+    reveal_html+=template_info4();
+    reveal_html+='</div></div></div><a class="close-reveal-modal">&#215;</a>';
 
     document.getElementById(container_name).innerHTML=reveal_html;
     $('#myModal').reveal({
@@ -139,16 +153,34 @@ displayBidPriceReveal=function(data)
     });
 }
 
-function OnClickBidButton()
+function postBid()
 {
-    var container_name="myModal";
-    var html='<div><label>Min-Bid : </label><input type="text" name="p_quantity" value="Rs. "><br><input type="checkbox" value="" id="change-create-bid" data-toggle="checkbox" class="pull-left" onclick="enableCreateBidButton()"></div>';
-    alert(html);
-    document.getElementById(container_name).innerHTML=html;
-    $('#myModal').reveal({
-        animation: 'fadeAndPop',                   //fade, fadeAndPop, none
-        animationspeed: 300,                       //how fast animtions are
-        closeonbackgroundclick: true,              //if you click background will modal close?
-        dismissmodalclass: 'close-reveal-modal'    //the class of a button or element that will close an open modal
-    });
+    var price=document.getElementById('price').value;
+    console.log(price);
+    var ontime="";
+    if(document.getElementById('Ontime').checked)
+         ontime=1;
+    else
+         ontime=0;
+    if(price==''){
+        alert('Enter a Valid Price.');
+        return;
+    }else if(isNaN(price)){
+        alert('Enter a Valid Price.');
+        return;
+    }
+
+    myXHR("printerbl.php?method=postBid&BidId="+reveal_bidId+"&price="+price+"&ontime="+ontime,{callback:destroyReveal,method:"GET"})
+}
+
+
+destroyReveal=function(data)
+{
+
+    data=JSON.parse(data);
+    console.log(data);
+    if(data==true){
+        alert('Bided Successfully');
+        document.location.reload(true);
+    }
 }

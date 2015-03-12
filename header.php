@@ -1,6 +1,7 @@
 <?php
 
 session_start();
+$printer_username=$_SESSION['printer_username']="PrintBuddies03";
 require_once("autoload.php");
 require_once( 'Facebook/FacebookSession.php' );
 require_once( 'Facebook/FacebookRedirectLoginHelper.php' );

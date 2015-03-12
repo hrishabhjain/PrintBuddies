@@ -13,10 +13,20 @@ if(isset($_GET['method']))
     {
         $bid_id=$_GET['BidId'];
         $bid->getBidByIdForPrinter($bid_id);
-    }elseif($method='getBidPrice')
+    }elseif($method=='getBidPrice')
     {
         $bid_id=$_GET['BidId'];
         $bid->getBidPrice($bid_id);
+    }elseif($method=='postBid')
+    {
+        $bid_id=$_GET['BidId'];
+        $printer=$_SESSION['printer_username'];
+        $price=$_GET['price'];
+        $ontime=$_GET['ontime'];
+        $bid->postBid($bid_id,$printer,$price,$ontime);
+    }elseif($method=='getSession')
+    {
+        echo json_encode($_SESSION);
     }
 }
 ?>

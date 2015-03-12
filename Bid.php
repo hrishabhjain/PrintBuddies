@@ -138,7 +138,7 @@ class Bid {
             $mysql = new MySql();
             $import="SELECT * FROM `bids` WHERE `bidId`=$bid_id ORDER BY `bids`.`price` DESC";
             $response = $mysql->executeQuery($import);
-            $mysql->write_log($import);
+            //$mysql->write_log($import);
 
             for($i=0;$row = mysqli_fetch_row($response);$i++){
                 $json_data[$i]['Username']=$row[0];
@@ -147,6 +147,33 @@ class Bid {
                 $json_data[$i]['OnTime']=$row[3];
             }
             echo json_encode($json_data);
+
+        }catch (Exception $error){
+
+            $mysql=new MySql();
+            $mysql->write_Exception($error);
+        }
+    }
+    public function postBid($bid_id,$printer,$price,$ontime)
+    {
+        $json_data=array();
+        try{
+
+            $mysql = new MySql();
+            $import="SELECT * FROM `bids` WHERE `bidId`='$bid_id' AND `username`='$printer'";
+            $response = $mysql->executeQuery($import);
+            //$mysql->write_log($import);
+
+            $rows = mysqli_num_rows($response);
+            if ($rows == 1){
+                $import="UPDATE `bids` SET `price`='$price',`on-time`='$ontime' WHERE `username`='$printer' AND `bidId`='$bid_id';";
+            }else
+                $import="INSERT INTO `bids`(`username`, `bidId`, `price`, `on-time`) VALUES ('$printer','$bid_id','$price','$ontime')";
+
+            $response = $mysql->executeQuery($import);
+            //$mysql->write_log($import);
+            //$row = mysqli_fetch_row($response);
+            echo json_encode($response);
 
         }catch (Exception $error){
 
