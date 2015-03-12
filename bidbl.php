@@ -6,6 +6,11 @@ if(isset($_GET['data']))
     $data=$_GET['data'];
     $data=json_decode($data,true);
     $bid=new Bid();
+
+    if(isset($_SESSION['email']))
+        $email=$_SESSION['email'];
+    else
+        $email=null;
     if(isset($_SESSION['BidId']))
     {
         $bid_id=$_SESSION['BidId'];
@@ -16,7 +21,7 @@ if(isset($_GET['data']))
         $bid_id=$bid->generateBidId();
         if($bid_id!=0)
             $_SESSION['BidId']=$bid_id;
-        $bid->insertFirstProductForBid($bid_id,$data);
+        $bid->insertFirstProductForBid($bid_id,$data,$email);
     }
 
 }

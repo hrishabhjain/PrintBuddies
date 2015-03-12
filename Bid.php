@@ -1,63 +1,158 @@
 <?php
 include_once("config.php");
+include_once('mysqlclass.php');
 class Bid {
     function __construct(){
 
     }
     public function generateBidId()
     {
-        $conn = new MongoClient(MONGO_PRODUCT_IP);
-        $db = $conn->print_buddies;
-        $collection=$db->Bids;
-        $cursor=$collection->find()->limit(1);
-        $cursor->sort(array('_id'=>-1));
-        $cursor=iterator_to_array($cursor);
-        foreach ($cursor as $key1 )
-        {
-            $bid_id=intval($key1['_id'])+1;
-            break;
-        }
-        if(isset($bid_id))
-        {
-            $_data['_id']=$bid_id;
-            echo $_data['_id'];
-            return $bid_id;
-        }else
+        try{
+            $conn = new MongoClient(MONGO_PRODUCT_IP);
+            $db = $conn->print_buddies;
+            $collection=$db->Bids;
+            $cursor=$collection->find()->limit(1);
+            $cursor->sort(array('_id'=>-1));
+            $cursor=iterator_to_array($cursor);
+            foreach ($cursor as $key1 )
+            {
+                $bid_id=intval($key1['_id'])+1;
+                break;
+            }
+            if(isset($bid_id))
+            {
+                $_data['_id']=$bid_id;
+                echo $_data['_id'];
+                return $bid_id;
+            }else
+                return 0;
+        }catch (Exception $e){
+            echo json_encode('Could not run query on the Server');
             return 0;
-
+        }
     }
-    public function insertFirstProductForBid($bid_id,$product_info)
+    public function insertFirstProductForBid($bid_id,$product_info,$email)
     {
-        $conn = new MongoClient(MONGO_PRODUCT_IP);
-        $db = $conn->print_buddies;
-        $collection=$db->Bids;
-        $bid['_id']=$bid_id;
-        $bid['date']=null;
-        $bid['products'][0]=$product_info;
-        $cursor=$collection->insert($bid);
-        echo json_encode($cursor);
+        try{
+            $conn = new MongoClient(MONGO_PRODUCT_IP);
+            $db = $conn->print_buddies;
+            $collection=$db->Bids;
+            $bid['_id']=$bid_id;
+            $bid['date']=null;
+            $bid['email']=$email;
+            $bid['products'][0]=$product_info;
+            $bid['bids'][0]=null;
+            $cursor=$collection->insert($bid);
+            echo json_encode($cursor);
+        }catch (Exception $e){
+            echo json_encode('Could not run query on the Server');
+        }
+
     }
     public function insertProductForBid($bid_id,$product_info)
     {
-        $conn = new MongoClient(MONGO_PRODUCT_IP);
-        $db = $conn->print_buddies;
-        $collection=$db->Bids;
-        $cursor=$collection->findAndModify(array("_id" =>$bid_id),array('$push'=>array("products"=>$product_info)));
-        echo json_encode($cursor);
+        try{
+            $conn = new MongoClient(MONGO_PRODUCT_IP);
+            $db = $conn->print_buddies;
+            $collection=$db->Bids;
+            $cursor=$collection->findAndModify(array("_id" =>$bid_id),array('$push'=>array("products"=>$product_info)));
+            echo json_encode($cursor);
+        }catch (Exception $e){
+            echo json_encode('Could not run query on the Server');
+        }
+
     }
     public function getBidById($bid_id)
     {
         try{
             $conn = new MongoClient(MONGO_PRODUCT_IP);
+            $db = $conn->print_buddies;
+            $collection=$db->Bids;
+            $cursor=$collection->find(array("_id" =>$bid_id),array("products"=>1,'date'=>1))->limit(1);
+            $cursor=iterator_to_array($cursor);
+            echo json_encode($cursor);
         }catch (Exception $e){
             echo "Could not connect to Mongo Server";
             return;
         }
-        $db = $conn->print_buddies;
-        $collection=$db->Bids;
-        $cursor=$collection->find(array("_id" =>$bid_id),array("products"=>1))->limit(1);
-        $cursor=iterator_to_array($cursor);
-        echo json_encode($cursor);
+    }
+    public function createBid($bid_id,$timestamp)
+    {
+        try{
+            $conn = new MongoClient(MONGO_PRODUCT_IP);
+            $db = $conn->print_buddies;
+            $collection=$db->Bids;
+            $cursor=$collection->findAndModify(array("_id" =>$bid_id),array('$set'=>array("date"=>$timestamp)));
+            echo json_encode($cursor);
+        }catch (Exception $e){
+            echo json_encode('Could not run query on the Server');
+        }
+
+    }
+    public function setEmailForBid($bid_id,$email)
+    {
+        try{
+            $conn = new MongoClient(MONGO_PRODUCT_IP);
+            $db = $conn->print_buddies;
+            $collection=$db->Bids;
+            $cursor=$collection->findAndModify(array("_id" =>$bid_id),array('$set'=>array("email"=>$email)));
+            return json_encode($cursor);
+        }catch (Exception $e){
+            return json_encode('Could not run query on the Server');
+        }
+    }
+    public function getExistingBid()
+    {
+        try{
+            $conn = new MongoClient(MONGO_PRODUCT_IP);
+            $db = $conn->print_buddies;
+            $collection=$db->Bids;
+            $timestamp=time()*1000;
+            $cursor=$collection->find(array('date' => array( '$gt' =>$timestamp)),array('products'=>1,'date'=>1))->sort(array('date'=>-1))->limit(25);
+            $cursor=iterator_to_array($cursor);
+            echo json_encode($cursor);
+        }catch (Exception $e){
+            echo json_encode('Could not run query on the Server');
+        }
+    }
+    public function getBidByIdForPrinter($bid_id)
+    {
+        try{
+            $conn = new MongoClient(MONGO_PRODUCT_IP);
+            $db = $conn->print_buddies;
+            $collection=$db->Bids;
+            $cursor=$collection->find(array('_id' =>intval($bid_id)),array("products"=>1,'date'=>1));
+            $cursor=$cursor->sort(array("date"=>-1));
+            $cursor=iterator_to_array($cursor);
+            echo json_encode($cursor);
+        }catch (Exception $e){
+            echo "Could not connect to Mongo Server";
+            return;
+        }
+    }
+    public function getBidPrice($bid_id)
+    {
+        $json_data=array();
+        try{
+
+            $mysql = new MySql();
+            $import="SELECT * FROM `bids` WHERE `bidId`=$bid_id ORDER BY `bids`.`price` DESC";
+            $response = $mysql->executeQuery($import);
+            $mysql->write_log($import);
+
+            for($i=0;$row = mysqli_fetch_row($response);$i++){
+                $json_data[$i]['Username']=$row[0];
+                $json_data[$i]['BidId']=$row[1];
+                $json_data[$i]['Price']=$row[2];
+                $json_data[$i]['OnTime']=$row[3];
+            }
+            echo json_encode($json_data);
+
+        }catch (Exception $error){
+
+            $mysql=new MySql();
+            $mysql->write_Exception($error);
+        }
     }
 }
 ?>

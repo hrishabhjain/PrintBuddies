@@ -12,7 +12,7 @@
 <meta content="Flatroshop online shopping point" name="description">
 <meta content="logoby.us" name="author">
 <link href="images/ico.html" rel="shortcut icon">
-<title>Print Buddies - Online Shop Template</title>
+<title>Print Buddies - Online Shop </title>
 
 <!-- Reset CSS -->
 <link href="css/normalize.css" rel="stylesheet" type="text/css"/>
@@ -29,7 +29,7 @@
 <!-- Animations -->
 <link href="css/animate.css" rel="stylesheet" type="text/css"/>
 
-<!-- Custom styles for this template -->
+<!-- Custom styles for this  -->
 <link href="css/custom.css" rel="stylesheet" type="text/css" />
 
 <!-- Style Switcher -->
@@ -74,7 +74,7 @@
 <!-- Header -->
 <?php include_once('header.php')?>
 <!-- end: Header -->
-<script id="handlebar-info-1" type="text/x-handlebars-template">
+<script id="handlebar-info-1" type="text/x-handlebars-">
     <div class="container">
         <div class="row">
             <div class="product">
@@ -88,7 +88,7 @@
                     </div>
                 </div>
 </script>
-<script id="handlebar-info-2" type="text/x-handlebars-template">
+<script id="handlebar-info-2" type="text/x-handlebars-">
                 <div class="col-md-2 hidden-sm hidden-xs p-wr">
                     <div class="product-attrb-wr">
                         <div class="product-attrb">
@@ -163,7 +163,7 @@
 
         <div class="clearfix f-space0"></div>
 
-        <button class="btn large color1 pull-right" onclick="window.location.href='checkout.php'">Proceed to Post Bid</button>
+        <button class="btn large color1 pull-right" onclick="window.location.href='login.php'">Proceed to Post Bid</button>
         <div class="clearfix f-space30"></div>
       </div>
     </div>

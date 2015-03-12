@@ -53,11 +53,6 @@
 <script src="js/menu3d.js" type="text/javascript"></script>
 
 <!-- iView Slider -->
-<script src="js/raphael-min.js" type="text/javascript"></script>
-<script src="js/jquery.easing.js" type="text/javascript"></script>
-<script src="js/iview.js" type="text/javascript"></script>
-<script src="js/retina-1.1.0.min.js" type="text/javascript"></script>
-
 <!--[if IE 8]>
     <script type="text/javascript" src="js/selectivizr.js"></script>
 <![endif]-->
@@ -70,7 +65,20 @@
 
 <body onload="summary()">
 <!-- Header -->
-<?php include_once('header.php')?>
+<?php
+include_once('header.php');
+if( !(isset($_SESSION['BidId'])))
+{
+    echo '<script>alert("Cart Empty")</script>';
+    echo '<script>window.location.href="cart.php"</script>';
+}
+if( !(isset($_SESSION['email'])))
+{
+    echo '<script>window.location.href="login.php"</script>';
+}
+// see if we have a session
+
+?>
 <!-- end: Header -->
 <script id="handlebar-info" type="text/x-handlebars-template">
     <div class="cart-box-tm">
@@ -104,61 +112,25 @@
         <div class="panel-group" id="checkout-options"> 
           
           <!-- login and register panel -->
+        <div class="disabled">
           <div class="panel panel-default">
-            <div class="panel-heading opened" data-parent="#checkout-options" data-target="#op1" data-toggle="collapse">
+            <div class="panel-heading closed" data-parent="#checkout-options" data-target="#op1" data-toggle="collapse">
               <h4 class="panel-title"> <a href="#a"> <span class="fa fa-cogs"></span> LOGIN </a><span class="op-number">1</span> </h4>
             </div>
             <div class="panel-collapse collapse in" id="op1">
               <div class="panel-body">
-                <div class="row co-row"> 
-                  
-                  <!-- Login -->
-                  <div class="col-md-6 col-xs-12">
-                    <div class="box-content login-box">
-                      <h4>Customers with a existing account.</h4>
-                      <form>
-                        <input type="text" value="" placeholder="Email" class="input4">
-                        <input type="text" value="" placeholder="Password" class="input4">
-                        <label class="checkbox" for="checkbox1">
-                          <input type="checkbox" value="" id="checkbox1" data-toggle="checkbox" class="pull-left">
-                          <span class="pull-left">Remember me</span> </label>
-                        <button class="btn medium color2 pull-right">Sign in</button>
-                        <p class="fp-link pull-right"><a href="#a" class="color2">Forgot your password?</a></p>
-                      </form>
-                    </div>
-                  </div>
-                  <!-- end: Login --> 
-                  <!-- Register -->
-                  
-                  <div class="col-md-6 col-xs-12">
-                    <div class="box-content register-box">
-                      <h4>Not registered yet?</h4>
-                      <p>Register with us for future convenience:</p>
-                      <ul>
-                        <li><i class="fa fa-check fa-fw"></i> Fast and easy check out.</li>
-                        <li><i class="fa fa-check fa-fw"></i> Easy access to your order history and status.</li>
-                        <li><i class="fa fa-check fa-fw"></i> Earn Shopping points while you shop using your account. </li>
-                        <li><i class="fa fa-check fa-fw"></i> Save card Information and Addresses. Never fill a form again.</li>
-                      </ul>
-                      <form>
-                        <button class="btn medium color2 pull-right">Sign Up</button>
-
-                      </form>
-                    </div>
-                  </div>
-
-                  <!-- end: Register -->
+                <div class="row co-row">
 
                 </div>
               </div>
             </div>
           </div>
-          
+        </div>
           <!-- end: login and register panel --> 
           
           <!-- Billing Address panel -->
           <div class="panel panel-default">
-            <div class="panel-heading closed" data-parent="#checkout-options" data-target="#op2" data-toggle="collapse">
+            <div class="panel-heading opened" data-parent="#checkout-options" data-target="#op2" data-toggle="collapse">
               <h4 class="panel-title"> <a href="#a"> <span class="fa fa-map-marker"></span> SELECT CITY </a><span class="op-number">2</span> </h4>
             </div>
             <div class="panel-collapse collapse" id="op2">
@@ -172,8 +144,6 @@
 
                       </div>
                     </div>
-                    <!-- end: Login --> 
-                    <!-- Register -->
                     
                     <div class="col-md-6 col-xs-12">
                       <div class="box-content form-box">
@@ -199,15 +169,13 @@
                   <div class="col-md-12 col-xs-12">
                     <div class="box-content form-box">
                       <h4>Please select bid closing date.</h4>
-                      
-                      <!-- product -->
-                      
+
                       <div class="row">
                         <div class="product">
                           <div class="col-md-2 hidden-sm hidden-xs p-wr">
                               <div class="qtyinput">
                                   <div class="quantity-inp">
-                                    <input type="date" class="quantity-input" name="p_quantity" value="1">
+                                    <input type="date" class="quantity-input" name="bidDate" id="bidDate" value="1">
                                   </div>
                                 </div>
                           </div>
@@ -218,7 +186,7 @@
                             <span class="pull-left">By checking this box I agree to all the <a href="" style="color: #31B167">Terms & Conditions</a> of Print Buddies</span> </label>
 
 
-                      <button type="button"  class="btn large color1 pull-right" id="create-bid-button">Create Bid</button>
+                      <button type="button"  class="btn large color1 pull-right" id="create-bid-button" onclick="createBid()">Create Bid</button>
                     </div>
                   </div>
                 </div>

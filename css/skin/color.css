@@ -2,7 +2,7 @@ body {
   background: #ffffff;
 }
 ::selection {
-  background: #ff9e8f;
+  background: #31B167;
   color: #ffffff;
 }
 input {
@@ -242,7 +242,7 @@ a.color3:hover {
   color: #ffffff;
 }
 .topheadrow .nav .dropdown-menu li {
-  border-top: 1px solid #f76b5c;
+  border-top: 1px solid #31B167;
 }
 .topheadrow .nav .dropdown-menu li:hover a {
   background-color: #d84c3d;
@@ -252,33 +252,33 @@ a.color3:hover {
   color: #ffffff;
 }
 .topheadrow .nav .loginbox {
-  border-top: 1px solid #f76b5c;
+  border-top: 1px solid #31B167;
 }
 .topheadrow .nav .loginbox form i {
-  color: #ff9e8f;
+  color: #31B167;
 }
 .topheadrow .nav .loginbox form input {
-  background-color: #f76b5c;
+  background-color: #31B167;
   color: #ffffff;
 }
 .topheadrow .nav .loginbox form input::-webkit-input-placeholder {
-  color: #ff9e8f;
+  color: #31B167;
 }
 .topheadrow .nav .loginbox form input::-moz-placeholder {
-  color: #ff9e8f;
+  color: #31B167;
 }
 .topheadrow .nav .loginbox form input:-ms-input-placeholder {
-  color: #ff9e8f;
+  color: #31B167;
 }
 .topheadrow .nav .loginbox form input:-moz-placeholder {
-  color: #ff9e8f;
+  color: #31B167;
 }
 .topheadrow .nav .loginbox form .btn {
-  background-color: #d84c3d;
+  background-color: #31B167;
   color: #ffffff;
 }
 .topheadrow .nav .loginbox form .btn:hover {
-  background-color: #c73b2c;
+  background-color: #31B167;
 }
 .searchbar {
   background-color: #eeeeee;
@@ -546,7 +546,7 @@ a.color3:hover {
   color: #ffffff;
 }
 .box-heading {
-  background-color: #31B167;
+  background-color: #fff;
 }
 .box-heading span {
   color: #ffffff;

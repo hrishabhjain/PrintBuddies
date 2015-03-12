@@ -1,3 +1,68 @@
+<?php
+
+session_start();
+require_once("autoload.php");
+require_once( 'Facebook/FacebookSession.php' );
+require_once( 'Facebook/FacebookRedirectLoginHelper.php' );
+require_once( 'Facebook/FacebookRequest.php' );
+require_once( 'Facebook/FacebookResponse.php' );
+require_once( 'Facebook/FacebookSDKException.php' );
+require_once( 'Facebook/FacebookRequestException.php' );
+require_once( 'Facebook/FacebookAuthorizationException.php' );
+require_once( 'Facebook/GraphObject.php' );
+require_once( 'Facebook/GraphUser.php' );
+require_once('Facebook/Entities/AccessToken.php');
+require_once( 'Facebook/HttpClients/FacebookHttpable.php' );
+require_once( 'Facebook/HttpClients/FacebookCurl.php' );
+require_once( 'Facebook/HttpClients/FacebookCurlHttpClient.php' );
+require_once('Bid.php');
+use Facebook\HttpClients\FacebookHttpable;
+use Facebook\HttpClients\FacebookCurl;
+use Facebook\HttpClients\FacebookCurlHttpClient;
+use Facebook\FacebookSession;
+use Facebook\FacebookRedirectLoginHelper;
+use Facebook\FacebookRequest;
+use Facebook\FacebookResponse;
+use Facebook\FacebookSDKException;
+use Facebook\FacebookRequestException;
+use Facebook\FacebookOtherException;
+use Facebook\FacebookAuthorizationException;
+use Facebook\GraphObject;
+use Facebook\GraphSessionInfo;
+use Facebook\GraphUser;
+
+FacebookSession::setDefaultApplication('1593771740836973','a7684509d803f9cfa97e4856f6edf52b');
+$helper = new FacebookRedirectLoginHelper( 'http://localhost/PrintBuddies/flatro/checkout.php' );
+
+try {
+    $session = $helper->getSessionFromRedirect();
+} catch( FacebookRequestException $ex ) {
+    // When Facebook returns an error
+} catch( Exception $ex ) {
+    // When validation fails or other local issues
+}
+if ( isset( $session ) ) {
+
+    $request = new FacebookRequest( $session, 'GET', '/me' );
+    $response = $request->execute();
+    $graphObject = $response->getGraphObject(GraphUser::className());
+    $_SESSION['first_name']=$graphObject->getFirstName();
+    $email=$_SESSION['email']=$graphObject->getEmail();
+
+    //echo  print_r( $graphObject, 1 );
+    //var_dump($_SESSION);
+
+    if(isset($_SESSION['BidId']))
+    {
+        $bid=new Bid();
+        $bid_id=$_SESSION['BidId'];
+        $bid->setEmailForBid($bid_id,$email);
+    }
+
+}
+
+?>
+
 <header>
 <!-- Top Heading Bar -->
 <div class="container">
@@ -7,19 +72,17 @@
                 <ul class="nav nav-pills pull-right">
                     <li> <a href="#a">  <span class="hidden-xs">We're hiring! </span></a> </li>
                     <li> <a href="#a">  <i class="fa fa-phone fa-fw"></i><span class="hidden-xs">+91-94608-62-343 </span></a> </li>
-                    <li class="dropdown"> <a class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="#a"> <i class="fa fa-user fa-fw"></i> <span class="hidden-xs"> Login</span></a>
-                        <div class="loginbox dropdown-menu"> <span class="form-header">Login</span>
-                            <form role="form">
-                                <div class="form-group"> <i class="fa fa-user fa-fw"></i>
-                                    <input class="form-control" id="InputUserName" placeholder="Username" type="text">
-                                </div>
-                                <div class="form-group"> <i class="fa fa-lock fa-fw"></i>
-                                    <input class="form-control" id="InputPassword" placeholder="Password" type="password">
-                                </div>
-                                <button class="btn medium color1 pull-right" type="submit">Login</button>
-                            </form>
-                        </div>
-                    </li>
+
+                        <?php
+                        if(isset($_SESSION['email']))
+                        {
+                            $name=$_SESSION['first_name'];
+                            echo '<li class="dropdown"> <a class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="#a"> <i class="fa fa-user fa-fw"></i> <span class="hidden-xs">'.$name.' </span></a><div class="loginbox dropdown-menu"> <ul><li>Bids</li><li>Profile</li><li>Logout</li><li></li></ul> </div>';
+                        }else{
+                            echo '<li class="dropdown"> <a class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="#a"> <i class="fa fa-user fa-fw"></i> <span class="hidden-xs"> Login</span></a>';
+
+                         }?>
+
                 </ul>
             </div>
         </div>
