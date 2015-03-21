@@ -12,7 +12,7 @@
 <meta content="Print Buddiesshop online shopping point" name="description">
 <meta content="logoby.us" name="author">
 <link href="images/ico.html" rel="shortcut icon">
-<title>Canvas Banner</title>
+<title>Die-Cut Business Cards</title>
 
 <!-- Reset CSS -->
 <link href="css/normalize.css" rel="stylesheet" type="text/css"/>
@@ -422,7 +422,7 @@
                 <!-- Tab panes -->
                 <div class="tab-content">
                     <div class="tab-pane active" id="details-info">
-                        <p>Big banners offer big opportunities for unique and eye-catching canvas banner design.</p>
+                        <p>In today's highly competitive environment, distinct marketing materials-like attention-grabbing and memorable business cards-drive potential customers' interest in you and your business. </p>
                       
                     </div>
                      <div class="tab-pane" id="reviews">
@@ -430,10 +430,12 @@
                         <div class="table-responsive">
                             <table class="table table-striped">
                                 <tbody>
-                            
-<tr><td>9 oz. White Woven Polyester Fabric</td><td>
-9 oz. White Woven Polyester Fabric is a high-grade banner material with a woven, durable finish.
-                       </td></tr>
+                            <tr><td>13-Point Recycled Matte Cover Stock</td><td>
+Our 13 pt. recycled matte cover stock is an eco-friendly matte cover stock that is made up of recycled content.</td></tr>
+<tr><td>14-Point CS2 Gloss Cover Stock</td><td>
+Our 14 pt. C2S gloss cover is a thick, standard weight cover stock with glossy sheen on both sides. We add a high-gloss ultraviolet (UV) coating to make colors more vibrant and protect your printed piece.</td></tr><tr><td>15-Point Velvet Cover Stock</td><td>
+Our 15 pt. velvet cover stock is a heavy, distinctive paper with a velvety smooth finish and semi-matte look with 10 percent recycled content. This stock gives a high-end, classic look to any flyer.</td></tr><tr> <td>16-Point C2S Gloss Cover Stock</td><td>
+Our 16 pt. C2S gloss cover stock is a premium, ultra-thick stock with a glossy finish on both sides — perfect for flyers that need to stand out above the rest.
                        </td></tr> 
                                 </tbody>
                             </table>
@@ -441,12 +443,12 @@
                     </div>
                     <div class="tab-pane" id="tags">
        <p>
+What is a UV coating?</p><p>
+A UV coating is applied to a printed sheet, then bonded and cured with ultraviolet light.</p><p>
 
-Fade-Resistant & Eco-Friendly Banner Inks </p><p>
-Our high-quality, fade-resistant inks stay bright and colorful:</p><p>
-Scratch resistant</p></p>
-High image quality</p><p>
-Eco-friendly </p>
+This coating yields a tough, almost unscratchable surface that is extremely durable.</p><p>
+
+You can print your business cards with or without a UV coating, or even have a UV coating on one side.</p>
 </div>
                    <div class="tab-pane" id="custom-tab">
                         <p>Phosfluorescently productize technically sound process improvements for customized bandwidth. Competently coordinate leveraged catalysts for change without multimedia based services. Objectively fabricate user-centric experiences before.</p>
@@ -465,7 +467,7 @@ Eco-friendly </p>
             <!-- end: Brands -->
         </div>
         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 box-block sidebar">
-            <div class="box-heading"><span>Canvas Banner</span></div>
+            <div class="box-heading"><span>Die-Cut Business Cards</span></div>
             <div class="box-content">
                 <div id="productInfo" class="productInfo">
 

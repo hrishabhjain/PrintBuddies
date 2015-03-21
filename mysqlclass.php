@@ -1,9 +1,9 @@
 <?php
 interface DBAuth{
-    const url = "119.18.49.88";
-    const uname = "webblitz_rishabh";
-    const pwd = "rishabh";
-    const db = "webblitz_print_buddies";
+    const url = "localhost";
+    const uname = "root";
+    const pwd = "";
+    const db = "print_buddies";
 }
 
 class MySql implements DBAuth {

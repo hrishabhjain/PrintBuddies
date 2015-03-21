@@ -12,7 +12,7 @@
 <meta content="Print Buddiesshop online shopping point" name="description">
 <meta content="logoby.us" name="author">
 <link href="images/ico.html" rel="shortcut icon">
-<title>Canvas Banner</title>
+<title>Vinyl Banner</title>
 
 <!-- Reset CSS -->
 <link href="css/normalize.css" rel="stylesheet" type="text/css"/>
@@ -70,7 +70,7 @@
 
 </head>
 
-<body  onload=getProductInfo("canvas_banner");>
+<body  onload=getProductInfo("Vinyl_Banner");>
 <!-- Header -->
 <script id="handlebar-info" type="text/x-handlebars-template">
     <div class="post " data-update-id="{{Category}}" id="{{Category}}-attribute" >
@@ -422,7 +422,7 @@
                 <!-- Tab panes -->
                 <div class="tab-content">
                     <div class="tab-pane active" id="details-info">
-                        <p>Big banners offer big opportunities for unique and eye-catching canvas banner design.</p>
+                        <p>Big banners offer big opportunities for unique and eye-catching Vinyl banner design.</p>
                       
                     </div>
                      <div class="tab-pane" id="reviews">
@@ -431,9 +431,11 @@
                             <table class="table table-striped">
                                 <tbody>
                             
-<tr><td>9 oz. White Woven Polyester Fabric</td><td>
-9 oz. White Woven Polyester Fabric is a high-grade banner material with a woven, durable finish.
-                       </td></tr>
+<tr><td>13 oz. White Matte Vinyl Material</td><td>
+Our 13 oz. white matte vinyl material is a high-grade, flexible banner material with a matte, front-lit finish. This treated smooth surface has high durability and puncture resistance.
+                       </td></tr><tr><td>9 oz. White Mesh Vinyl Material</td><td>
+Our 9 oz. white mesh vinyl material is a top-quality, flexible banner material with a mesh finish. This treated fabric has small holes that provide excellent wind resistance and allow people to see out from the back.       </td></tr><tr><td>15 oz. Biodegradable Vinyl Material</td><td>
+Our 15 oz. biodegradable vinyl material is an excellent choice for those seeking an eco-friendly replacement for standard vinyl banner material. Just as strong and durable as our standard 13 oz. vinyl, this substrate has the added benefit of being biodegradable. Under normal landfill conditions, this material breaks down in three to five years and is made with no toxic chemicals. It is tear, fade and fungus resistant.                  </td></tr>
                        </td></tr> 
                                 </tbody>
                             </table>
@@ -465,7 +467,7 @@ Eco-friendly </p>
             <!-- end: Brands -->
         </div>
         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 box-block sidebar">
-            <div class="box-heading"><span>Canvas Banner</span></div>
+            <div class="box-heading"><span>Vinyl Banner</span></div>
             <div class="box-content">
                 <div id="productInfo" class="productInfo">
 

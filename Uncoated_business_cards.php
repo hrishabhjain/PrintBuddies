@@ -12,7 +12,7 @@
 <meta content="Print Buddiesshop online shopping point" name="description">
 <meta content="logoby.us" name="author">
 <link href="images/ico.html" rel="shortcut icon">
-<title>Canvas Banner</title>
+<title>Uncoated Business Cards</title>
 
 <!-- Reset CSS -->
 <link href="css/normalize.css" rel="stylesheet" type="text/css"/>
@@ -422,7 +422,7 @@
                 <!-- Tab panes -->
                 <div class="tab-content">
                     <div class="tab-pane active" id="details-info">
-                        <p>Big banners offer big opportunities for unique and eye-catching canvas banner design.</p>
+                        <p>In today's highly competitive environment, distinct marketing materials-like attention-grabbing and memorable business cards-drive potential customers' interest in you and your business. </p>
                       
                     </div>
                      <div class="tab-pane" id="reviews">
@@ -430,23 +430,21 @@
                         <div class="table-responsive">
                             <table class="table table-striped">
                                 <tbody>
-                            
-<tr><td>9 oz. White Woven Polyester Fabric</td><td>
-9 oz. White Woven Polyester Fabric is a high-grade banner material with a woven, durable finish.
-                       </td></tr>
-                       </td></tr> 
+                            <tr><td>14-Point Uncoated Cover Stock</td><td>
+Our 14 pt. uncoated cover stock is a thick, premium-quality cover stock that is excellent for projects requiring a clean, classic look and the ability to write on with both pencil and ink.
+No coatings are applied to this matte finish paper stock. </td></tr> 
                                 </tbody>
                             </table>
                         </div>
                     </div>
                     <div class="tab-pane" id="tags">
        <p>
+What is a UV coating?</p><p>
+A UV coating is applied to a printed sheet, then bonded and cured with ultraviolet light.</p><p>
 
-Fade-Resistant & Eco-Friendly Banner Inks </p><p>
-Our high-quality, fade-resistant inks stay bright and colorful:</p><p>
-Scratch resistant</p></p>
-High image quality</p><p>
-Eco-friendly </p>
+This coating yields a tough, almost unscratchable surface that is extremely durable.</p><p>
+
+You can print your business cards with or without a UV coating, or even have a UV coating on one side.</p>
 </div>
                    <div class="tab-pane" id="custom-tab">
                         <p>Phosfluorescently productize technically sound process improvements for customized bandwidth. Competently coordinate leveraged catalysts for change without multimedia based services. Objectively fabricate user-centric experiences before.</p>
@@ -465,7 +463,7 @@ Eco-friendly </p>
             <!-- end: Brands -->
         </div>
         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 box-block sidebar">
-            <div class="box-heading"><span>Canvas Banner</span></div>
+            <div class="box-heading"><span>Uncoated Business Cards</span></div>
             <div class="box-content">
                 <div id="productInfo" class="productInfo">
 

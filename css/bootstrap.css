@@ -1678,8 +1678,8 @@ textarea.input-lg {
   }
 }
 .tab-content{
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 .tab-content > .tab-pane {
   display: none;

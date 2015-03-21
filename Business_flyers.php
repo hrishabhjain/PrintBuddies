@@ -12,7 +12,7 @@
 <meta content="Print Buddiesshop online shopping point" name="description">
 <meta content="logoby.us" name="author">
 <link href="images/ico.html" rel="shortcut icon">
-<title>Canvas Banner</title>
+<title>Business Flyers</title>
 
 <!-- Reset CSS -->
 <link href="css/normalize.css" rel="stylesheet" type="text/css"/>
@@ -422,7 +422,7 @@
                 <!-- Tab panes -->
                 <div class="tab-content">
                     <div class="tab-pane active" id="details-info">
-                        <p>Big banners offer big opportunities for unique and eye-catching canvas banner design.</p>
+                        <p>Flyers are one of the most cost-effective marketing tools available. Whether single or double-sided, folded or flat, fliers printed in rich, full color get noticed! There's no substitute for the impact of 4 color offset printing, and impact is what gets you noticed. </p>
                       
                     </div>
                      <div class="tab-pane" id="reviews">
@@ -431,9 +431,11 @@
                             <table class="table table-striped">
                                 <tbody>
                             
-<tr><td>9 oz. White Woven Polyester Fabric</td><td>
-9 oz. White Woven Polyester Fabric is a high-grade banner material with a woven, durable finish.
-                       </td></tr>
+<tr><td>100 lb. Gloss Text Stock</td><td>
+100 lb. Gloss Text is a high-quality paper stock that is excellent for projects requiring high resolution and sharp imagery.</td></tr><tr><td>100 lb. Gloss Cover Stock</td><td>
+Our 100 lb. gloss cover stock is a thick, premium cover stock with a glossy sheen on both sides.</td></tr><tr> <td>80 lb. Recycled Matte Cover Stock</td><td>
+This high-quality matte cover stock is known for its elegant finish, sharp color reproduction and unmatched environmental specifications.</td></tr><tr> <td>70 lb. Recycled Matte Text Stock</td><td>
+This high-quality matte text stock is known for its elegant finish, sharp color reproduction and unmatched environmental specifications.
                        </td></tr> 
                                 </tbody>
                             </table>
@@ -441,12 +443,17 @@
                     </div>
                     <div class="tab-pane" id="tags">
        <p>
-
-Fade-Resistant & Eco-Friendly Banner Inks </p><p>
-Our high-quality, fade-resistant inks stay bright and colorful:</p><p>
-Scratch resistant</p></p>
-High image quality</p><p>
-Eco-friendly </p>
+With five standard folding options, Print Buddies has the fold you need to make your flyer stand out:</p><p>
+Half-Fold
+(2 panels / 4 pages)</p><p>
+Tri-Fold / Letter-Fold 
+(3 panels / 6 pages)</p><p>
+Z-Fold
+(3 panels / 6 pages)</p><p>
+Double Parallel Fold
+(4 panels / 8 pages)</p><p>
+Right-angle half fold
+(4 panels / 8 pages)</p>
 </div>
                    <div class="tab-pane" id="custom-tab">
                         <p>Phosfluorescently productize technically sound process improvements for customized bandwidth. Competently coordinate leveraged catalysts for change without multimedia based services. Objectively fabricate user-centric experiences before.</p>
@@ -465,7 +472,7 @@ Eco-friendly </p>
             <!-- end: Brands -->
         </div>
         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 box-block sidebar">
-            <div class="box-heading"><span>Canvas Banner</span></div>
+            <div class="box-heading"><span>Business Flyers</span></div>
             <div class="box-content">
                 <div id="productInfo" class="productInfo">
 

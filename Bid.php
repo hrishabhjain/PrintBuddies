@@ -112,6 +112,7 @@ class Bid {
             $cursor=iterator_to_array($cursor);
             echo json_encode($cursor);
         }catch (Exception $e){
+            echo $e;
             echo json_encode('Could not run query on the Server');
         }
     }

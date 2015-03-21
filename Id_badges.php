@@ -12,7 +12,7 @@
 <meta content="Print Buddiesshop online shopping point" name="description">
 <meta content="logoby.us" name="author">
 <link href="images/ico.html" rel="shortcut icon">
-<title>Canvas Banner</title>
+<title>ID Badges</title>
 
 <!-- Reset CSS -->
 <link href="css/normalize.css" rel="stylesheet" type="text/css"/>
@@ -422,7 +422,7 @@
                 <!-- Tab panes -->
                 <div class="tab-content">
                     <div class="tab-pane active" id="details-info">
-                        <p>Big banners offer big opportunities for unique and eye-catching canvas banner design.</p>
+                        <p>Custom ID badges and name tags are more than simple identifiers — they brand companies and events, boost staff morale and can ultimately lead to increased sales. </p>
                       
                     </div>
                      <div class="tab-pane" id="reviews">
@@ -430,23 +430,18 @@
                         <div class="table-responsive">
                             <table class="table table-striped">
                                 <tbody>
-                            
-<tr><td>9 oz. White Woven Polyester Fabric</td><td>
-9 oz. White Woven Polyester Fabric is a high-grade banner material with a woven, durable finish.
-                       </td></tr>
-                       </td></tr> 
-                                </tbody>
+                            <tr><td>100 lb. Gloss Cover Stock with Laminated Coating</td><td>
+Our 100 lb. gloss cover stock is a thick, premium cover stock with a glossy sheen on both sides. We also use a high-gloss laminated coating to make colors more vibrant and protect your ID badge.</td></tr>    </tbody>
                             </table>
                         </div>
                     </div>
                     <div class="tab-pane" id="tags">
        <p>
-
-Fade-Resistant & Eco-Friendly Banner Inks </p><p>
-Our high-quality, fade-resistant inks stay bright and colorful:</p><p>
-Scratch resistant</p></p>
-High image quality</p><p>
-Eco-friendly </p>
+We offer custom finishing options, including: </p><p>
+Grommets installed at top of your ID badge to prevent ripping (included)</p><p>
+7.0 mil lamination for a durable, water-resistant finish (included)</p><p>
+Black lanyard for wearing ID badges around the neck</p><p>
+Hardcopy proof if you need the most accurate color matching</p>
 </div>
                    <div class="tab-pane" id="custom-tab">
                         <p>Phosfluorescently productize technically sound process improvements for customized bandwidth. Competently coordinate leveraged catalysts for change without multimedia based services. Objectively fabricate user-centric experiences before.</p>
@@ -465,7 +460,7 @@ Eco-friendly </p>
             <!-- end: Brands -->
         </div>
         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 box-block sidebar">
-            <div class="box-heading"><span>Canvas Banner</span></div>
+            <div class="box-heading"><span>ID Badges</span></div>
             <div class="box-content">
                 <div id="productInfo" class="productInfo">
 

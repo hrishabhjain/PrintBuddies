@@ -12,7 +12,7 @@
 <meta content="Print Buddiesshop online shopping point" name="description">
 <meta content="logoby.us" name="author">
 <link href="images/ico.html" rel="shortcut icon">
-<title>Canvas Banner</title>
+<title>Die-Cut Flyers</title>
 
 <!-- Reset CSS -->
 <link href="css/normalize.css" rel="stylesheet" type="text/css"/>
@@ -422,7 +422,7 @@
                 <!-- Tab panes -->
                 <div class="tab-content">
                     <div class="tab-pane active" id="details-info">
-                        <p>Big banners offer big opportunities for unique and eye-catching canvas banner design.</p>
+                        <p>Flyers are one of the most cost-effective marketing tools available. Whether single or double-sided, folded or flat, fliers printed in rich, full color get noticed! There's no substitute for the impact of 4 color offset printing, and impact is what gets you noticed. </p>
                       
                     </div>
                      <div class="tab-pane" id="reviews">
@@ -430,10 +430,12 @@
                         <div class="table-responsive">
                             <table class="table table-striped">
                                 <tbody>
-                            
-<tr><td>9 oz. White Woven Polyester Fabric</td><td>
-9 oz. White Woven Polyester Fabric is a high-grade banner material with a woven, durable finish.
-                       </td></tr>
+                            <tr><td>12-Point Gloss Cover Stock</td><td>
+Our 12 pt. gloss cover stock is an exceptional paper stock with a glossy sheen on both sides.</td></tr>
+<tr><td>14-Point CS2 Gloss Cover Stock</td><td>
+Our 14 pt. C2S gloss cover is a thick, standard weight cover stock with glossy sheen on both sides. We add a high-gloss ultraviolet (UV) coating to make colors more vibrant and protect your printed piece.</td></tr><tr><td>15-Point Velvet Cover Stock</td><td>
+Our 15 pt. velvet cover stock is a heavy, distinctive paper with a velvety smooth finish and semi-matte look with 10 percent recycled content. This stock gives a high-end, classic look to any flyer.</td></tr><tr> <td>16-Point C2S Gloss Cover Stock</td><td>
+Our 16 pt. C2S gloss cover stock is a premium, ultra-thick stock with a glossy finish on both sides — perfect for flyers that need to stand out above the rest.
                        </td></tr> 
                                 </tbody>
                             </table>
@@ -441,12 +443,17 @@
                     </div>
                     <div class="tab-pane" id="tags">
        <p>
-
-Fade-Resistant & Eco-Friendly Banner Inks </p><p>
-Our high-quality, fade-resistant inks stay bright and colorful:</p><p>
-Scratch resistant</p></p>
-High image quality</p><p>
-Eco-friendly </p>
+With five standard folding options, Print Buddies has the fold you need to make your flyer stand out:</p><p>
+Half-Fold
+(2 panels / 4 pages)</p><p>
+Tri-Fold / Letter-Fold 
+(3 panels / 6 pages)</p><p>
+Z-Fold
+(3 panels / 6 pages)</p><p>
+Double Parallel Fold
+(4 panels / 8 pages)</p><p>
+Right-angle half fold
+(4 panels / 8 pages)</p>
 </div>
                    <div class="tab-pane" id="custom-tab">
                         <p>Phosfluorescently productize technically sound process improvements for customized bandwidth. Competently coordinate leveraged catalysts for change without multimedia based services. Objectively fabricate user-centric experiences before.</p>
@@ -465,7 +472,7 @@ Eco-friendly </p>
             <!-- end: Brands -->
         </div>
         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 box-block sidebar">
-            <div class="box-heading"><span>Canvas Banner</span></div>
+            <div class="box-heading"><span>Die-cut Flyers</span></div>
             <div class="box-content">
                 <div id="productInfo" class="productInfo">
 

@@ -12,7 +12,7 @@
 <meta content="Print Buddiesshop online shopping point" name="description">
 <meta content="logoby.us" name="author">
 <link href="images/ico.html" rel="shortcut icon">
-<title>Canvas Banner</title>
+<title>Notepad</title>
 
 <!-- Reset CSS -->
 <link href="css/normalize.css" rel="stylesheet" type="text/css"/>
@@ -422,7 +422,7 @@
                 <!-- Tab panes -->
                 <div class="tab-content">
                     <div class="tab-pane active" id="details-info">
-                        <p>Big banners offer big opportunities for unique and eye-catching canvas banner design.</p>
+                        <p>A personalized notepad is a great little advertising device. </p>
                       
                     </div>
                      <div class="tab-pane" id="reviews">
@@ -430,23 +430,16 @@
                         <div class="table-responsive">
                             <table class="table table-striped">
                                 <tbody>
-                            
-<tr><td>9 oz. White Woven Polyester Fabric</td><td>
-9 oz. White Woven Polyester Fabric is a high-grade banner material with a woven, durable finish.
-                       </td></tr>
-                       </td></tr> 
-                                </tbody>
+                            <tr><td>Standard 70 lb. White Paper</td><td>
+Our standard 70 lb. white paper is a high-grade, elegant stationery paper with a white wove finish. It is also compatible with laser and ink jet printers. </td></tr>    </tbody>
                             </table>
                         </div>
                     </div>
                     <div class="tab-pane" id="tags">
        <p>
-
-Fade-Resistant & Eco-Friendly Banner Inks </p><p>
-Our high-quality, fade-resistant inks stay bright and colorful:</p><p>
-Scratch resistant</p></p>
-High image quality</p><p>
-Eco-friendly </p>
+We offer custom finishing options, including:</p><p>
+Custom placement of 3/16", 1/4" or 5/16" hole</p><p>
+Hardcopy proof if you need the most accurate color matching</p>
 </div>
                    <div class="tab-pane" id="custom-tab">
                         <p>Phosfluorescently productize technically sound process improvements for customized bandwidth. Competently coordinate leveraged catalysts for change without multimedia based services. Objectively fabricate user-centric experiences before.</p>
@@ -465,7 +458,7 @@ Eco-friendly </p>
             <!-- end: Brands -->
         </div>
         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 box-block sidebar">
-            <div class="box-heading"><span>Canvas Banner</span></div>
+            <div class="box-heading"><span>Notepad</span></div>
             <div class="box-content">
                 <div id="productInfo" class="productInfo">
 
