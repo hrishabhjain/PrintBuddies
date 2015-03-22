@@ -586,7 +586,7 @@ a.color3:hover {
   color: #ffffff;
 }
 .product-block .product-meta {
-  background-color: #034D50;
+  background-color: rgba(0,0,0,.3);
   color: #ffffff;
 }
 .product-block .product-meta a {
