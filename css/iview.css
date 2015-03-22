@@ -363,16 +363,18 @@
 }
 .iview-caption.orange {
   background-color: #d35400;
+    text-align: center;
 }
 .iview-caption.blue {
   /*background-image: url("../images/prod_creative.jpg");*/
+    text-align: center;
   background-color: #31B167;
 }
 .iview-caption.purple {
     /*background-image: url("../images/auction.png");*/
-    background-position: center;
-    background-repeat: no-repeat;
+
   background-color: #d84c3d;
+    text-align: center;
 }
 .iview-caption.dark-blue {
   background-color: #2c3e50;
