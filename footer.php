@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-3 col-xs-12 shopinfo">
-                <h4 class="title">FLATSHOP</h4>
+                <h4 class="title">PRINT BUDDIES</h4>
                 <p> This Efficiently negotiate robust communities with extensible systems.
                     Appropriately productize top-line leadership skills rather than team
                     building applications.</p>
@@ -37,13 +37,13 @@
                 <ul>
                     <li>
                         <div class="icon"> <i class="fa fa-map-marker fa-fw"></i> </div>
-                        <div class="c-info"> <span>3rd Avenue, NY, US<br>
+                        <div class="c-info"> <span>151/9 Shipra Path, Mansarovar, Jaipur<br>
               <a href="#a">Find us on map</a></span> </div>
                     </li>
                     <li>
                         <div class="icon"> <i class="fa fa-envelope-o fa-fw"></i> </div>
                         <div class="c-info"> <span>Email Us At:<br>
-              <a href="#a">contactus@printbuddies.com</a></span> </div>
+              <a href="#a">contactus@printbuddies.in</a></span> </div>
                     </li>
                     <li>
                         <div class="icon"> <i class="fa fa-phone fa-fw"></i> </div>
@@ -70,10 +70,36 @@
     <div class="copyrights">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-sm-8 col-xs-12"> <span class="copytxt">&copy; Copyright 2013 by <a href="#a">Print Buddies</a> - All rights reserved</span> <span class="btmlinks"><a href="#a">Return Policy</a> | <a href="#a">Privacy Policy</a> | <a href="#a">Terms of Use</a></span> </div>
+                <div class="col-lg-8 col-sm-8 col-xs-12"> <span class="copytxt">&copy; Copyright 2013 by <a href="index.html">Print Buddies</a> - All rights reserved</span> <span class="btmlinks"><a href="#a">Return Policy</a> | <a href="#a">Privacy Policy</a> | <a href="#a">Terms of Use</a></span> </div>
                 <div class="col-lg-4 col-sm-4 col-xs-12 payment-icons"> <a href="#a"> <img alt="discover" src="images/icons/discover.png"> </a> <a href="#a"> <img alt="2co" src="images/icons/2co.png"> </a> <a href="#a"> <img alt="paypal" src="images/icons/paypal.png"> </a> <a href="#a"> <img alt="master card" src="images/icons/mastercard.png"> </a> <a href="#a"> <img alt="visa card" src="images/icons/visa.png"> </a> <a href="#a"> <img alt="moneybookers" src="images/icons/moneybookers.png"> </a> </div>
             </div>
         </div>
     </div>
 </footer>
-<!-- end: footer --> 
+<!-- end: footer -->
+
+<script src="js/style-switch.js" type="text/javascript"></script>
+<section id="style-switch" class="bgcolor3">
+    <h2>FEEDBACK <a href="#" class="btn color2"><i class="fa fa-envelope-o fa-fw "></i></a></h2>
+    <div class="inner">
+        <h3>Name</h3>
+        <input type="text" style="height:23px">
+
+        <h3>Email</h3>
+        <input type="text" style="height:23px">
+
+        <h3>Mobile</h3>
+        <input type="text" style="height:23px">
+
+        <h3>Subject</h3>
+        <input type="text" style="height:23px">
+
+        <h3>Message</h3>
+        <textarea type="text" style="height: 111px"></textarea>
+        <ul class="colors list-unstyled" id="color1">
+
+        </ul>
+    </div>
+    <div id="reset" class="inner"><a href="#" class="btn normal color2 ">Send</a></div>
+</section>
+

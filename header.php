@@ -148,133 +148,193 @@ if ( isset( $session ) ) {
                     </li>
                     <!-- end: Menu Item -->
                     <!-- Menu Item for Tablets and Computers Only-->
-                    <li class="hidden-xs"> <a href="#a"> <i class="fa fa-files-o"></i> <span>Pages</span> <i class="fa fa-angle-right"></i> </a>
-                        <div class="dropdown-menu flyout-menu">
+                    <li class="hidden-xs"> <a href="#a"> <i class="fa fa-bars"></i> <span>Most Popular</span> <i class="fa fa-angle-right"></i> </a>
+                        <div class="dropdown-menu">
                             <!-- Sub Menu -->
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About us</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="blog-single.html">Blog Post</a></li>
-                                <li> <a href="#a"><span>Product</span> <i class="fa fa-caret-right"></i> </a>
-                                    <ul class="dropdown-menu sub flyout-menu">
-                                        <li><a href="category-grid.html">Category Grid</a></li>
-                                        <li><a href="category-list.html">Category List</a></li>
-                                        <li><a href="product.html">Product Page</a> </li>
-                                    </ul>
-                                </li>
-                                <li><a href="cart.html">Shoping Cart</a></li>
-                                <li><a href="checkout.html">Checkout</a></li>
-                                <li><a href="contact.html">Contact us</a></li>
-                            </ul>
+                            <div class="content">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <ul>
+                                            <li><a href="#a">Booklets</a></li>
+                                            <li><a href="#a">Banners</a></li>
+                                            <li><a href="brochure.php">Brochures</a></li>
+                                            <li><a href="#a">Flyers</a></li>
+                                            <li><a href="#a">Folders</a></li>
+                                            <li><a href="Id_badges.php">ID Badges</a></li>
+                                            <li><a href="posters.php">Posters</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <ul>
+                                            <li><a href="#a">Business Cards</a></li>
+                                            <li><a href="#a">Calenders</a></li>
+                                            <li><a href="#a">Key Chains</a></li>
+                                            <li><a href="#a">Pens</a></li>
+                                            <li><a href="#a">Envelopes</a></li>
+                                            <li><a href="#a">Letterhead</a></li>
+                                            <li><a href="#a">Notepads</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                             <!-- end: Sub Menu -->
                         </div>
                     </li>
                     <!-- end: Menu Item -->
                     <!-- Menu Item -->
-                    <li> <a href="#a"> <i class="fa fa-male"></i> <span>Men Wear</span> <i class="fa fa-angle-right"></i> </a>
+                    <li> <a href="#a"> <i class="fa fa-bars"></i> <span>Marketing & Promotions</span> <i class="fa fa-angle-right"></i> </a>
                         <div class="dropdown-menu">
                             <!-- Sub Menu -->
                             <div class="content">
                                 <div class="row">
-                                    <div class="col-md-4"> <a class="menu-title" href="#a">Fashion</a>
+                                    <div class="col-md-4">
                                         <ul>
-                                            <li><a href="#a">Clothing</a></li>
-                                            <li><a href="#a">Shoes</a></li>
-                                            <li><a href="#a">Handbags</a></li>
-                                            <li><a href="#a">Accessories</a></li>
-                                            <li><a href="#a">Luggage</a></li>
-                                            <li><a href="#a">Jewelry</a></li>
+                                            <li><a href="#a">Beavrage Coasters</a></li>
+                                            <li><a href="#a">Banners</a></li>
+                                            <li><a href="#a">Brochures</a></li>
+                                            <li><a href="#a">Flyers</a></li>
+                                            <li><a href="#a">Folders</a></li>
+                                            <li><a href="#a">ID Badges</a></li>
+                                            <li><a href="#a">Invitations</a></li>
+                                            <li><a href="#a">Posters</a></li>
+                                            <li><a href="#a">Table Tents</a></li>
                                         </ul>
                                     </div>
-                                    <div class="col-md-4"> <a class="menu-title" href="#a">Shirts</a>
+                                    <div class="col-md-4"> <a class="menu-title" href="#a">Corporate Gifts</a>
                                         <ul>
-                                            <li><a href="#a">Reguler Shirts</a></li>
-                                            <li><a href="#a">Slim Shirts</a></li>
-                                            <li><a href="#a">Fashion Shirts</a></li>
-                                            <li><a href="#a">Black Shirts</a></li>
-                                            <li><a href="#a">White Shirts</a></li>
-                                            <li><a href="#a">Gray Shirts</a></li>
+                                            <li><a href="#a">Bottle Openers</a></li>
+                                            <li><a href="#a">Key Chains</a></li>
+                                            <li><a href="#a">Mouse Pads</a></li>
+                                            <li><a href="#a">Pens</a></li>
+                                            <li><a href="#a">Personalised Mugs</a></li>
+                                            <li><a href="#a">USB Pen Drives</a></li>
+                                            <li><a href="#a">Tape Measures</a></li>
                                         </ul>
                                     </div>
-                                    <div class="col-md-4"> <a class="menu-title" href="#a">Jeans</a>
-                                        <ul>
-                                            <li><a href="#a">Reguler Jeans</a></li>
-                                            <li><a href="#a">Slim-fit Jeans</a></li>
-                                            <li><a href="#a">Loose Jeans</a></li>
-                                            <li><a href="#a">Top Jeans</a></li>
-                                            <li><a href="#a">New Jeans</a></li>
-                                            <li><a href="#a">Color Jeans</a></li>
-                                        </ul>
-                                    </div>
+
                                 </div>
+
+                            </div>
+                            <!-- end: Sub Menu -->
+                        </div>
+                    </li>
+                    <!-- end: Menu Item -->
+                    <!-- Menu Item -->
+                    <li> <a href="#a"> <i class="fa fa-bars"></i> <span>Business Identity</span> <i class="fa fa-angle-right"></i> </a>
+                        <div class="dropdown-menu">
+                            <!-- Sub Menu -->
+                            <div class="content">
                                 <div class="row">
+                                    <div class="col-md-4">
+                                        <ul>
+                                            <li><a href="#a">Business Cards</a></li>
+                                            <li><a href="#a">Calenders</a></li>
+                                            <li><a href="#a">Envelopes</a></li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <ul>
+                                            <li><a href="#a">Lables</a></li>
+                                            <li><a href="#a">Letterhead</a></li>
+                                            <li><a href="#a">Memopads</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <ul>
+                                            <li><a href="#a">Magazine</a></li>
+                                            <li><a href="#a">Notepads</a></li>
+                                            <li><a href="#a">Pocket Folders</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- end: Sub Menu -->
+                        </div>
+                    </li>
+                    <!-- end: Menu Item -->
+                    <!-- Menu Item -->
+                    <li> <a href="#a"> <i class="fa fa-bars"></i> <span>Stationary</span> <i class="fa fa-angle-right"></i> </a>
+                        <div class="dropdown-menu">
+                            <!-- Sub Menu -->
+                            <div class="content">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <ul>
+                                            <li><a href="#a">Pens</a></li>
+                                            <li><a href="#a">Envelopes</a></li>
+                                            <li><a href="#a">Envelopes Seals</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <ul>
+                                            <li><a href="letterhead.php">Letterhead</a></li>
+                                            <li><a href="#a">Notebooks</a></li>
+                                            <li><a href="Notepad.php">Note Pads</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <ul>
+                                            <li><a href="#a">Magazine</a></li>
+                                            <li><a href="#a">Sticky Notes</a></li>
+                                            <li><a href="#a">Table Tents</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- end: Sub Menu -->
+                        </div>
+                    </li>
+                    <!-- end: Menu Item -->
+                    <!-- Menu Item -->
+                    <li> <a href="#a"> <i class="fa fa-bars"></i> <span>Schools</span></a> </li>
+                    <!-- end: Menu Item -->
+                    <!-- Menu Item -->
+                    <li> <a href="#a"> <i class="fa fa-bars"></i> <span>Branding</span> <i class="fa fa-angle-right"></i> </a>
+                        <div class="dropdown-menu">
+                            <!-- Sub Menu -->
+                            <div class="content">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <ul>
+                                            <li><a href="#a">Pens</a></li>
+                                            <li><a href="#a">Calenders</a></li>
+                                            <li><a href="#a">Key Chains</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <ul>
+                                            <li><a href="#a">Personalised Mugs</a></li>
+                                            <li><a href="#a">USB Pen Drives</a></li>
+
+                                        </ul>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <!-- end: Sub Menu -->
+                        </div>
+                    </li>
+                    <!-- end: Menu Item -->
+                    <!-- Menu Item -->
+                    <li> <a href="#a"> <i class="fa fa-bars"></i> <span>Custom Clothing</span> <i class="fa fa-angle-right"></i> </a>
+                        <div class="dropdown-menu">
+                            <!-- Sub Menu -->
+                            <div class="content">
+                                <div class="row">
+
                                     <div class="col-md-12">
-                                        <p> <a href="#a"><img alt="" src="images/menu-ad.jpg"></a> </p>
+                                        <p><a href="#a"><img alt="" src="images/menu-ad.jpg"></a> </p>
                                     </div>
+
                                 </div>
                             </div>
                             <!-- end: Sub Menu -->
                         </div>
                     </li>
-                    <!-- end: Menu Item -->
-                    <!-- Menu Item -->
-                    <li> <a href="#a"> <i class="fa fa-female"></i> <span>Women Wear</span> <i class="fa fa-angle-right"></i> </a>
-                        <div class="dropdown-menu">
-                            <!-- Sub Menu -->
-                            <div class="content">
-                                <div class="row">
-                                    <div class="col-md-5"> <a class="menu-title" href="#a">Fashion</a>
-                                        <ul>
-                                            <li><a href="#a">Clothing</a></li>
-                                            <li><a href="#a">Shoes</a></li>
-                                            <li><a href="#a">Handbags</a></li>
-                                            <li><a href="#a">Accessories</a></li>
-                                            <li><a href="#a">Luggage</a></li>
-                                            <li><a href="#a">Jewelry</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-md-7">
-                                        <div class="product-block">
-                                            <div class="image">
-                                                <div class="product-label product-sale"><span>SALE</span></div>
-                                                <a class="img" href="product.html"><img alt="product info" src="images/products/product1.jpg" title="product title"></a> </div>
-                                            <div class="product-meta">
-                                                <div class="name"><a href="product.html">Ladies Stylish Handbag</a></div>
-                                                <div class="big-price"> <span class="price-new"><span class="sym">$</span>96</span> <span class="price-old"><span class="sym">$</span>119.50</span> </div>
-                                                <div class="big-btns"> <a class="btn btn-default btn-view pull-left" href="#">View</a> <a class="btn btn-default btn-addtocart pull-right" href="#">Add to
-                                                        Cart</a> </div>
-                                                <div class="small-price"> <span class="price-new"><span class="sym">$</span>96</span> <span class="price-old"><span class="sym">$</span>119.50</span> </div>
-                                                <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-o"></i> <i class="fa fa-star-o"></i> </div>
-                                                <div class="small-btns">
-                                                    <button class="btn btn-default btn-compare pull-left" data-toggle="tooltip" title="Add to Compare"> <i class="fa fa-retweet fa-fw"></i> </button>
-                                                    <button class="btn btn-default btn-wishlist pull-left" data-toggle="tooltip" title="Add to Wishlist"> <i class="fa fa-heart fa-fw"></i> </button>
-                                                    <button class="btn btn-default btn-addtocart pull-left" data-toggle="tooltip" title="Add to Cart"> <i class="fa fa-shopping-cart fa-fw"></i> </button>
-                                                </div>
-                                            </div>
-                                            <div class="meta-back"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- end: Sub Menu -->
-                        </div>
-                    </li>
-                    <!-- end: Menu Item -->
-                    <!-- Menu Item -->
-                    <li> <a href="#a"> <i class="fa fa-video-camera"></i> <span>Digital Camera</span></a> </li>
-                    <!-- end: Menu Item -->
-                    <!-- Menu Item -->
-                    <li> <a href="#a"> <i class="fa fa-mobile"></i> <span>Mobile Phones</span></a> </li>
-                    <!-- end: Menu Item -->
-                    <!-- Menu Item -->
-                    <li> <a href="#a"> <i class="fa fa-laptop"></i> <span>Computers</span></a> </li>
-                    <!-- end: Menu Item -->
-                    <!-- Menu Item -->
-                    <li> <a href="#a"> <i class="fa fa-gamepad"></i> <span>Gaming</span></a> </li>
-                    <!-- end: Menu Item -->
-                    <!-- Menu Item -->
-                    <li> <a href="#a"> <i class="fa fa-gift"></i> <span>Gift Ideas</span></a> </li>
                     <!-- end: Menu Item -->
                 </ul>
             </div>

@@ -300,15 +300,7 @@ if( !(isset($_SESSION['email'])))
 <?php include_once('footer.php') ?>
 <!-- end: footer -->
 
-<!-- Style Switcher JS --> 
-<script src="js/style-switch.js" type="text/javascript"></script>
-<section id="style-switch" class="bgcolor3">
-  <h2>Style Switch <a href="#" class="btn color2"><i class="fa fa-cog "></i></a></h2>
-  <div class="inner">
-    <h3>Predefined Styles</h3>
-  </div>
-  <div id="reset" class="inner"><a href="#" class="btn normal color2 ">Reset</a></div>
-</section>
+
 <script>
 
 (function($) {

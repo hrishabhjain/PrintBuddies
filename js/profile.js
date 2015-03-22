@@ -1,19 +1,27 @@
 var reveal_html="";
 var reveal_bidId="";
-var printer_username="";
-function getExistingBid()
+var name="";
+var displayBids_container_name="";
+function getActiveBid()
 {
-    myXHR("printerbl.php?method=getSession",{callback:setSession,method:"GET"});
-    myXHR("printerbl.php?method=getExistingBid",{callback:displayBids,method:"GET"});
+    displayBids_container_name="details-info";
+    myXHR("profilebl.php?method=getSession",{callback:setSession,method:"GET"});
+    myXHR("profilebl.php?method=getActiveBid",{callback:displayBids,method:"GET"});
+    getIncompleteBid();
+}
+function getIncompleteBid()
+{
+    displayBids_container_name="reviews";
+    myXHR("profilebl.php?method=getIncompleteBid",{callback:displayBids,method:"GET",async:true});
 }
 setSession=function(data)
 {
     data=JSON.parse(data);
-    printer_username=data['printer_username'];
-}
+    name=data['first_name'];
+    document.getElementById('first_name').innerHTML='<h2> Hi ! '+name+'</h2>';
+};
 displayBids=function(data)
 {
-    var container_name="cart";
     data = JSON.parse(data);
 
     var source_info1 = document.getElementById("handlebar-info-1").innerHTML;
@@ -23,8 +31,6 @@ displayBids=function(data)
     var source_info3 = document.getElementById("handlebar-info-3").innerHTML;
     var template_info3= Handlebars.compile(source_info3);
     var html = "";
-    var monthNames = [ "January", "February", "March", "April", "May", "June",
-        "July", "August", "September", "October", "November", "December" ];
     for(var key1 in data)
     {
         html += template_info1(data[key1]);
@@ -37,22 +43,24 @@ displayBids=function(data)
                 {
                     var Product_ready_by=new Date(data[key1][key2][key3][key4]['Date']);
                     var date=Product_ready_by.getDate();
-                    var month=Product_ready_by.getMonth();
+                    var month=Product_ready_by.getMonth()+1;
                     var year=Product_ready_by.getFullYear();
+                    data[key1][key2][key3][key4]['Date']=date+'/'+month+'/'+year;
 
-                    data[key1][key2][key3][key4]['Date']=monthNames[month]+' '+date+', '+year;
                     html+=template_info3(data[key1][key2][key3][key4]);
                 }
         }
-        var Bid_closing_date=new Date(parseInt(data[key1]['date']));
-        var date=Bid_closing_date.getDate();
-        var month=Bid_closing_date.getMonth();
-        var year=Bid_closing_date.getFullYear();
-        data[key1]['date']=monthNames[month]+' '+date+', '+year;
+        if(data[key1]['date']!=null){
+            var Bid_closing_date=new Date(parseInt(data[key1]['date']));
+            var date=Bid_closing_date.getDate();
+            var month=Bid_closing_date.getMonth()+1;
+            var year=Bid_closing_date.getFullYear();
+            data[key1]['date']=date+'/ '+month+'/ '+year;
+        }
 
         html+=template_info2(data[key1]);
     }
-    document.getElementById(container_name).innerHTML=html;
+    document.getElementById(displayBids_container_name).innerHTML=html;
 
 
 }
@@ -126,11 +134,6 @@ displayBidPriceReveal=function(data)
     var source_info3 = document.getElementById("handlebar-info-6").innerHTML;
     var template_info3= Handlebars.compile(source_info3);
 
-    var source_info4 = document.getElementById("handlebar-info-7").innerHTML;
-    var template_info4= Handlebars.compile(source_info4);
-
-    var source_info5 = document.getElementById("handlebar-info-8").innerHTML;
-    var template_info5= Handlebars.compile(source_info5);
     reveal_html+='<div class="col-md-35 col-sm-12 col-xs-12 box-block page-sidebar"><div class="box-heading"><span>Bids</span></div><div class="box-content cart-box-wr" id="box-content cart-box-wr"><div class="cart-box-tm"><div class="tm1" style="background-color:#fff">Price (In Rs.)</div><div class="tm2" style="background-color:#fff">On-Time</div></div>';
     for(var key in data)
     {
@@ -138,14 +141,9 @@ displayBidPriceReveal=function(data)
             data[key]['OnTime']='Yes';
         else
             data[key]['OnTime']='No';
-        if(data[key]['Username']==printer_username)
-        {
-            reveal_html+=template_info5(data[key]);
-            continue;
-        }
         reveal_html+=template_info3(data[key]);
     }
-    reveal_html+=template_info4();
+
     reveal_html+='</div></div></div><a class="close-reveal-modal">&#215;</a>';
 
     document.getElementById(container_name).innerHTML=reveal_html;
@@ -157,25 +155,7 @@ displayBidPriceReveal=function(data)
     });
 }
 
-function postBid()
-{
-    var price=document.getElementById('price').value;
-    console.log(price);
-    var ontime="";
-    if(document.getElementById('Ontime').checked)
-         ontime=1;
-    else
-         ontime=0;
-    if(price==''){
-        alert('Enter a Valid Price.');
-        return;
-    }else if(isNaN(price)){
-        alert('Enter a Valid Price.');
-        return;
-    }
 
-    myXHR("printerbl.php?method=postBid&BidId="+reveal_bidId+"&price="+price+"&ontime="+ontime,{callback:destroyReveal,method:"GET"})
-}
 
 
 destroyReveal=function(data)
@@ -187,4 +167,13 @@ destroyReveal=function(data)
         alert('Bided Successfully');
         document.location.reload(true);
     }
+};
+function redirectToCart(id)
+{
+    myXHR("profilebl.php?method=setSessionBidId&id="+id,{callback:redirectIt(),method:"GET"});
+
+}
+redirectIt=function(data)
+{
+    window.location.href="cart.php";
 }

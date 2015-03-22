@@ -95,13 +95,6 @@ try {
 } catch( Exception $ex ) {
     // When validation fails or other local issues
 }
-if( !(isset($_SESSION['BidId'])))
-{
-    echo '<script>alert("Cart Empty")</script>';
-    echo '<script>window.location.href="cart.php"</script>';
-}
-if(isset($_SESSION['email']))
-    echo '<script>window.location.href="checkout.php"</script>';
 if ( isset( $session ) ) {
     // graph api request for user data
     $request = new FacebookRequest( $session, 'GET', '/me' );
@@ -190,78 +183,78 @@ if ( isset( $session ) ) {
                     </div>
 
                     <!-- end: login and register panel -->
-                <div class="disabled">
-                    <!-- Billing Address panel -->
-                    <div class="panel panel-default">
-                        <div class="panel-heading closed" data-parent="#checkout-options" data-target="#op2" data-toggle="collapse">
-                            <h4 class="panel-title"> <a href="#a"> <span class="fa fa-map-marker"></span> SELECT CITY </a><span class="op-number">2</span> </h4>
-                        </div>
-                        <div class="panel-collapse collapse" id="op2">
-                            <div class="panel-body">
-                                <div class="row co-row">
-                                    <form>
-                                        <!-- Login -->
-                                        <div class="col-md-6 col-xs-12">
-                                            <div class="box-content form-box">
-                                                <p>We're currently operational in Jaipur only.</p>
+                    <div class="disabled">
+                        <!-- Billing Address panel -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading closed" data-parent="#checkout-options" data-target="#op2" data-toggle="collapse">
+                                <h4 class="panel-title"> <a href="#a"> <span class="fa fa-map-marker"></span> SELECT CITY </a><span class="op-number">2</span> </h4>
+                            </div>
+                            <div class="panel-collapse collapse" id="op2">
+                                <div class="panel-body">
+                                    <div class="row co-row">
+                                        <form>
+                                            <!-- Login -->
+                                            <div class="col-md-6 col-xs-12">
+                                                <div class="box-content form-box">
+                                                    <p>We're currently operational in Jaipur only.</p>
 
+                                                </div>
                                             </div>
-                                        </div>
-                                        <!-- end: Login -->
-                                        <!-- Register -->
+                                            <!-- end: Login -->
+                                            <!-- Register -->
 
-                                        <div class="col-md-6 col-xs-12">
-                                            <div class="box-content form-box">
-                                                <input type="button" class="btn medium color2 pull-right" onclick="displayConfirmBidPanel()" value="Continue">
+                                            <div class="col-md-6 col-xs-12">
+                                                <div class="box-content form-box">
+                                                    <input type="button" class="btn medium color2 pull-right" onclick="displayConfirmBidPanel()" value="Continue">
+                                                </div>
                                             </div>
-                                        </div>
-                                    </form>
-                                    <!-- end: Register -->
+                                        </form>
+                                        <!-- end: Register -->
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
                     <!-- end: Billing Address panel -->
-                <div class="disabled">
-                    <!-- Confirm Order -->
-                    <div class="panel panel-default"> <!-- add class disabled to prevent from clicking -->
-                        <div class="panel-heading closed" data-parent="#checkout-options" data-target="#op6" data-toggle="collapse">
-                            <h4 class="panel-title"> <a href="#a"> <span class="fa fa-check"></span> Confirm Bid </a><span class="op-number">3</span> </h4>
-                        </div>
-                        <div class="panel-collapse collapse" id="op6">
-                            <div class="panel-body">
-                                <div class="row co-row">
-                                    <div class="col-md-12 col-xs-12">
-                                        <div class="box-content form-box">
-                                            <h4>Please select bid closing date.</h4>
+                    <div class="disabled">
+                        <!-- Confirm Order -->
+                        <div class="panel panel-default"> <!-- add class disabled to prevent from clicking -->
+                            <div class="panel-heading closed" data-parent="#checkout-options" data-target="#op6" data-toggle="collapse">
+                                <h4 class="panel-title"> <a href="#a"> <span class="fa fa-check"></span> Confirm Bid </a><span class="op-number">3</span> </h4>
+                            </div>
+                            <div class="panel-collapse collapse" id="op6">
+                                <div class="panel-body">
+                                    <div class="row co-row">
+                                        <div class="col-md-12 col-xs-12">
+                                            <div class="box-content form-box">
+                                                <h4>Please select bid closing date.</h4>
 
-                                            <!-- product -->
+                                                <!-- product -->
 
-                                            <div class="row">
-                                                <div class="product">
-                                                    <div class="col-md-2 hidden-sm hidden-xs p-wr">
-                                                        <div class="qtyinput">
-                                                            <div class="quantity-inp">
-                                                                <input type="date" class="quantity-input" name="p_quantity" value="1">
+                                                <div class="row">
+                                                    <div class="product">
+                                                        <div class="col-md-2 hidden-sm hidden-xs p-wr">
+                                                            <div class="qtyinput">
+                                                                <div class="quantity-inp">
+                                                                    <input type="date" class="quantity-input" name="p_quantity" value="1">
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
+                                                <label class="checkbox" for="checkbox1">
+                                                    <input type="checkbox" value="" id="change-create-bid" data-toggle="checkbox" class="pull-left" onclick="enableCreateBidButton()">
+                                                    <span class="pull-left">By checking this box I agree to all the <a href="" style="color: #31B167">Terms & Conditions</a> of Print Buddies</span> </label>
+
+
+                                                <button type="button"  class="btn large color1 pull-right" id="create-bid-button">Create Bid</button>
                                             </div>
-                                            <label class="checkbox" for="checkbox1">
-                                                <input type="checkbox" value="" id="change-create-bid" data-toggle="checkbox" class="pull-left" onclick="enableCreateBidButton()">
-                                                <span class="pull-left">By checking this box I agree to all the <a href="" style="color: #31B167">Terms & Conditions</a> of Print Buddies</span> </label>
-
-
-                                            <button type="button"  class="btn large color1 pull-right" id="create-bid-button">Create Bid</button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
                     <!-- end: Confirm Order -->
 
                 </div>
@@ -369,6 +362,7 @@ if ( isset( $session ) ) {
 <?php include_once('footer.php') ?>
 <!-- end: footer -->
 
+<!-- Style Switcher JS -->
 
 <script>
 
