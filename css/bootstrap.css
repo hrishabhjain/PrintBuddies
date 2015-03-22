@@ -2884,3 +2884,21 @@ td.visible-print {
     display: none !important;
   }
 }
+.middle{
+    background-color: #0e1017;
+    width:100%;
+    height: 250px;
+    padding: 1px;
+    text-align: center;
+    color: #fff;
+    vertical-align: middle;
+
+}
+.middle h1{
+    margin-bottom: -13px;
+    font-weight: 300;
+    font-size: 50px;
+}
+.middle p{
+    font-size: 25px;
+}
