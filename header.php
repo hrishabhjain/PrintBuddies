@@ -121,7 +121,7 @@ if ( isset( $session ) ) {
                             <!-- Sub Menu -->
                             <ul>
                                 <li><a href="about.html">About us</a></li>
-                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="blog.html">Printers</a></li>
                                 <li> <a href="#a"><span>Account</span> <i class="fa fa-caret-right"></i> </a>
                                     <ul class="dropdown-menu sub flyout-menu">
                                         <li><a href="#a">Login/Register</a></li>
@@ -346,8 +346,8 @@ if ( isset( $session ) ) {
                 <ul class="nav nav-pills nav-justified">
                     <li> <a href="index.html"> <i class="fa fa-home fa-fw"></i> <span class="hidden-sm">Home</span></a> </li>
                     <li> <a href="about.html"> <i class="fa fa-info-circle fa-fw"></i> <span class="hidden-sm">About</span></a> </li>
-                    <li> <a href="blog.html"> <i class="fa fa-bullhorn fa-fw"></i> <span class="hidden-sm">Blog</span></a> </li>
-                    <li> <a href="contact.html"> <i class="fa fa-pencil-square-o fa-fw"></i> <span class="hidden-sm ">Contact</span></a> </li>
+                    <li> <a href="blog.html"> <i class="fa fa-bullhorn fa-fw"></i> <span class="hidden-sm">Printers</span></a> </li>
+                    <li> <a href="contact.php"> <i class="fa fa-pencil-square-o fa-fw"></i> <span class="hidden-sm ">Contact</span></a> </li>
                     <li class="dropdown"> <a href="cart.html"> <i class="fa fa-shopping-cart fa-fw"></i> <span class="hidden-sm"> 5 items </span></a>
                         <!-- Quick Cart -->
                         <div class="dropdown-menu quick-cart">
