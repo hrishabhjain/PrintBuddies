@@ -33,7 +33,7 @@ use Facebook\GraphSessionInfo;
 use Facebook\GraphUser;
 
 FacebookSession::setDefaultApplication('1593771740836973','a7684509d803f9cfa97e4856f6edf52b');
-$helper = new FacebookRedirectLoginHelper( 'http://localhost/PrintBuddies/flatro/checkout.php' );
+$helper = new FacebookRedirectLoginHelper( 'http://print.webblitz.in/checkout.php' );
 
 try {
     $session = $helper->getSessionFromRedirect();
@@ -345,7 +345,7 @@ if ( isset( $session ) ) {
             <div class="menu-links hidden-xs">
                 <ul class="nav nav-pills nav-justified">
                     <li> <a href="index.html"> <i class="fa fa-home fa-fw"></i> <span class="hidden-sm">Home</span></a> </li>
-                    <li> <a href="about.html"> <i class="fa fa-info-circle fa-fw"></i> <span class="hidden-sm">About</span></a> </li>
+                    <li> <a href="about.html"> <i class="fa fa-info-circle fa-fw"></i> <span class="hidden-sm">How It Works</span></a> </li>
                     <li> <a href="blog.html"> <i class="fa fa-bullhorn fa-fw"></i> <span class="hidden-sm">Printers</span></a> </li>
                     <li> <a href="contact.php"> <i class="fa fa-pencil-square-o fa-fw"></i> <span class="hidden-sm ">Contact</span></a> </li>
                     <li class="dropdown"> <a href="cart.html"> <i class="fa fa-shopping-cart fa-fw"></i> <span class="hidden-sm"> 5 items </span></a>
