@@ -32,7 +32,7 @@ use Facebook\GraphObject;
 use Facebook\GraphSessionInfo;
 use Facebook\GraphUser;
 
-FacebookSession::setDefaultApplication('1593771740836973','a7684509d803f9cfa97e4856f6edf52b');
+FacebookSession::setDefaultApplication('798700396886902','44d8b401d56647f7be781f77d159ecd5');
 $helper = new FacebookRedirectLoginHelper( 'http://in.printbuddies.com/checkout.php' );
 
 try {
