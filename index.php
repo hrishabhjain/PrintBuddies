@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <!--[if IE 7 ]><html class="ie ie7 lte9 lte8 lte7" lang="en-US"><![endif]-->
 <!--[if IE 8]><html class="ie ie8 lte9 lte8" lang="en-US">	<![endif]-->
@@ -361,7 +365,7 @@
         <div class="slider">
           <div id="iview">
             <!-- Slide 1 -->
-            <div data-iview:image="images/slide0.jpg" data-iview:pausetime="6000">
+            <div data-iview:image="images/slide0.jpg" data-iview:pausetime="8000">
 
               <div class="iview-caption metro-box1 blue" data-transition="wipeUp" data-x="266" data-y="209"> <a href="#a">
                 <div class="box-hover"></div>
@@ -781,7 +785,7 @@
             <li class="icon google-plus"><a href="#a"><i class="fa fa-google-plus fa-fw"></i></a></li>
             <li class="icon linkedin"><a href="#a"><i class="fa fa-linkedin fa-fw"></i></a></li>
             <li class="icon twitter"><a href="#a"><i class="fa fa-twitter fa-fw"></i></a></li>
-            <li class="icon facebook"><a href="https://www.facebook.com/printbuddies"><i class="fa fa-facebook fa-fw"></i></a></li>
+            <li class="icon facebook"><a href="https://www.facebook.com/printbuddies" target="_blank"><i class="fa fa-facebook fa-fw"></i></a></li>
           </ul>
         </div>
       </div>
