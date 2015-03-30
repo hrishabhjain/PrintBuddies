@@ -189,16 +189,16 @@ class Bid {
         $collection=$db->Bids;
         $timestamp=time()*1000;
         if($activity_code=='1')
-            $cursor=$collection->find(array('date' => array( '$gt' =>$timestamp),'email'=>$email),array('products'=>1,'date'=>1))->sort(array('date'=>-1))->limit(25);
+            $cursor=$collection->find(array('date' => array( '$gt' =>$timestamp),'email'=>$email),array('products'=>1,'date'=>1))->sort(array('_id'=>-1))->limit(25);
         elseif($activity_code=='0')
-            $cursor=$collection->find(array('date' => array( '$eq' =>null),'email'=>$email),array('products'=>1,'date'=>1))->sort(array('date'=>-1))->limit(25);
+            $cursor=$collection->find(array('date' => array( '$eq' =>null),'email'=>$email),array('products'=>1,'date'=>1))->sort(array('_id'=>-1))->limit(25);
         else
-            $cursor=$collection->find(array('date' => array( '$lt' =>$timestamp),'email'=>$email),array('products'=>1,'date'=>1))->sort(array('date'=>-1))->limit(25);
+            $cursor=$collection->find(array('date' => array( '$lt' =>$timestamp),'email'=>$email),array('products'=>1,'date'=>1))->sort(array('_id'=>-1))->limit(25);
 
         $cursor=iterator_to_array($cursor);
         echo json_encode($cursor);
     }catch (Exception $e){
-        echo $e;
+        //echo $e;
         echo json_encode('Could not run query on the Server');
     }
 

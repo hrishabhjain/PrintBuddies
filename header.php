@@ -33,7 +33,7 @@ use Facebook\GraphSessionInfo;
 use Facebook\GraphUser;
 
 FacebookSession::setDefaultApplication('798700396886902','44d8b401d56647f7be781f77d159ecd5');
-$helper = new FacebookRedirectLoginHelper( 'http://in.printbuddies.com/checkout.php' );
+$helper = new FacebookRedirectLoginHelper( 'http://in.printbuddies.com/profile.php' );
 
 try {
     $session = $helper->getSessionFromRedirect();
@@ -50,18 +50,15 @@ if ( isset( $session ) ) {
     $_SESSION['first_name']=$graphObject->getFirstName();
     $email=$_SESSION['email']=$graphObject->getEmail();
 
-    //echo  print_r( $graphObject, 1 );
-    //var_dump($_SESSION);
-
     if(isset($_SESSION['BidId']))
     {
         $bid=new Bid();
         $bid_id=$_SESSION['BidId'];
         $bid->setEmailForBid($bid_id,$email);
-    }
-
+        header('Location: checkout.php');
+    }else
+        header('Location: profile.php');
 }
-
 ?>
 
 <header>
@@ -158,7 +155,7 @@ if ( isset( $session ) ) {
                                             <li><a href="#a">Booklets</a></li>
                                             <li><a href="#a">Banners</a></li>
                                             <li><a href="brochure.php">Brochures</a></li>
-                                            <li><a href="#a">Flyers</a></li>
+                                            <li><a href="flyers.php">Flyers</a></li>
                                             <li><a href="#a">Folders</a></li>
                                             <li><a href="Id_badges.php">ID Badges</a></li>
                                             <li><a href="posters.php">Posters</a></li>
@@ -345,7 +342,7 @@ if ( isset( $session ) ) {
             <div class="menu-links hidden-xs">
                 <ul class="nav nav-pills nav-justified">
                     <li> <a href="index.html"> <i class="fa fa-home fa-fw"></i> <span class="hidden-sm">Home</span></a> </li>
-                    <li> <a href="about.html"> <i class="fa fa-info-circle fa-fw"></i> <span class="hidden-sm">How It Works</span></a> </li>
+                    <li> <a href="about.html"> <i class="fa fa-info-circle fa-fw"></i> <span class="hidden-sm">About</span></a> </li>
                     <li> <a href="blog.html"> <i class="fa fa-bullhorn fa-fw"></i> <span class="hidden-sm">Printers</span></a> </li>
                     <li> <a href="contact.php"> <i class="fa fa-pencil-square-o fa-fw"></i> <span class="hidden-sm ">Contact</span></a> </li>
                     <li class="dropdown"> <a href="cart.html"> <i class="fa fa-shopping-cart fa-fw"></i> <span class="hidden-sm"> 5 items </span></a>

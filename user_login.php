@@ -12,7 +12,7 @@
     <meta content="Flatroshop online shopping point" name="description">
     <meta content="logoby.us" name="author">
     <link href="images/ico.html" rel="shortcut icon">
-    <title>Print Buddies - Online Shop  </title>
+    <title>Print Buddies  </title>
 
     <!-- Reset CSS -->
     <link href="css/normalize.css" rel="stylesheet" type="text/css"/>
@@ -85,8 +85,8 @@ use Facebook\GraphObject;
 use Facebook\GraphSessionInfo;
 use Facebook\GraphUser;
 // init app with app id (APPID) and secret (SECRET)
-FacebookSession::setDefaultApplication('1593771740836973','a7684509d803f9cfa97e4856f6edf52b');
-$helper = new FacebookRedirectLoginHelper( 'http://localhost/PrintBuddies/flatro/checkout.php' );
+FacebookSession::setDefaultApplication('798700396886902','44d8b401d56647f7be781f77d159ecd5');
+$helper = new FacebookRedirectLoginHelper( 'http://in.printbuddies.com/profile.php' );
 
 try {
     $session = $helper->getSessionFromRedirect();
@@ -121,7 +121,7 @@ if ( isset( $session ) ) {
     <div class="row">
         <div class="col-md-12">
             <div class="page-title">
-                <h2>Post Bid <span>(3 Steps)</span></h2>
+                <h2>Login <span></span></h2>
             </div>
         </div>
     </div>
@@ -140,7 +140,7 @@ if ( isset( $session ) ) {
                     <!-- login and register panel -->
                     <div class="panel panel-default">
                         <div class="panel-heading opened" data-parent="#checkout-options" data-target="#op1" data-toggle="collapse">
-                            <h4 class="panel-title"> <a href="#a"> <span class="fa fa-cogs"></span> LOGIN </a><span class="op-number">1</span> </h4>
+                            <h4 class="panel-title"> <a href="#a"> <span class="fa fa-cogs"></span>SIGNUP / LOGIN </a><span class="op-number">1</span> </h4>
                         </div>
                         <div class="panel-collapse collapse in" id="op1">
                             <div class="panel-body">
@@ -149,10 +149,14 @@ if ( isset( $session ) ) {
                                     <!-- Login -->
                                     <div class="col-md-6 col-xs-12">
                                         <div class="box-content login-box">
-                                            <h4>Customers with a existing account.</h4>
+                                            <h4>Create an Account.</h4>
                                             <form>
                                                 <input type="text" value="" placeholder="Email" class="input4">
+                                                <input type="text" value="" placeholder="First Name" class="input4">
+                                                <input type="text" value="" placeholder="Last Name" class="input4">
+                                                <input type="text" value="" placeholder="Phone" class="input4">
                                                 <input type="text" value="" placeholder="Password" class="input4">
+                                                <input type="text" value="" placeholder="Re type Password" class="input4">
                                                 <label class="checkbox" for="checkbox1">
                                                     <input type="checkbox" value="" id="checkbox1" data-toggle="checkbox" class="pull-left">
                                                     <span class="pull-left">Remember me</span> </label>
@@ -166,12 +170,16 @@ if ( isset( $session ) ) {
 
                                     <div class="col-md-6 col-xs-12">
                                         <div class="box-content register-box">
-                                            <br><br><br><br>
-
-
-                                            <?php echo '<a href="' . $helper->getLoginUrl(array('scope'=>'public_profile,email')).'"><img src="images/Facebook.jpg" style="width: 75%"></a>'; ?>
-
-
+                                            <h4>Customers with a existing account.</h4>
+                                            <form>
+                                                <input type="text" value="" placeholder="Email" class="input4">
+                                                <input type="text" value="" placeholder="Password" class="input4">
+                                                <label class="checkbox" for="checkbox1">
+                                                    <input type="checkbox" value="" id="checkbox1" data-toggle="checkbox" class="pull-left">
+                                                    <span class="pull-left">Remember me</span> </label>
+                                                <button class="btn medium color2 pull-right">Sign in</button>
+                                                <p class="fp-link pull-right"><a href="#a" class="color2">Forgot your password?</a></p>
+                                            </form>
                                         </div>
                                     </div>
 
@@ -181,82 +189,6 @@ if ( isset( $session ) ) {
                             </div>
                         </div>
                     </div>
-
-                    <!-- end: login and register panel -->
-                    <div class="disabled">
-                        <!-- Billing Address panel -->
-                        <div class="panel panel-default">
-                            <div class="panel-heading closed" data-parent="#checkout-options" data-target="#op2" data-toggle="collapse">
-                                <h4 class="panel-title"> <a href="#a"> <span class="fa fa-map-marker"></span> SELECT CITY </a><span class="op-number">2</span> </h4>
-                            </div>
-                            <div class="panel-collapse collapse" id="op2">
-                                <div class="panel-body">
-                                    <div class="row co-row">
-                                        <form>
-                                            <!-- Login -->
-                                            <div class="col-md-6 col-xs-12">
-                                                <div class="box-content form-box">
-                                                    <p>We're currently operational in Jaipur only.</p>
-
-                                                </div>
-                                            </div>
-                                            <!-- end: Login -->
-                                            <!-- Register -->
-
-                                            <div class="col-md-6 col-xs-12">
-                                                <div class="box-content form-box">
-                                                    <input type="button" class="btn medium color2 pull-right" onclick="displayConfirmBidPanel()" value="Continue">
-                                                </div>
-                                            </div>
-                                        </form>
-                                        <!-- end: Register -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end: Billing Address panel -->
-                    <div class="disabled">
-                        <!-- Confirm Order -->
-                        <div class="panel panel-default"> <!-- add class disabled to prevent from clicking -->
-                            <div class="panel-heading closed" data-parent="#checkout-options" data-target="#op6" data-toggle="collapse">
-                                <h4 class="panel-title"> <a href="#a"> <span class="fa fa-check"></span> Confirm Bid </a><span class="op-number">3</span> </h4>
-                            </div>
-                            <div class="panel-collapse collapse" id="op6">
-                                <div class="panel-body">
-                                    <div class="row co-row">
-                                        <div class="col-md-12 col-xs-12">
-                                            <div class="box-content form-box">
-                                                <h4>Please select bid closing date.</h4>
-
-                                                <!-- product -->
-
-                                                <div class="row">
-                                                    <div class="product">
-                                                        <div class="col-md-2 hidden-sm hidden-xs p-wr">
-                                                            <div class="qtyinput">
-                                                                <div class="quantity-inp">
-                                                                    <input type="date" class="quantity-input" name="p_quantity" value="1">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <label class="checkbox" for="checkbox1">
-                                                    <input type="checkbox" value="" id="change-create-bid" data-toggle="checkbox" class="pull-left" onclick="enableCreateBidButton()">
-                                                    <span class="pull-left">By checking this box I agree to all the <a href="" style="color: #31B167">Terms & Conditions</a> of Print Buddies</span> </label>
-
-
-                                                <button type="button"  class="btn large color1 pull-right" id="create-bid-button">Create Bid</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end: Confirm Order -->
-
                 </div>
             </div>
             <!-- end: Checkout Options -->
@@ -264,32 +196,19 @@ if ( isset( $session ) ) {
         </div>
         <!-- side bar -->
         <div class="col-md-3 col-sm-12 col-xs-12 box-block page-sidebar">
-            <div class="box-heading"><span>Summary</span></div>
+            <div class="box-heading"><span>Social </span></div>
             <!-- Cart Summary -->
             <div class="box-content cart-box-wr" id="box-content cart-box-wr">
 
                 <div class="cart-box-tm">
-                    <div class="tm1">Cart Empty  </div>
-                    <div class="tm2"></div>
+                    <br><br><br><br>
+                    <?php echo '<a href="' . $helper->getLoginUrl(array('scope'=>'public_profile,email')).'"><img src="images/Facebook.jpg" style="width: 100%"></a>'; ?>
+
                 </div>
             </div>
             <div class="clearfix f-space30"></div>
             <!-- Get Updates Box -->
-            <div class="box-content">
-                <div class="subscribe">
-                    <div class="heading">
-                        <h3>Get updates</h3>
-                    </div>
-                    <div class="formbox">
-                        <form>
-                            <i class="fa fa-envelope fa-fw"></i>
-                            <input class="form-control" id="InputUserEmail" placeholder="Your e-mail..." type="text">
-                            <button class="btn color1 normal pull-right" type="submit">Sign
-                                up</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
+
             <!-- end: Get Updates Box -->
 
         </div>

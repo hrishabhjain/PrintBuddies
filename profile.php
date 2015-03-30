@@ -75,6 +75,11 @@
 
 <!-- Header -->
 <?php include_once('header.php')?>
+<?php
+if(!(isset($_SESSION['email']))){
+    echo '<script>window.location.href="user_login.php"</script>';
+}
+?>
 <!-- end: Header -->
 
 <script id="handlebar-info-1" type="text/x-handlebars-">

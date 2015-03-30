@@ -23,7 +23,6 @@ if(isset($_GET['method']))
         echo json_encode($_SESSION);
     }elseif($method=='setSessionBidId'){
         $_SESSION['BidId']=$_GET['id'];
-        var_dump($_SESSION);
     }
 }
 ?>
