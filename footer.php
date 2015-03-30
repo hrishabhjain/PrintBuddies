@@ -16,9 +16,7 @@
                     <li class="item"> <a href="#a">FAQs</a></li>
                     <li class="item"> <a href="#a">Payment Instructions</a></li>
                     <li class="item"> <a href="#a">Request Product</a></li>
-                    <li class="item"> <a href="#a">Vendor Registration</a></li>
-                    <li class="item"> <a href="#a">Affiliates</a></li>
-                    <li class="item"> <a href="#a">Gift Vouchers</a></li>
+                    <li class="item"> <a href="#a">Printer Registration</a></li>
                 </ul>
             </div>
             <div class="col-sm-3 col-xs-12 footermenu">
@@ -61,7 +59,7 @@
                         <li class="icon google-plus"> <a href="#a"> <i class="fa fa-google-plus fa-fw"></i> </a> </li>
                         <li class="icon linkedin"> <a href="#a"> <i class="fa fa-linkedin fa-fw"></i> </a> </li>
                         <li class="icon twitter"> <a href="#a"> <i class="fa fa-twitter fa-fw"></i> </a> </li>
-                        <li class="icon facebook"> <a href="#a"> <i class="fa fa-facebook fa-fw"></i> </a> </li>
+                        <li class="icon facebook"> <a href="https://www.facebook.com/printbuddies"> <i class="fa fa-facebook fa-fw"></i> </a> </li>
                     </ul>
                 </div>
             </div>
@@ -70,7 +68,7 @@
     <div class="copyrights">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-sm-8 col-xs-12"> <span class="copytxt">&copy; Copyright 2013 by <a href="index.html">Print Buddies</a> - All rights reserved</span> <span class="btmlinks"><a href="#a">Return Policy</a> | <a href="#a">Privacy Policy</a> | <a href="#a">Terms of Use</a></span> </div>
+                <div class="col-lg-8 col-sm-8 col-xs-12"> <span class="copytxt">&copy; Copyright 2015 by <a href="index.html">Print Buddies</a> - All rights reserved</span> <span class="btmlinks"><a href="#a">Return Policy</a> | <a href="#a">Privacy Policy</a> | <a href="#a">Terms of Use</a></span> </div>
                 <div class="col-lg-4 col-sm-4 col-xs-12 payment-icons"> <a href="#a"> <img alt="discover" src="images/icons/discover.png"> </a> <a href="#a"> <img alt="2co" src="images/icons/2co.png"> </a> <a href="#a"> <img alt="paypal" src="images/icons/paypal.png"> </a> <a href="#a"> <img alt="master card" src="images/icons/mastercard.png"> </a> <a href="#a"> <img alt="visa card" src="images/icons/visa.png"> </a> <a href="#a"> <img alt="moneybookers" src="images/icons/moneybookers.png"> </a> </div>
             </div>
         </div>
@@ -82,19 +80,19 @@
 <section id="style-switch" class="bgcolor3">
     <h2>FEEDBACK <a href="#" class="btn color2"><i class="fa fa-envelope-o fa-fw "></i></a></h2>
     <div class="inner">
-        <h3>Name</h3>
+        <h3>Name*</h3>
         <input type="text" style="height:23px">
 
-        <h3>Email</h3>
+        <h3>Email*</h3>
         <input type="text" style="height:23px">
 
-        <h3>Mobile</h3>
+        <h3>Mobile*</h3>
         <input type="text" style="height:23px">
 
         <h3>Subject</h3>
         <input type="text" style="height:23px">
 
-        <h3>Message</h3>
+        <h3>Message*</h3>
         <textarea type="text" style="height: 111px"></textarea>
         <ul class="colors list-unstyled" id="color1">
 

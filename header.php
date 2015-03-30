@@ -77,7 +77,7 @@ if ( isset( $session ) ) {
                             $name=$_SESSION['first_name'];
                             echo '<li class="dropdown"> <a class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="#a"> <i class="fa fa-user fa-fw"></i> <span class="hidden-xs">'.$name.' </span></a><div class="loginbox dropdown-menu"> <ul><li>Bids</li><li>Profile</li><li>Logout</li><li></li></ul> </div>';
                         }else{
-                            echo '<li class="dropdown"> <a class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="#a"> <i class="fa fa-user fa-fw"></i> <span class="hidden-xs"> Login</span></a>';
+                            echo '<li class="dropdown" onclick="window.location.href=\'user_login.php\'"> <a class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="#a"> <i class="fa fa-user fa-fw"></i> <span class="hidden-xs"> Login</span></a>';
 
                          }?>
 
@@ -93,7 +93,7 @@ if ( isset( $session ) ) {
 <div class="container">
     <div class="row clearfix">
         <div class="col-lg-3 col-xs-12">
-            <div class="logo"> <a href="index.html" title="Print Buddies"><img style="width: 120px; height: 52px" alt="Print Buddies" src="images/printbuddies.png"></a></div>
+            <div class="logo"> <a href="index.php" title="Print Buddies"><img style="width: 120px; height: 52px" alt="Print Buddies" src="images/printbuddies.png"></a></div>
         </div>
         <!-- end: logo -->
         <div class="visible-xs f-space20"></div>
@@ -117,7 +117,7 @@ if ( isset( $session ) ) {
                         <div class="dropdown-menu flyout-menuflyout-menu">
                             <!-- Sub Menu -->
                             <ul>
-                                <li><a href="about.html">About us</a></li>
+                                <li><a href="about.php">How It Works</a></li>
                                 <li><a href="blog.html">Printers</a></li>
                                 <li> <a href="#a"><span>Account</span> <i class="fa fa-caret-right"></i> </a>
                                     <ul class="dropdown-menu sub flyout-menu">
@@ -342,7 +342,7 @@ if ( isset( $session ) ) {
             <div class="menu-links hidden-xs">
                 <ul class="nav nav-pills nav-justified">
                     <li> <a href="index.html"> <i class="fa fa-home fa-fw"></i> <span class="hidden-sm">Home</span></a> </li>
-                    <li> <a href="about.html"> <i class="fa fa-info-circle fa-fw"></i> <span class="hidden-sm">About</span></a> </li>
+                    <li> <a href="about.html"> <i class="fa fa-info-circle fa-fw"></i> <span class="hidden-sm">How It Works</span></a> </li>
                     <li> <a href="blog.html"> <i class="fa fa-bullhorn fa-fw"></i> <span class="hidden-sm">Printers</span></a> </li>
                     <li> <a href="contact.php"> <i class="fa fa-pencil-square-o fa-fw"></i> <span class="hidden-sm ">Contact</span></a> </li>
                     <li class="dropdown"> <a href="cart.html"> <i class="fa fa-shopping-cart fa-fw"></i> <span class="hidden-sm"> 5 items </span></a>

@@ -11,8 +11,8 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
     <meta content="Flatroshop online shopping point" name="description">
     <meta content="logoby.us" name="author">
-    <link href="images/ico.html" rel="shortcut icon">
-    <title>Print Buddies  </title>
+    <link href="images/favicon.png" rel="shortcut icon">
+    <title>Login | Print Buddies  </title>
 
     <!-- Reset CSS -->
     <link href="css/normalize.css" rel="stylesheet" type="text/css"/>
@@ -57,9 +57,6 @@
     <!--[if IE 8]>
     <script type="text/javascript" src="js/selectivizr.js"></script>
     <![endif]-->
-    <script src="js/common.js"></script>
-    <script src="js/handlebars-v2.0.0.js"></script>
-    <script type="text/javascript" src="js/checkout.js"></script>
 
 </head>
 
@@ -155,13 +152,11 @@ if ( isset( $session ) ) {
                                                 <input type="text" value="" placeholder="First Name" class="input4">
                                                 <input type="text" value="" placeholder="Last Name" class="input4">
                                                 <input type="text" value="" placeholder="Phone" class="input4">
-                                                <input type="text" value="" placeholder="Password" class="input4">
-                                                <input type="text" value="" placeholder="Re type Password" class="input4">
+                                                <input type="password" value="" placeholder="Password" class="input4">
+                                                <input type="password" value="" placeholder="Re type Password" class="input4">
                                                 <label class="checkbox" for="checkbox1">
-                                                    <input type="checkbox" value="" id="checkbox1" data-toggle="checkbox" class="pull-left">
-                                                    <span class="pull-left">Remember me</span> </label>
-                                                <button class="btn medium color2 pull-right">Sign in</button>
-                                                <p class="fp-link pull-right"><a href="#a" class="color2">Forgot your password?</a></p>
+                                                </label>
+                                                <button class="btn medium color2 pull-right">Sign Up</button>
                                             </form>
                                         </div>
                                     </div>
@@ -175,8 +170,7 @@ if ( isset( $session ) ) {
                                                 <input type="text" value="" placeholder="Email" class="input4">
                                                 <input type="text" value="" placeholder="Password" class="input4">
                                                 <label class="checkbox" for="checkbox1">
-                                                    <input type="checkbox" value="" id="checkbox1" data-toggle="checkbox" class="pull-left">
-                                                    <span class="pull-left">Remember me</span> </label>
+                                                </label>
                                                 <button class="btn medium color2 pull-right">Sign in</button>
                                                 <p class="fp-link pull-right"><a href="#a" class="color2">Forgot your password?</a></p>
                                             </form>
