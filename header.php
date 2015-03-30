@@ -33,7 +33,7 @@ use Facebook\GraphSessionInfo;
 use Facebook\GraphUser;
 
 FacebookSession::setDefaultApplication('1593771740836973','a7684509d803f9cfa97e4856f6edf52b');
-$helper = new FacebookRedirectLoginHelper( 'http://print.webblitz.in/checkout.php' );
+$helper = new FacebookRedirectLoginHelper( 'http://in.printbuddies.com/checkout.php' );
 
 try {
     $session = $helper->getSessionFromRedirect();
