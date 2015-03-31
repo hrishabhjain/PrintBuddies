@@ -75,7 +75,7 @@ if ( isset( $session ) ) {
                         if(isset($_SESSION['email']))
                         {
                             $name=$_SESSION['first_name'];
-                            echo '<li class="dropdown"> <a class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="#a"> <i class="fa fa-user fa-fw"></i> <span class="hidden-xs">'.$name.' </span></a><div class="loginbox dropdown-menu"> <ul><li>Bids</li><li>Profile</li><li>Logout</li><li></li></ul> </div>';
+                            echo '<li class="dropdown"> <a class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="#a"> <i class="fa fa-user fa-fw"></i> <span class="hidden-xs">'.$name.' </span></a><div class="loginbox dropdown-menu"> <ul><li onclick="window.location.href=\'profile.php\'">Bids</li><li onclick="window.location.href=\'profile.php\'">Profile</li><li onclick="window.location.href=\'logout.php\'">Logout</li><li></li></ul> </div>';
                         }else{
                             echo '<li class="dropdown" onclick="window.location.href=\'user_login.php\'"> <a class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="#a"> <i class="fa fa-user fa-fw"></i> <span class="hidden-xs"> Login</span></a>';
 
@@ -113,19 +113,19 @@ if ( isset( $session ) ) {
             <div class="menu3dmega vertical menuMegasub" id="menuMega">
                 <ul>
                     <!-- Menu Item Links for Mobiles Only -->
-                    <li class="visible-xs"> <a href="index.html"> <i class="fa fa-home"></i> <span>Home</span> <i class="fa fa-angle-right"></i> </a>
+                    <li class="visible-xs"> <a href="index.php"> <i class="fa fa-home"></i> <span>Home</span> <i class="fa fa-angle-right"></i> </a>
                         <div class="dropdown-menu flyout-menuflyout-menu">
                             <!-- Sub Menu -->
                             <ul>
                                 <li><a href="about.php">How It Works</a></li>
-                                <li><a href="blog.html">Printers</a></li>
+                                <li><a href="#">Printers</a></li>
                                 <li> <a href="#a"><span>Account</span> <i class="fa fa-caret-right"></i> </a>
                                     <ul class="dropdown-menu sub flyout-menu">
                                         <li><a href="#a">Login/Register</a></li>
                                         <li><a href="#a">My Orders</a></li>
                                         <li><a href="#a">Wish list</a></li>
-                                        <li><a href="cart.html">Shopping Cart</a></li>
-                                        <li><a href="checkout.html">Checkout</a></li>
+                                        <li><a href="cart.php">Cart</a></li>
+                                        <li><a href="checkout.php">Checkout</a></li>
                                     </ul>
                                 </li>
                                 <li> <a href="#a"><span>Product</span> <i class="fa fa-caret-right"></i> </a>
@@ -135,8 +135,8 @@ if ( isset( $session ) ) {
                                         <li><a href="product.html">Product Page</a> </li>
                                     </ul>
                                 </li>
-                                <li><a href="cart.html">Shoping Cart</a></li>
-                                <li><a href="checkout.html">Checkout</a></li>
+                                <li><a href="cart.php">Shoping Cart</a></li>
+                                <li><a href="checkout.php">Checkout</a></li>
                                 <li><a href="blog-single.html">Blog Post</a></li>
                                 <li><a href="contact.html">Contact us</a></li>
                             </ul>
@@ -341,13 +341,13 @@ if ( isset( $session ) ) {
             <!-- Navigation Buttons/Quick Cart for Tablets and Desktop Only -->
             <div class="menu-links hidden-xs">
                 <ul class="nav nav-pills nav-justified">
-                    <li> <a href="index.html"> <i class="fa fa-home fa-fw"></i> <span class="hidden-sm">Home</span></a> </li>
-                    <li> <a href="about.html"> <i class="fa fa-info-circle fa-fw"></i> <span class="hidden-sm">How It Works</span></a> </li>
-                    <li> <a href="blog.html"> <i class="fa fa-bullhorn fa-fw"></i> <span class="hidden-sm">Printers</span></a> </li>
+                    <li> <a href="index.php"> <i class="fa fa-home fa-fw"></i> <span class="hidden-sm">Home</span></a> </li>
+                    <li> <a href="#"> <i class="fa fa-info-circle fa-fw"></i> <span class="hidden-sm">How It Works</span></a> </li>
+                    <li> <a href="#"> <i class="fa fa-bullhorn fa-fw"></i> <span class="hidden-sm">Printers</span></a> </li>
                     <li> <a href="contact.php"> <i class="fa fa-pencil-square-o fa-fw"></i> <span class="hidden-sm ">Contact</span></a> </li>
-                    <li class="dropdown"> <a href="cart.html"> <i class="fa fa-shopping-cart fa-fw"></i> <span class="hidden-sm"> 5 items </span></a>
+                    <li class="dropdown"> <a href="cart.php"> <i class="fa fa-shopping-cart fa-fw"></i> <span class="hidden-sm"> Cart </span></a>
                         <!-- Quick Cart -->
-                        <div class="dropdown-menu quick-cart">
+                        <!--<div class="dropdown-menu quick-cart">
                             <div class="qc-row qc-row-heading"> <span class="qc-col-qty">QTY.</span> <span class="qc-col-name">5 items in bag</span> </div>
                             <div class="qc-row qc-row-item"> <span class="qc-col-qty">2</span> <span class="qc-col-name"><a href="#a">Women Fashion hot Wear item</a></span> <span class="qc-col-price">$500</span> <span class="qc-col-remove"> <i class="fa fa-times fa-fw"></i> </span> </div>
                             <div class="qc-row qc-row-item"> <span class="qc-col-qty">1</span> <span class="qc-col-name"><a href="#a">Women Fashion hot Wear item</a></span> <span class="qc-col-price">$800</span> <span class="qc-col-remove"> <i class="fa fa-times fa-fw"></i> </span> </div>
@@ -355,7 +355,7 @@ if ( isset( $session ) ) {
                             <div class="qc-row-bottom"><a class="btn qc-btn-viewcart" href="#a">view
                                     cart</a><a class="btn qc-btn-checkout" href="#a">check
                                     out</a></div>
-                        </div>
+                        </div>-->
                         <!-- end: Quick Cart -->
                     </li>
                 </ul>

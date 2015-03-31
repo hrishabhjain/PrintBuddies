@@ -87,7 +87,7 @@ session_start();
               if(isset($_SESSION['email']))
               {
                   $name=$_SESSION['first_name'];
-                  echo '<li class="dropdown"> <a class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="#a"> <i class="fa fa-user fa-fw"></i> <span class="hidden-xs">'.$name.' </span></a><div class="loginbox dropdown-menu"> <ul><li>Bids</li><li>Profile</li><li>Logout</li><li></li></ul> </div>';
+                  echo '<li class="dropdown"> <a class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="#a"> <i class="fa fa-user fa-fw"></i> <span class="hidden-xs">'.$name.' </span></a><div class="loginbox dropdown-menu"> <ul><li onclick="window.location.href=\'profile.php\'">Bids</li><li onclick="window.location.href=\'profile.php\'">Profile</li><li onclick="window.location.href=\'logout.php\'">Logout</li><li></li></ul> </div>';
               }else{
                   echo '<li class="dropdown" onclick="window.location.href=\'user_login.php\'"> <a class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="#a"> <i class="fa fa-user fa-fw"></i> <span class="hidden-xs"> Login</span></a></li>';
 
@@ -123,11 +123,11 @@ session_start();
         <div class="menu3dmega vertical" id="menuMega">
           <ul>
             <!-- Menu Item Links for Mobiles Only -->
-            <li class="visible-xs"> <a href="index.html"> <i class="fa fa-home"></i> <span>Home</span> <i class="fa fa-angle-right"></i> </a>
+            <li class="visible-xs"> <a href="index.php"> <i class="fa fa-home"></i> <span>Home</span> <i class="fa fa-angle-right"></i> </a>
               <div class="dropdown-menu flyout-menu">
                 <!-- Sub Menu -->
                 <ul>
-                  <li><a href="about.php">About us</a></li>
+                  <li><a href="#">About us</a></li>
                   <li><a href="blog.html">Blog</a></li>
                   <li> <a href="#a"><span>Account</span> <i class="fa fa-caret-right"></i> </a>
                     <ul class="dropdown-menu sub flyout-menu">
@@ -348,11 +348,11 @@ session_start();
         <!-- Navigation Buttons/Quick Cart for Tablets and Desktop Only -->
         <div class="menu-links hidden-xs">
           <ul class="nav nav-pills nav-justified">
-            <li> <a href="index.html"> <i class="fa fa-home fa-fw"></i> <span class="hidden-sm">Home</span></a> </li>
-            <li> <a href="about.html"> <i class="fa fa-info-circle fa-fw"></i> <span class="hidden-sm">How It Works</span></a> </li>
-            <li> <a href="blog.html"> <i class="fa fa-bullhorn fa-fw"></i> <span class="hidden-sm">Printers</span></a> </li>
-            <li> <a href="contact.html"> <i class="fa fa-pencil-square-o fa-fw"></i> <span class="hidden-sm ">Contact</span></a> </li>
-            <li class="dropdown"> <a href="cart.html"> <i class="fa fa-shopping-cart fa-fw"></i> <span class="hidden-sm"> 0 items </span></a>
+            <li> <a href="index.php"> <i class="fa fa-home fa-fw"></i> <span class="hidden-sm">Home</span></a> </li>
+            <li> <a href="#"> <i class="fa fa-info-circle fa-fw"></i> <span class="hidden-sm">How It Works</span></a> </li>
+            <li> <a href="#"> <i class="fa fa-bullhorn fa-fw"></i> <span class="hidden-sm">Printers</span></a> </li>
+            <li> <a href="contact.php"> <i class="fa fa-pencil-square-o fa-fw"></i> <span class="hidden-sm ">Contact</span></a> </li>
+            <li class="dropdown"> <a href="cart.php"> <i class="fa fa-shopping-cart fa-fw"></i> <span class="hidden-sm"> Cart </span></a>
               <!-- Quick Cart -->
 
               <!-- end: Quick Cart -->
@@ -390,32 +390,32 @@ session_start();
             <!-- Slide 1 -->
             <div data-iview:image="images/slide1.jpg">
               <div class="iview-caption caption1" data-transition="wipeUp" data-x="100" data-y="10"></div>
-              <div class="iview-caption caption2" data-easing="easeInOutElastic" data-transition="wipeLeft" data-x="100" data-y="140">Business
+              <div class="iview-caption caption2" data-easing="easeInOutElastic" data-transition="wipeLeft" data-x="100" data-y="100">Business
                 Cards</div>
-              <div class="iview-caption caption3" data-easing="easeInOutElastic" data-transition="wipeLeft" data-x="100" data-y="200">Enthusiastically
-                orchestrate performance based<br>
-                experiences via granular networks.</div>
+              <div class="iview-caption caption3" data-easing="easeInOutElastic" data-transition="wipeLeft" data-x="100" data-y="160"><br>Kick-off the conversation with a premium Business Card.
+                  <br>With Print Buddies, <br>print at most affordable prices <br>by comparing price from printers in your city.
+              </div>
               <div class="iview-caption btn-more" data-transition="fade" data-x="100" data-y="280"><a href="#a">Post Bid
                 </a></div>
             </div>
             <!-- Slide 2 -->
             <div data-iview:image="images/letterhead.jpg">
                 <div class="iview-caption caption1" data-transition="wipeUp" data-x="100" data-y="10"></div>
-                <div class="iview-caption caption2" data-easing="easeInOutElastic" data-transition="wipeLeft" data-x="100" data-y="140">Letterhead
+                <div class="iview-caption caption2" data-easing="easeInOutElastic" data-transition="wipeLeft" data-x="100" data-y="100">Letterhead
                     </div>
-                <div class="iview-caption caption3" data-easing="easeInOutElastic" data-transition="wipeLeft" data-x="100" data-y="200">Enthusiastically
-                    orchestrate performance based<br>
-                    experiences via granular networks.</div>
+                <div class="iview-caption caption3" data-easing="easeInOutElastic" data-transition="wipeLeft" data-x="100" data-y="160">
+                    <br>With Print Buddies, <br>print at most affordable prices <br>by comparing price from printers in your city.
+                </div>
                 <div class="iview-caption btn-more" data-transition="fade" data-x="100" data-y="280"><a href="#a">Post Bid
                 </a></div>
             </div>
               <div data-iview:image="images/minicard.jpg">
                   <div class="iview-caption caption1" data-transition="wipeUp" data-x="100" data-y="10"></div>
-                  <div class="iview-caption caption2" data-easing="easeInOutElastic" data-transition="wipeLeft" data-x="100" data-y="140">Mini
+                  <div class="iview-caption caption2" data-easing="easeInOutElastic" data-transition="wipeLeft" data-x="100" data-y="100">Mini
                   Cards</div>
-                  <div class="iview-caption caption3" data-easing="easeInOutElastic" data-transition="wipeLeft" data-x="100" data-y="200">Enthusiastically
-                      orchestrate performance based<br>
-                      experiences via granular networks.</div>
+                  <div class="iview-caption caption3" data-easing="easeInOutElastic" data-transition="wipeLeft" data-x="100" data-y="160">
+                      <br>With Print Buddies, <br>print at most affordable prices <br>by comparing price from printers in your city.
+                  </div>
                   <div class="iview-caption btn-more" data-transition="fade" data-x="100" data-y="280"><a href="#a">Post Bid
                   </a></div>
               </div>
@@ -794,7 +794,7 @@ session_start();
   <div class="copyrights">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-sm-8 col-xs-12"> <span class="copytxt">&copy; Copyright 2015 by <a href="index.html">Print Buddies</a> -  All rights reserved</span> <span class="btmlinks"><a href="#a">Return Policy</a> | <a href="#a">Privacy Policy</a> | <a href="#a">Terms of Use</a></span> </div>
+        <div class="col-lg-8 col-sm-8 col-xs-12"> <span class="copytxt">&copy; Copyright 2015 by <a href="index.php">Print Buddies</a> -  All rights reserved</span> <span class="btmlinks"><a href="#a">Return Policy</a> | <a href="#a">Privacy Policy</a> | <a href="#a">Terms of Use</a></span> </div>
         <div class="col-lg-4 col-sm-4 col-xs-12 payment-icons"> <a href="#a"> <img src="images/icons/discover.png" alt="discover"> </a> <a href="#a"> <img src="images/icons/2co.png" alt="2co"> </a> <a href="#a"> <img src="images/icons/paypal.png" alt="paypal"> </a> <a href="#a"> <img src="images/icons/mastercard.png" alt="master card"> </a> <a href="#a"> <img src="images/icons/visa.png" alt="visa card"> </a> <a href="#a"> <img src="images/icons/moneybookers.png" alt="moneybookers"> </a> </div>
       </div>
     </div>

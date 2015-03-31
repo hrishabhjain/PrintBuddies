@@ -66,20 +66,13 @@
 <?php
 
 include_once('header.php');
-
-use Facebook\HttpClients\FacebookHttpable;
-use Facebook\HttpClients\FacebookCurl;
-use Facebook\HttpClients\FacebookCurlHttpClient;
+if((isset($_SESSION['email']))){
+    echo '<script>window.location.href="profile.php"</script>';
+}
 use Facebook\FacebookSession;
 use Facebook\FacebookRedirectLoginHelper;
 use Facebook\FacebookRequest;
-use Facebook\FacebookResponse;
-use Facebook\FacebookSDKException;
 use Facebook\FacebookRequestException;
-use Facebook\FacebookOtherException;
-use Facebook\FacebookAuthorizationException;
-use Facebook\GraphObject;
-use Facebook\GraphSessionInfo;
 use Facebook\GraphUser;
 // init app with app id (APPID) and secret (SECRET)
 FacebookSession::setDefaultApplication('798700396886902','44d8b401d56647f7be781f77d159ecd5');
@@ -102,13 +95,7 @@ if ( isset( $session ) ) {
 
 
 ?>
-<!-- end: Header -->
-<script id="handlebar-info" type="text/x-handlebars-template">
-    <div class="cart-box-tm">
-        <div class="tm1">{{Item}}</div>
-        <div class="tm2">{{Quantity}}</div>
-    </div>
-</script>
+
 
 <div class="row clearfix"></div>
 
@@ -147,16 +134,16 @@ if ( isset( $session ) ) {
                                     <div class="col-md-6 col-xs-12">
                                         <div class="box-content login-box">
                                             <h4>Create an Account.</h4>
-                                            <form>
-                                                <input type="text" value="" placeholder="Email" class="input4">
-                                                <input type="text" value="" placeholder="First Name" class="input4">
-                                                <input type="text" value="" placeholder="Last Name" class="input4">
-                                                <input type="text" value="" placeholder="Phone" class="input4">
-                                                <input type="password" value="" placeholder="Password" class="input4">
-                                                <input type="password" value="" placeholder="Re type Password" class="input4">
+                                            <form method="POST" action="signup.php" id="signup">
+                                                <input type="email" value="" placeholder="Email" class="input4" name="email" required>
+                                                <input type="text" value="" placeholder="First Name" class="input4" name="first_name" required>
+                                                <input type="text" value="" placeholder="Last Name" class="input4" name="last_name" required>
+                                                <input type="number" maxlength="10" value="" placeholder="Phone" class="input4" name="phone" required>
+                                                <input type="password" value="" placeholder="Password" class="input4" name="password" required>
+                                                <input type="password" value="" placeholder="Re type Password" class="input4" name="repassword" required>
                                                 <label class="checkbox" for="checkbox1">
                                                 </label>
-                                                <button class="btn medium color2 pull-right">Sign Up</button>
+                                                <button type="submit" form="signup" value="Submit" class="btn medium color2 pull-right">Sign Up</button>
                                             </form>
                                         </div>
                                     </div>
@@ -166,9 +153,9 @@ if ( isset( $session ) ) {
                                     <div class="col-md-6 col-xs-12">
                                         <div class="box-content register-box">
                                             <h4>Customers with a existing account.</h4>
-                                            <form>
-                                                <input type="text" value="" placeholder="Email" class="input4">
-                                                <input type="text" value="" placeholder="Password" class="input4">
+                                            <form action="loginbl.php" method="post">
+                                                <input type="email" value="" placeholder="Email" name="email" class="input4" required>
+                                                <input type="password" value="" placeholder="Password" name="password" class="input4" required>
                                                 <label class="checkbox" for="checkbox1">
                                                 </label>
                                                 <button class="btn medium color2 pull-right">Sign in</button>

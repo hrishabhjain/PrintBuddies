@@ -41,7 +41,7 @@
                     <li>
                         <div class="icon"> <i class="fa fa-envelope-o fa-fw"></i> </div>
                         <div class="c-info"> <span>Email Us At:<br>
-              <a href="#a">contactus@printbuddies.in</a></span> </div>
+              <a href="#a">support@printbuddies.com</a></span> </div>
                     </li>
                     <li>
                         <div class="icon"> <i class="fa fa-phone fa-fw"></i> </div>
@@ -51,7 +51,7 @@
                     <li>
                         <div class="icon"> <i class="fa fa-skype fa-fw"></i> </div>
                         <div class="c-info"> <span>Talk to Us:<br>
-              <a href="#a">skypeid</a></span> </div>
+              <a href="#a">printbuddies</a></span> </div>
                     </li>
                 </ul>
                 <div class="social-icons">
