@@ -98,6 +98,6 @@
 
         </ul>
     </div>
-    <div id="reset" class="inner"><a href="#" class="btn normal color2 ">Send</a></div>
+    <div id="reset" class="inner"><a href="#" class="btn normal color2 "  onclick="onClickSend()">Send</a></div>
 </section>
 
