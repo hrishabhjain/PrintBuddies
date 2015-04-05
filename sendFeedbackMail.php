@@ -12,8 +12,8 @@ if($_GET) {
         $subject="Feedback from User";
     $message = trim($_GET['feedback_text']);
     $headers = "From: " . $clientName . "< $clientEmail >" . "\r\n" . "Reply-To: " . $clientEmail;
-    mail($emailTo, $subject, $message, $headers);
-    echo json_encode(true);
+    $mail=mail($emailTo, $subject, $message, $headers);
+    echo json_encode($mail);
 
 
 }
