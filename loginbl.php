@@ -8,6 +8,7 @@ if($_POST){
     if($user->login($email,$password))
     {
         header('Location: profile.php');
-    }
+    }else
+        header('Location: user_login.php');
 
 }

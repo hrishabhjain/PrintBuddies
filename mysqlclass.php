@@ -1,8 +1,8 @@
 <?php
 interface DBAuth{
-    const url = "localhost";
-    const uname = "root";
-    const pwd = "";
+    const url = "107.180.2.14";
+    const uname = "rishabh";
+    const pwd = "Ankit#11";
     const db = "print_buddies";
 }
 
