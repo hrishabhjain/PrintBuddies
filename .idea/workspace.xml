@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1b42f8a3-5149-48b6-8fe6-fe50ce7b96cb" name="Default" comment="" />
+    <ignored path="flatro.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="flatro" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Window_Clings.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Window_Clings.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="182" column="6" selection-start="8134" selection-end="8134" vertical-scroll-proportion="-13.076923" vertical-offset="2754" max-vertical-offset="4199">
+              <folding>
+                <marker date="1428346264159" expanded="true" signature="3100:3148" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Vinyl_Stickers.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vinyl_Stickers.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="169" column="49" selection-start="7789" selection-end="7789" vertical-scroll-proportion="-110.5" vertical-offset="0" max-vertical-offset="4199">
+              <folding>
+                <marker date="1428346312593" expanded="true" signature="3102:3150" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Club-card_flyers.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Club-card_flyers.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="72" column="7" selection-start="2737" selection-end="2737" vertical-scroll-proportion="-13.730769" vertical-offset="867" max-vertical-offset="4199">
+              <folding>
+                <marker date="1428346455615" expanded="true" signature="2950:2998" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="261" column="45" selection-start="13750" selection-end="14062" vertical-scroll-proportion="-7.1923075" vertical-offset="4029" max-vertical-offset="5984">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="52" selection-start="347" selection-end="757" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="14824">
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ID_Badges.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ID_Badges.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="56" selection-start="754" selection-end="754" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="4165">
+              <folding>
+                <marker date="1428347243917" expanded="true" signature="2958:3006" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Booklets.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Booklets.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="196" column="32" selection-start="8305" selection-end="8305" vertical-scroll-proportion="0.3164794" vertical-offset="3163" max-vertical-offset="4301">
+              <folding>
+                <marker date="1428348076928" expanded="true" signature="2977:3025" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Vinyl_Banner.php" />
+        <option value="$PROJECT_DIR$/Adhesive_Banner.php" />
+        <option value="$PROJECT_DIR$/Canvas_Banner.php" />
+        <option value="$PROJECT_DIR$/Business_flyers.php" />
+        <option value="$PROJECT_DIR$/Hang_Tags.php" />
+        <option value="$PROJECT_DIR$/Badge_Printing.php" />
+        <option value="$PROJECT_DIR$/CD DVD Sleeve.php" />
+        <option value="$PROJECT_DIR$/Stick_Sticker.php" />
+        <option value="$PROJECT_DIR$/Memo_Pads.php" />
+        <option value="$PROJECT_DIR$/Invitation_Cards.php" />
+        <option value="$PROJECT_DIR$/Custom_Label.php" />
+        <option value="$PROJECT_DIR$/Wine_And_Bottle_Label.php" />
+        <option value="$PROJECT_DIR$/Letterhead.php" />
+        <option value="$PROJECT_DIR$/Bookmarks.php" />
+        <option value="$PROJECT_DIR$/Bumper_Stickers.php" />
+        <option value="$PROJECT_DIR$/Standard_Buisness_Cards.php" />
+        <option value="$PROJECT_DIR$/Die-Cut_Buisness_Cards.php" />
+        <option value="$PROJECT_DIR$/Uncoated_Buisness_Cards.php" />
+        <option value="$PROJECT_DIR$/Buisness_Flyers.php" />
+        <option value="$PROJECT_DIR$/Calenders.php" />
+        <option value="$PROJECT_DIR$/Catalogs.php" />
+        <option value="$PROJECT_DIR$/Coasters.php" />
+        <option value="$PROJECT_DIR$/Die-cut_flyers.php" />
+        <option value="$PROJECT_DIR$/Custom_Stickers.php" />
+        <option value="$PROJECT_DIR$/Die_Cut_Stickers.php" />
+        <option value="$PROJECT_DIR$/Door_Hangers.php" />
+        <option value="$PROJECT_DIR$/Table_Tents.php" />
+        <option value="$PROJECT_DIR$/EDDM_Postcards.php" />
+        <option value="$PROJECT_DIR$/Standard_Envelopes.php" />
+        <option value="$PROJECT_DIR$/Window_Envelopes.php" />
+        <option value="$PROJECT_DIR$/Event_Tickets.php" />
+        <option value="$PROJECT_DIR$/Event_And_Club_Flyers.php" />
+        <option value="$PROJECT_DIR$/Greeting_Cards.php" />
+        <option value="$PROJECT_DIR$/Premium_Flyers.php" />
+        <option value="$PROJECT_DIR$/Standard_Magnets.php" />
+        <option value="$PROJECT_DIR$/Car_Door_Magnets.php" />
+        <option value="$PROJECT_DIR$/Menu.php" />
+        <option value="$PROJECT_DIR$/NewsLetter.php" />
+        <option value="$PROJECT_DIR$/Notepads.php" />
+        <option value="$PROJECT_DIR$/Pocket_Folders.php" />
+        <option value="$PROJECT_DIR$/Standard Postcards.php" />
+        <option value="$PROJECT_DIR$/Rack_Cards.php" />
+        <option value="$PROJECT_DIR$/Response_Cards.php" />
+        <option value="$PROJECT_DIR$/Sales_Sheets.php" />
+        <option value="$PROJECT_DIR$/Window_Clings.php" />
+        <option value="$PROJECT_DIR$/Vinyl_Stickers.php" />
+        <option value="$PROJECT_DIR$/Club-card_flyers.php" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/ID_Badges.php" />
+        <option value="$PROJECT_DIR$/Booklets.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flatro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flatro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flatro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="Configurable.PHP" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="D:/PrintBuddies" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="SearchEverywhereHistory" value="" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b42f8a3-5149-48b6-8fe6-fe50ce7b96cb" name="Default" comment="" />
+      <created>1424275805573</created>
+      <updated>1424275805573</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23564954" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3182156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Adhesive_Banner.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="18" selection-start="3913" selection-end="3913" vertical-scroll-proportion="0.0" vertical-offset="1683" max-vertical-offset="4097">
+          <folding>
+            <marker date="1428301980565" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Business_flyers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="229" column="32" selection-start="11660" selection-end="11660" vertical-scroll-proportion="0.38389513" vertical-offset="3688" max-vertical-offset="4862">
+          <folding>
+            <marker date="1428302223358" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="6" selection-start="2015" selection-end="2015" vertical-scroll-proportion="0.81352836" vertical-offset="422" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysqlclass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="25" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="3961">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="41" selection-start="2353" selection-end="2353" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3145">
+          <folding>
+            <marker date="1427216787695" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1427216787695" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hang_Tags.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="169" column="52" selection-start="7782" selection-end="7782" vertical-scroll-proportion="0.33202356" vertical-offset="2704" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428342737232" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Badge_Printing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="180" column="18" selection-start="8055" selection-end="8055" vertical-scroll-proportion="-11.769231" vertical-offset="2754" max-vertical-offset="4233">
+          <folding>
+            <marker date="1428342837136" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CD DVD Sleeve.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="43" selection-start="2922" selection-end="2935" vertical-scroll-proportion="-3.2692308" vertical-offset="1173" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428342951088" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stick_Sticker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="169" column="49" selection-start="7787" selection-end="7787" vertical-scroll-proportion="-6.5384617" vertical-offset="2703" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428343046995" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428343046995" expanded="true" signature="-1:-1" placeholder="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Memo_Pads.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="187" column="0" selection-start="8211" selection-end="8211" vertical-scroll-proportion="-14.384615" vertical-offset="2805" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428343107424" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Invitation_Cards.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="168" column="14" selection-start="7666" selection-end="7666" vertical-scroll-proportion="-13.730769" vertical-offset="2499" max-vertical-offset="4216">
+          <folding>
+            <marker date="1428343161687" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Custom_Label.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="169" column="50" selection-start="7786" selection-end="7786" vertical-scroll-proportion="0.41385767" vertical-offset="2652" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428343212767" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Letterhead.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="30" selection-start="576" selection-end="576" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="4692">
+          <folding>
+            <marker date="1428343707963" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wine_And_Bottle_Label.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="189" column="0" selection-start="8275" selection-end="8307" vertical-scroll-proportion="-123.57692" vertical-offset="0" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428343285720" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bookmarks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="169" column="52" selection-start="7782" selection-end="7782" vertical-scroll-proportion="-4.576923" vertical-offset="2754" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428343839778" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bumper_Stickers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="18" selection-start="774" selection-end="774" vertical-scroll-proportion="-6.5384617" vertical-offset="102" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428343932659" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Standard_Buisness_Cards.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="53" selection-start="2955" selection-end="2955" vertical-scroll-proportion="-48.384617" vertical-offset="0" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428344008348" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Die-Cut_Buisness_Cards.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="169" column="60" selection-start="7816" selection-end="7816" vertical-scroll-proportion="-4.576923" vertical-offset="2754" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428344075300" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Uncoated_Buisness_Cards.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="179" column="50" selection-start="8131" selection-end="8131" vertical-scroll-proportion="-107.23077" vertical-offset="255" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428344168470" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buisness_Flyers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="165" column="0" selection-start="7615" selection-end="7615" vertical-scroll-proportion="-13.730769" vertical-offset="2448" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428344222067" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Calenders.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="179" column="50" selection-start="8089" selection-end="8089" vertical-scroll-proportion="-15.038462" vertical-offset="2652" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428344263432" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Catalogs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="177" column="22" selection-start="8016" selection-end="8016" vertical-scroll-proportion="-54.923077" vertical-offset="1581" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428344302917" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coasters.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="9" selection-start="3149" selection-end="3149" vertical-scroll-proportion="-11.769231" vertical-offset="1071" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428344373048" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428344373048" expanded="true" signature="-1:-1" placeholder="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Custom_Stickers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="181" column="10" selection-start="8133" selection-end="8133" vertical-scroll-proportion="-14.384615" vertical-offset="2703" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428344827277" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Die_Cut_Stickers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="175" column="0" selection-start="8016" selection-end="8017" vertical-scroll-proportion="-6.5384617" vertical-offset="2805" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428344879056" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Door_Hangers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="190" column="31" selection-start="8312" selection-end="8312" vertical-scroll-proportion="-14.384615" vertical-offset="2856" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428344929717" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Table_Tents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="169" column="49" selection-start="7783" selection-end="7783" vertical-scroll-proportion="-2.6153846" vertical-offset="2805" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428344992453" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EDDM_Postcards.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="169" column="48" selection-start="7788" selection-end="7788" vertical-scroll-proportion="-4.576923" vertical-offset="2754" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428345084258" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Standard_Envelopes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="183" column="0" selection-start="8150" selection-end="8150" vertical-scroll-proportion="-11.769231" vertical-offset="2805" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428345142511" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Event_And_Club_Flyers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="169" column="58" selection-start="7812" selection-end="7812" vertical-scroll-proportion="0.12734082" vertical-offset="2805" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428345304722" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Event_Tickets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="179" column="50" selection-start="8101" selection-end="8101" vertical-scroll-proportion="-13.076923" vertical-offset="2703" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428345243672" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Greeting_Cards.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="169" column="52" selection-start="7792" selection-end="7792" vertical-scroll-proportion="-18.307692" vertical-offset="2397" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428345402686" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Premium_Flyers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="189" column="0" selection-start="8254" selection-end="8286" vertical-scroll-proportion="0.2982456" vertical-offset="3060" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428345351032" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Car_Door_Magnets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="196" column="5" selection-start="8392" selection-end="8392" vertical-scroll-proportion="-18.307692" vertical-offset="2856" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428345654021" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Window_Envelopes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="166" column="32" selection-start="7650" selection-end="7650" vertical-scroll-proportion="-12.423077" vertical-offset="2499" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428345196228" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewsLetter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="320" selection-end="755" vertical-scroll-proportion="0.4775281" vertical-offset="0" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428345740503" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="169" column="47" selection-start="7767" selection-end="7767" vertical-scroll-proportion="0.41385767" vertical-offset="2652" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428345696084" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notepads.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="158" column="51" selection-start="6784" selection-end="6784" vertical-scroll-proportion="0.25468165" vertical-offset="2550" max-vertical-offset="3927">
+          <folding>
+            <marker date="1428345932615" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pocket_Folders.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="169" column="57" selection-start="7797" selection-end="7797" vertical-scroll-proportion="-4.576923" vertical-offset="2754" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428345946844" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Standard Postcards.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="48" selection-start="2945" selection-end="2945" vertical-scroll-proportion="-13.076923" vertical-offset="918" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428346029923" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rack_Cards.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="169" column="48" selection-start="7780" selection-end="7780" vertical-scroll-proportion="-8.5" vertical-offset="2652" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428346109313" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Response_Cards.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="178" column="18" selection-start="8053" selection-end="8053" vertical-scroll-proportion="-10.461538" vertical-offset="2754" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428346154209" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sales_Sheets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="184" column="18" selection-start="8151" selection-end="8151" vertical-scroll-proportion="-12.423077" vertical-offset="2805" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428346215446" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vinyl_Stickers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="169" column="49" selection-start="7789" selection-end="7789" vertical-scroll-proportion="-110.5" vertical-offset="0" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428346312593" expanded="true" signature="3102:3150" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Club-card_flyers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="7" selection-start="2737" selection-end="2737" vertical-scroll-proportion="-13.730769" vertical-offset="867" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428346455615" expanded="true" signature="2950:2998" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="261" column="45" selection-start="13750" selection-end="14062" vertical-scroll-proportion="-7.1923075" vertical-offset="4029" max-vertical-offset="5984">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="52" selection-start="347" selection-end="757" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="14824">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ID_Badges.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="56" selection-start="754" selection-end="754" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="4165">
+          <folding>
+            <marker date="1428347243917" expanded="true" signature="2958:3006" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Standard_Magnets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="189" column="0" selection-start="8260" selection-end="8292" vertical-scroll-proportion="0.2982456" vertical-offset="3060" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428345605201" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Window_Clings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="182" column="6" selection-start="8134" selection-end="8134" vertical-scroll-proportion="-13.076923" vertical-offset="2754" max-vertical-offset="4199">
+          <folding>
+            <marker date="1428346264159" expanded="true" signature="3100:3148" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Booklets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="196" column="32" selection-start="8305" selection-end="8305" vertical-scroll-proportion="0.3164794" vertical-offset="3163" max-vertical-offset="4301">
+          <folding>
+            <marker date="1428348076928" expanded="true" signature="2977:3025" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
