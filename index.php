@@ -127,8 +127,8 @@ session_start();
               <div class="dropdown-menu flyout-menu">
                 <!-- Sub Menu -->
                 <ul>
-                  <li><a href="#">About us</a></li>
-                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="#">How It Works</a></li>
+                  <li><a href="#">Printers</a></li>
                   <li> <a href="#a"><span>Account</span> <i class="fa fa-caret-right"></i> </a>
                     <ul class="dropdown-menu sub flyout-menu">
                       <li><a href="#a">Login/Register</a></li>
@@ -139,7 +139,6 @@ session_start();
 
                   <li><a href="cart.php">Cart</a></li>
                   <li><a href="checkout.php">Checkout</a></li>
-                  <li><a href="blog-single.html">Blog Post</a></li>
                   <li><a href="contact.php">Contact us</a></li>
                 </ul>
                 <!-- end: Sub Menu -->
@@ -154,24 +153,24 @@ session_start();
                       <div class="row">
                           <div class="col-md-4">
                               <ul>
-                                  <li><a href="#a">Booklets</a></li>
+                                  <li><a href="Booklets.php">Booklets</a></li>
                                   <li><a href="banner.php">Banners</a></li>
-                                  <li><a href="#a">Brochures</a></li>
-                                  <li><a href="#a">Flyers</a></li>
-                                  <li><a href="#a">Folders</a></li>
-                                  <li><a href="#a">ID Badges</a></li>
-                                  <li><a href="#a">Posters</a></li>
+                                  <li><a href="Brochure.php">Brochures</a></li>
+                                  <li><a href="flyers.php">Flyers</a></li>
+                                  <li><a href="Pocket_Folders.php">Pocket Folders</a></li>
+                                  <li><a href="ID_Badges.php">ID Badges</a></li>
+                                  <li><a href="Posters.php">Posters</a></li>
                               </ul>
                           </div>
                           <div class="col-md-4">
                               <ul>
                                   <li><a href="#a">Business Cards</a></li>
-                                  <li><a href="#a">Calenders</a></li>
+                                  <li><a href="Calenders.php">Calenders</a></li>
                                   <li><a href="#a">Key Chains</a></li>
                                   <li><a href="#a">Pens</a></li>
                                   <li><a href="#a">Envelopes</a></li>
-                                  <li><a href="#a">Letterhead</a></li>
-                                  <li><a href="#a">Notepads</a></li>
+                                  <li><a href="Letterhead.php">Letterhead</a></li>
+                                  <li><a href="Notepads.php">Notepads</a></li>
                               </ul>
                           </div>
 
@@ -189,17 +188,17 @@ session_start();
                 <div class="content">
                   <div class="row">
                     <div class="col-md-4">
-                      <ul>
-                        <li><a href="#a">Beavrage Coasters</a></li>
-                        <li><a href="banner.php">Banners</a></li>
-                        <li><a href="#a">Brochures</a></li>
-                        <li><a href="#a">Flyers</a></li>
-                        <li><a href="#a">Folders</a></li>
-                        <li><a href="#a">ID Badges</a></li>
-                        <li><a href="#a">Invitations</a></li>
-                        <li><a href="#a">Posters</a></li>
-                        <li><a href="#a">Table Tents</a></li>
-                      </ul>
+                        <ul>
+                            <li><a href="#a">Beavrage Coasters</a></li>
+                            <li><a href="banner.php">Banners</a></li>
+                            <li><a href="Brochure.php">Brochures</a></li>
+                            <li><a href="#a">Flyers</a></li>
+                            <li><a href="Pocket_Folders.php">Pocket Folders</a></li>
+                            <li><a href="ID_Badges.php">ID Badges</a></li>
+                            <li><a href="Invitation_Cards.php">Invitation Cards</a></li>
+                            <li><a href="Posters.php">Posters</a></li>
+                            <li><a href="Table_Tents.php">Table Tents</a></li>
+                        </ul>
                     </div>
                     <div class="col-md-4"> <a class="menu-title" href="#a">Corporate Gifts</a>
                       <ul>
@@ -227,25 +226,25 @@ session_start();
                 <div class="content">
                   <div class="row">
                     <div class="col-md-4">
-                      <ul>
-                        <li><a href="#a">Business Cards</a></li>
-                        <li><a href="#a">Calenders</a></li>
-                        <li><a href="#a">Envelopes</a></li>
+                        <ul>
+                            <li><a href="#a">Business Cards</a></li>
+                            <li><a href="Calenders.php">Calenders</a></li>
+                            <li><a href="#">Envelopes</a></li>
 
-                      </ul>
+                        </ul>
                     </div>
                       <div class="col-md-4">
                           <ul>
-                              <li><a href="#a">Lables</a></li>
-                              <li><a href="#a">Letterhead</a></li>
-                              <li><a href="#a">Memopads</a></li>
+                              <li><a href="#a">Labels</a></li>
+                              <li><a href="Letterhead.php">Letterhead</a></li>
+                              <li><a href="Memo_Pads.php">Memopads</a></li>
                           </ul>
                       </div>
                       <div class="col-md-4">
                           <ul>
                               <li><a href="#a">Magazine</a></li>
-                              <li><a href="#a">Notepads</a></li>
-                              <li><a href="#a">Pocket Folders</a></li>
+                              <li><a href="Notepads.php">Notepads</a></li>
+                              <li><a href="Pocket_Folders.php">Pocket Folders</a></li>
                           </ul>
                       </div>
 
@@ -270,16 +269,16 @@ session_start();
                               </div>
                               <div class="col-md-4">
                                   <ul>
-                                      <li><a href="#a">Letterhead</a></li>
-                                      <li><a href="#a">Notebooks</a></li>
-                                      <li><a href="#a">Note Pads</a></li>
+                                      <li><a href="Letterhead.php">Letterhead</a></li>
+                                      <li><a href="#">Notebooks</a></li>
+                                      <li><a href="Notepads.php">Note Pads</a></li>
                                   </ul>
                               </div>
                               <div class="col-md-4">
                                   <ul>
                                       <li><a href="#a">Magazine</a></li>
                                       <li><a href="#a">Sticky Notes</a></li>
-                                      <li><a href="#a">Table Tents</a></li>
+                                      <li><a href="Table_Tents.php">Table Tents</a></li>
                                   </ul>
                               </div>
 

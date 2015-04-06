@@ -7,14 +7,13 @@
 <!--<![endif]-->
 
 <head>
-<meta charset="UTF-8">
-<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
-<meta content="Get printing at most affordable prices by comparing price from printers in your city." name="description">
-<meta content="Print Buddies" name="author">
-<meta name="keywords" content="Online Printing, Bid Online, Affordable Printing">
-<link href="images/favicon.png" rel="shortcut icon">
-
-<title>Club Card Flyers</title>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+    <meta content="Get printing at most affordable prices by comparing price from printers in your city." name="description">
+    <meta content="Print Buddies" name="author">
+    <meta name="keywords" content="Online Printing, Bid Online, Affordable Printing">
+    <link href="images/favicon.png" rel="shortcut icon">
+<title>Notepads</title>
 
 <!-- Reset CSS -->
 <link href="css/normalize.css" rel="stylesheet" type="text/css"/>
@@ -72,8 +71,7 @@
 
 </head>
 
-<body  onload=getProductInfo("Club_Card_Flyers");>
-
+<body  onload=getProductInfo("Notepads");>
 <!-- Header -->
 <script id="handlebar-info" type="text/x-handlebars-template">
     <div class="post " data-update-id="{{Category}}" id="{{Category}}-attribute" >
@@ -100,11 +98,12 @@ include('header.php');
                     <div class="box-content slide carousel-fade" id="blogslide">
                         <div class="carousel-inner">
                             <div class="blog-entry item active">
-                                <div class="image"> <img class="ani-image" src="images/products/Product.jpg" alt=""> </div>
+                                <div class="image"> <span class="blogico"> <i class="fa fa-bullhorn fa-fw"></i><br>
+                  Blog entry</span> <img class="ani-image" src="images/products/Product.jpg" alt=""> </div>
 
                             </div>
+
                             <!--END Post -->
-                            
                         </div>
                     </div>
                     <!-- end: Blog widget Box -->
@@ -121,7 +120,7 @@ include('header.php');
                 <!-- Tab panes -->
                 <div class="tab-content">
                     <div class="tab-pane active" id="details-info">
-                        <p>Flyers are one of the most cost-effective marketing tools available. Whether single or double-sided, folded or flat, fliers printed in rich, full color get noticed! There's no substitute for the impact of 4 color offset printing, and impact is what gets you noticed. </p>
+                        <p>A personalized notepad is a great little advertising device. </p>
                       
                     </div>
                      <div class="tab-pane" id="reviews">
@@ -129,26 +128,16 @@ include('header.php');
                         <div class="table-responsive">
                             <table class="table table-striped">
                                 <tbody>
-                            
-<tr><td>14-Point CS2 Gloss Cover Stock</td><td>
-Our 14 pt. C2S gloss cover is a thick, standard weight cover stock with glossy sheen on both sides. We add a high-gloss ultraviolet (UV) coating to make colors more vibrant and protect your printed piece.</td></tr>
-                                </tbody>
+                            <tr><td>Standard 70 lb. White Paper</td><td>
+Our standard 70 lb. white paper is a high-grade, elegant stationery paper with a white wove finish. It is also compatible with laser and ink jet printers. </td></tr>    </tbody>
                             </table>
                         </div>
                     </div>
                     <div class="tab-pane" id="tags">
        <p>
-With five standard folding options, Print Buddies has the fold you need to make your flyer stand out:</p><p>
-Half-Fold
-(2 panels / 4 pages)</p><p>
-Tri-Fold / Letter-Fold 
-(3 panels / 6 pages)</p><p>
-Z-Fold
-(3 panels / 6 pages)</p><p>
-Double Parallel Fold
-(4 panels / 8 pages)</p><p>
-Right-angle half fold
-(4 panels / 8 pages)</p>
+We offer custom finishing options, including:</p><p>
+Custom placement of 3/16", 1/4" or 5/16" hole</p><p>
+Hardcopy proof if you need the most accurate color matching</p>
 </div>
                    <div class="tab-pane" id="custom-tab">
                         <p>Phosfluorescently productize technically sound process improvements for customized bandwidth. Competently coordinate leveraged catalysts for change without multimedia based services. Objectively fabricate user-centric experiences before.</p>
@@ -167,7 +156,7 @@ Right-angle half fold
             <!-- end: Brands -->
         </div>
         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 box-block sidebar">
-            <div class="box-heading"><span>Club-Card Flyers</span></div>
+            <div class="box-heading"><span>Notepads</span></div>
             <div class="box-content">
                 <div id="productInfo" class="productInfo">
 
@@ -184,16 +173,11 @@ Right-angle half fold
 
 <!-- container -->
 <!-- Relate Products -->
-<div class="row clearfix f-space30"></div>
-
-<!-- Rectangle Banners -->
+<div class="clearfix f-space30"></div>
 <?php include('features.php');?>
-<!-- end: Rectangle Banners -->
-
 <div class="row clearfix f-space30"></div>
 
 <!-- footer -->
-
 <?php
 include('footer.php');
 ?>

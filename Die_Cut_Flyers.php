@@ -9,12 +9,10 @@
 <head>
 <meta charset="UTF-8">
 <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
-<meta content="Get printing at most affordable prices by comparing price from printers in your city." name="description">
-<meta content="Print Buddies" name="author">
-<meta name="keywords" content="Online Printing, Bid Online, Affordable Printing">
-<link href="images/favicon.png" rel="shortcut icon">
-
-<title>Club Card Flyers</title>
+<meta content="Print Buddiesshop online shopping point" name="description">
+<meta content="logoby.us" name="author">
+<link href="images/ico.html" rel="shortcut icon">
+<title>Die-Cut Flyers</title>
 
 <!-- Reset CSS -->
 <link href="css/normalize.css" rel="stylesheet" type="text/css"/>
@@ -72,8 +70,7 @@
 
 </head>
 
-<body  onload=getProductInfo("Club_Card_Flyers");>
-
+<body  onload=getProductInfo("Die_Cut_Flyers");>
 <!-- Header -->
 <script id="handlebar-info" type="text/x-handlebars-template">
     <div class="post " data-update-id="{{Category}}" id="{{Category}}-attribute" >
@@ -99,14 +96,24 @@ include('header.php');
                     <!-- Blog widget Box -->
                     <div class="box-content slide carousel-fade" id="blogslide">
                         <div class="carousel-inner">
+                            <!-- Post -->
+
+                            <!--END Post -->
+                            <!-- Post -->
+
+                            <!--END Post -->
+                            <!-- Post -->
                             <div class="blog-entry item active">
-                                <div class="image"> <img class="ani-image" src="images/products/Product.jpg" alt=""> </div>
+                                <div class="image"> <span class="blogico"> <i class="fa fa-bullhorn fa-fw"></i><br>
+                  Blog entry</span> <img class="ani-image" src="images/products/Product.jpg" alt=""> </div>
 
                             </div>
                             <!--END Post -->
-                            
+                            <!-- Post -->
+
+                            <!--END Post -->
                         </div>
-                    </div>
+                     </div>
                     <!-- end: Blog widget Box -->
                     <div class="f-space10"></div>
                 </div>
@@ -129,9 +136,13 @@ include('header.php');
                         <div class="table-responsive">
                             <table class="table table-striped">
                                 <tbody>
-                            
+                            <tr><td>12-Point Gloss Cover Stock</td><td>
+Our 12 pt. gloss cover stock is an exceptional paper stock with a glossy sheen on both sides.</td></tr>
 <tr><td>14-Point CS2 Gloss Cover Stock</td><td>
-Our 14 pt. C2S gloss cover is a thick, standard weight cover stock with glossy sheen on both sides. We add a high-gloss ultraviolet (UV) coating to make colors more vibrant and protect your printed piece.</td></tr>
+Our 14 pt. C2S gloss cover is a thick, standard weight cover stock with glossy sheen on both sides. We add a high-gloss ultraviolet (UV) coating to make colors more vibrant and protect your printed piece.</td></tr><tr><td>15-Point Velvet Cover Stock</td><td>
+Our 15 pt. velvet cover stock is a heavy, distinctive paper with a velvety smooth finish and semi-matte look with 10 percent recycled content. This stock gives a high-end, classic look to any flyer.</td></tr><tr> <td>16-Point C2S Gloss Cover Stock</td><td>
+Our 16 pt. C2S gloss cover stock is a premium, ultra-thick stock with a glossy finish on both sides — perfect for flyers that need to stand out above the rest.
+                       </td></tr> 
                                 </tbody>
                             </table>
                         </div>
@@ -153,9 +164,7 @@ Right-angle half fold
                    <div class="tab-pane" id="custom-tab">
                         <p>Phosfluorescently productize technically sound process improvements for customized bandwidth. Competently coordinate leveraged catalysts for change without multimedia based services. Objectively fabricate user-centric experiences before.</p>
                         <div class="video-wrapper">
-                            <div class="video-container">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/keDneypw3HY" frameborder="0" allowfullscreen></iframe>
-                            </div>
+
                             <!-- /video -->
                         </div>
                         <!-- /video-wrapper -->
@@ -167,7 +176,7 @@ Right-angle half fold
             <!-- end: Brands -->
         </div>
         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 box-block sidebar">
-            <div class="box-heading"><span>Club-Card Flyers</span></div>
+            <div class="box-heading"><span>Die Cut Flyers</span></div>
             <div class="box-content">
                 <div id="productInfo" class="productInfo">
 
@@ -184,16 +193,18 @@ Right-angle half fold
 
 <!-- container -->
 <!-- Relate Products -->
+
+<!-- end: Related products -->
+
 <div class="row clearfix f-space30"></div>
 
 <!-- Rectangle Banners -->
-<?php include('features.php');?>
+
 <!-- end: Rectangle Banners -->
 
 <div class="row clearfix f-space30"></div>
 
 <!-- footer -->
-
 <?php
 include('footer.php');
 ?>
