@@ -1,7 +1,7 @@
 <?php
 if($_GET) {
 
-    $emailTo = 'support@printbuddies.com, rishabhjain5858@gmail.com';
+    $emailTo = 'support@printbuddies.com';
 
     $clientName = trim($_GET['feedback_name']);
     $clientEmail = trim($_GET['feedback_email']);
@@ -10,12 +10,10 @@ if($_GET) {
         $subject = trim($_GET['feedback_subject']);
     else
         $subject="Feedback from User";
-    $message = trim($_GET['feedback_text']);
+    $message = trim($_GET['feedback_text']).' Mobile No. : '.$clientPhone;
     $headers = "From: " . $clientName . "< $clientEmail >" . "\r\n" . "Reply-To: " . $clientEmail;
     $mail=mail($emailTo, $subject, $message, $headers);
     echo json_encode($mail);
-
-
 }
 
 ?>
