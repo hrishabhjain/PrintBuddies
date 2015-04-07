@@ -345,7 +345,7 @@ include_once('analyticstracking.php');
           <ul class="nav nav-pills nav-justified">
             <li> <a href="index.php"> <i class="fa fa-home fa-fw"></i> <span class="hidden-sm">Home</span></a> </li>
             <li> <a href="#"> <i class="fa fa-info-circle fa-fw"></i> <span class="hidden-sm">How It Works</span></a> </li>
-            <li> <a href="#"> <i class="fa fa-bullhorn fa-fw"></i> <span class="hidden-sm">Printers</span></a> </li>
+            <li> <a href="printer.php"> <i class="fa fa-bullhorn fa-fw"></i> <span class="hidden-sm">Printers</span></a> </li>
             <li> <a href="contact.php"> <i class="fa fa-pencil-square-o fa-fw"></i> <span class="hidden-sm ">Contact</span></a> </li>
             <li class="dropdown"> <a href="cart.php"> <i class="fa fa-shopping-cart fa-fw"></i> <span class="hidden-sm"> Cart </span></a>
               <!-- Quick Cart -->
