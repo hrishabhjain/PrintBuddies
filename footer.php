@@ -4,10 +4,10 @@
         <div class="row">
             <div class="col-sm-3 col-xs-12 shopinfo">
                 <h4 class="title">PRINT BUDDIES</h4>
-                <p> This Efficiently negotiate robust communities with extensible systems.
-                    Appropriately productize top-line leadership skills rather than team
-                    building applications.</p>
-                <p> Phosfluorescently extend highly efficient schemas with intermandated. </p>
+                <p> Printbuddies.com is set up to connect a print buyer with a commercial printing company anywhere in the world that will best suit their needs, whether it's full color printing or a specialized printing job.
+                    Print buyers input their quote request using our forms.
+                    When the buyer hits the "submit" button on the print request form, it is emailed out to printers specializing in that type of printing.
+                    The printers respond to the print buyer directly with pricing. There is no obligation to use our printers.</p>
             </div>
             <div class="col-sm-3 col-xs-12 footermenu">
                 <h4 class="title">Information</h4>
@@ -16,16 +16,15 @@
                     <li class="item"> <a href="#a">FAQs</a></li>
                     <li class="item"> <a href="#a">Payment Instructions</a></li>
                     <li class="item"> <a href="#a">Request Product</a></li>
-                    <li class="item"> <a href="#a">Printer Registration</a></li>
+                    <li class="item"> <a href="printer.php">Printer Registration</a></li>
                 </ul>
             </div>
             <div class="col-sm-3 col-xs-12 footermenu">
                 <h4 class="title">My
                     account</h4>
                 <ul>
-                    <li class="item"> <a href="#a">My Account</a></li>
-                    <li class="item"> <a href="#a">Order History</a></li>
-                    <li class="item"> <a href="#a">Wish List</a></li>
+                    <li class="item"> <a href="profile.php">My Account</a></li>
+                    <li class="item"> <a href="profile.php">Order History</a></li>
                     <li class="item"> <a href="#a">Newsletter</a></li>
                 </ul>
             </div>
@@ -56,7 +55,7 @@
                 </ul>
                 <div class="social-icons">
                     <ul>
-                        <li class="icon google-plus"> <a href="#a"> <i class="fa fa-google-plus fa-fw"></i> </a> </li>
+                        <li class="icon google-plus"> <a href="https://plus.google.com/109885489687057454413" target="_blank"> <i class="fa fa-google-plus fa-fw"></i> </a> </li>
                         <li class="icon linkedin"> <a href="#a"> <i class="fa fa-linkedin fa-fw"></i> </a> </li>
                         <li class="icon twitter"> <a href="#a"> <i class="fa fa-twitter fa-fw"></i> </a> </li>
                         <li class="icon facebook"> <a href="https://www.facebook.com/printbuddies"> <i class="fa fa-facebook fa-fw"></i> </a> </li>
