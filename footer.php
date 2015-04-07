@@ -55,7 +55,7 @@
                 </ul>
                 <div class="social-icons">
                     <ul>
-                        <li class="icon google-plus"> <a href="https://plus.google.com/109885489687057454413" target="_blank"> <i class="fa fa-google-plus fa-fw"></i> </a> </li>
+                        <li class="icon google-plus"> <a href="https://plus.google.com/109885489687057454413" rel="publisher" target="_blank"> <i class="fa fa-google-plus fa-fw"></i> </a> </li>
                         <li class="icon linkedin"> <a href="#a"> <i class="fa fa-linkedin fa-fw"></i> </a> </li>
                         <li class="icon twitter"> <a href="#a"> <i class="fa fa-twitter fa-fw"></i> </a> </li>
                         <li class="icon facebook"> <a href="https://www.facebook.com/printbuddies"> <i class="fa fa-facebook fa-fw"></i> </a> </li>
