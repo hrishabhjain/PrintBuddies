@@ -12,7 +12,7 @@
     <meta content="Flatroshop online shopping point" name="description">
     <meta content="logoby.us" name="author">
     <link href="images/ico.html" rel="shortcut icon">
-    <title>Print Buddies - Online Shop  </title>
+    <title>Print Buddies  </title>
 
     <!-- Reset CSS -->
     <link href="css/normalize.css" rel="stylesheet" type="text/css"/>
@@ -85,7 +85,7 @@ use Facebook\GraphObject;
 use Facebook\GraphSessionInfo;
 use Facebook\GraphUser;
 // init app with app id (APPID) and secret (SECRET)
-FacebookSession::setDefaultApplication('1593771740836973','a7684509d803f9cfa97e4856f6edf52b');
+FacebookSession::setDefaultApplication('798700396886902','44d8b401d56647f7be781f77d159ecd5');
 $helper = new FacebookRedirectLoginHelper( 'http://localhost/PrintBuddies/flatro/checkout.php' );
 
 try {
@@ -157,13 +157,13 @@ if ( isset( $session ) ) {
                                     <div class="col-md-6 col-xs-12">
                                         <div class="box-content login-box">
                                             <h4>Customers with a existing account.</h4>
-                                            <form>
+                                            <form action="loginbl.php" method="post">
                                                 <input type="text" value="" placeholder="Email" class="input4">
                                                 <input type="text" value="" placeholder="Password" class="input4">
                                                 <label class="checkbox" for="checkbox1">
                                                     <input type="checkbox" value="" id="checkbox1" data-toggle="checkbox" class="pull-left">
                                                     <span class="pull-left">Remember me</span> </label>
-                                                <button class="btn medium color2 pull-right">Sign in</button>
+                                                <button class="btn medium color2 pull-right">Login</button>
                                                 <p class="fp-link pull-right"><a href="#a" class="color2">Forgot your password?</a></p>
                                             </form>
                                         </div>
@@ -174,11 +174,7 @@ if ( isset( $session ) ) {
                                     <div class="col-md-6 col-xs-12">
                                         <div class="box-content register-box">
                                             <br><br><br><br>
-
-
-                                            <?php echo '<a href="' . $helper->getLoginUrl(array('scope'=>'public_profile,email')).'"><img src="images/Facebook.jpg" style="width: 75%"></a>'; ?>
-
-
+                                            <?php echo '<a href="' . $helper->getLoginUrl(array('scope'=>'public_profile,email')).'"><img src="images/Facebook.jpg" style="width: 100%"></a>'; ?>
                                         </div>
                                     </div>
 

@@ -30,16 +30,18 @@ function onClickSend()
     else
         feedback_subject="Blank";
     document.getElementById('reset').innerHTML="";
-    document.getElementById('ThankYou').innerHTML='<p style="color: #fff">Thank You for your response.<br> <br> Our Team will get back to You shortly</p>';
+    document.getElementById('ThankYou').innerHTML='<p style="color: #fff">Sending....</p>';
 
     var string=encodeURI("feedback_name="+feedback_name+'&feedback_email='+feedback_email+"&feedback_subject="+feedback_subject+"&feedback_mobile="+feedback_mobile+"&feedback_text="+feedback_text);
     myXHR("http://webblitz.in/sendFeedbackMail.php?"+string,{callback: displayThankUDiv,method:"GET"})
 }
 displayThankUDiv=function(data)
 {
-        document.getElementById('reset').innerHTML="";
+    data=JSON.parse(data);
+    if(data)
+    {    document.getElementById('reset').innerHTML="";
         document.getElementById('ThankYou').innerHTML='<p style="color: #fff">Thank You for your response.<br> <br> Our Team will get back to You shortly</p>';
-
+    }
 
 };
 jQuery(document).ready(function($){
@@ -50,7 +52,7 @@ return false;
 
 $("#style-switch h2 a").click(function(e){e.preventDefault();
 var div=$("#style-switch");
-console.log(div.css("left"));
+
 if(div.css("left")==="-195px"){$("#style-switch").animate({left:"0px"});
 }else{$("#style-switch").animate({left:"-195px"});
 }})

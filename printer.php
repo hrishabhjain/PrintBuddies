@@ -1,3 +1,49 @@
+<?php
+include_once('mysqlclass.php');
+
+
+if($_POST){
+    $username=$_POST['username'];
+    $password = $_POST['password'];
+
+    if(login_pr($username,$password))
+    {
+        $_SESSION['printer_username']=$username;
+        header('Location: printer_bid.php');
+    }else
+    {
+        echo '<script>alert(\'Username or Passwaord Incorrect. \')</script>';
+    }
+
+
+}
+
+function  login_pr($username, $pass)
+{
+    try{
+        $mysql = new Mysql();
+        $import = "SELECT `username` FROM `printer` WHERE `username`= '$username' AND `password` = '$pass' " ;
+        $response = $mysql->executeQuery($import);
+        if($response)
+            $rows = mysqli_num_rows($response);
+        else
+            return false;
+        if ($rows == 1)
+        {
+            return true;
+        }
+        else{
+            return false;
+        }
+
+    }catch(Exception $error){
+
+        $mysql=new MySql();
+        $mysql->write_Exception($error);
+        return false;
+    }
+}
+?>
 <!DOCTYPE html>
 <!--[if IE 7 ]><html class="ie ie7 lte9 lte8 lte7" lang="en-US"><![endif]-->
 <!--[if IE 8]><html class="ie ie8 lte9 lte8" lang="en-US">	<![endif]-->
@@ -61,7 +107,7 @@
 </head>
 
 
-<body onload="summary()">
+<body>
 <!-- Header -->
 <?php
 
@@ -69,30 +115,6 @@ include_once('header.php');
 if((isset($_SESSION['email']))){
     echo '<script>window.location.href="profile.php"</script>';
 }
-use Facebook\FacebookSession;
-use Facebook\FacebookRedirectLoginHelper;
-use Facebook\FacebookRequest;
-use Facebook\FacebookRequestException;
-use Facebook\GraphUser;
-// init app with app id (APPID) and secret (SECRET)
-FacebookSession::setDefaultApplication('798700396886902','44d8b401d56647f7be781f77d159ecd5');
-$helper = new FacebookRedirectLoginHelper( 'http://in.printbuddies.com/profile.php' );
-
-try {
-    $session = $helper->getSessionFromRedirect();
-} catch( FacebookRequestException $ex ) {
-    // When Facebook returns an error
-} catch( Exception $ex ) {
-    // When validation fails or other local issues
-}
-if ( isset( $session ) ) {
-    // graph api request for user data
-    $request = new FacebookRequest( $session, 'GET', '/me' );
-    $response = $request->execute();
-    // get response
-    $graphObject = $response->getGraphObject(GraphUser::className());
-}
-
 
 ?>
 
@@ -124,7 +146,7 @@ if ( isset( $session ) ) {
                     <!-- login and register panel -->
                     <div class="panel panel-default">
                         <div class="panel-heading opened" data-parent="#checkout-options" data-target="#op1" data-toggle="collapse">
-                            <h4 class="panel-title"> <a href="#a"> <span class="fa fa-cogs"></span>SIGNUP / LOGIN </a><span class="op-number">1</span> </h4>
+                            <h4 class="panel-title"> <a href="#a"> <span class="fa fa-cogs"></span>REGISTER / LOGIN </a><span class="op-number">1</span> </h4>
                         </div>
                         <div class="panel-collapse collapse in" id="op1">
                             <div class="panel-body">
@@ -133,17 +155,17 @@ if ( isset( $session ) ) {
                                     <!-- Login -->
                                     <div class="col-md-6 col-xs-12">
                                         <div class="box-content login-box">
-                                            <h4>Create an Account.</h4>
-                                            <form method="POST" action="signup.php" id="signup">
+                                            <h4>Request a FREE Visit</h4>
+                                            <form method="POST" action="register_visit.php" id="signup">
                                                 <input type="email" value="" placeholder="Email" class="input4" name="email" required>
-                                                <input type="text" value="" placeholder="First Name" class="input4" name="first_name" required>
-                                                <input type="text" value="" placeholder="Last Name" class="input4" name="last_name" required>
+                                                <input type="text" value="" placeholder="Name" class="input4" name="name" required>
                                                 <input type="number" maxlength="10" value="" placeholder="Phone" class="input4" name="phone" required>
-                                                <input type="password" value="" placeholder="Password" class="input4" name="password" required>
-                                                <input type="password" value="" placeholder="Re type Password" class="input4" name="repassword" required>
+                                                <input type="text" value="" placeholder="Address" class="input4" name="address" required>
+                                                <input type="text" value="" placeholder="City" class="input4" name="city" required>
+                                                <input type="number" maxlength="6" value="" placeholder="Pincode" class="input4" name="pincode" required>
                                                 <label class="checkbox" for="checkbox1">
                                                 </label>
-                                                <button type="submit" form="signup" value="Submit" class="btn medium color2 pull-right">Sign Up</button>
+                                                <button type="submit" form="signup" value="Submit" class="btn medium color2 pull-right">Request</button>
                                             </form>
                                         </div>
                                     </div>
@@ -152,13 +174,13 @@ if ( isset( $session ) ) {
 
                                     <div class="col-md-6 col-xs-12">
                                         <div class="box-content register-box">
-                                            <h4>Customers with a existing account.</h4>
-                                            <form action="loginbl.php" method="post">
-                                                <input type="email" value="" placeholder="Email" name="email" class="input4" required>
+                                            <h4>Printers with a existing account.</h4>
+                                            <form action="printer.php" method="post">
+                                                <input type="text" value="" placeholder="Username" name="username" class="input4" required>
                                                 <input type="password" value="" placeholder="Password" name="password" class="input4" required>
                                                 <label class="checkbox" for="checkbox1">
                                                 </label>
-                                                <button class="btn medium color2 pull-right">Login</button>
+                                                <button class="btn medium color2 pull-right">Sign in</button>
                                                 <p class="fp-link pull-right"><a href="#a" class="color2">Forgot your password?</a></p>
                                             </form>
                                         </div>
@@ -176,23 +198,7 @@ if ( isset( $session ) ) {
 
         </div>
         <!-- side bar -->
-        <div class="col-md-3 col-sm-12 col-xs-12 box-block page-sidebar">
-            <div class="box-heading"><span>Social </span></div>
-            <!-- Cart Summary -->
-            <div class="box-content cart-box-wr" id="box-content cart-box-wr">
 
-                <div class="cart-box-tm">
-                    <br><br><br><br>
-                    <?php echo '<a href="' . $helper->getLoginUrl(array('scope'=>'public_profile,email')).'"><img src="images/Facebook.jpg" style="width: 100%"></a>'; ?>
-
-                </div>
-            </div>
-            <div class="clearfix f-space30"></div>
-            <!-- Get Updates Box -->
-
-            <!-- end: Get Updates Box -->
-
-        </div>
         <!-- end:sidebar -->
     </div>
     <!-- end:row -->
@@ -203,58 +209,7 @@ if ( isset( $session ) ) {
 
 <!-- Rectangle Banners -->
 
-<div class="container">
-    <div class="row">
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
-            <div class="rec-banner blue">
-                <div class="banner"> <i class="fa fa-thumbs-up"></i>
-                    <h3>Guarantee</h3>
-                    <p>100% Money Back Guarantee*</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
-            <div class="rec-banner red">
-                <div class="banner"> <i class="fa fa-tags"></i>
-                    <h3>Affordable</h3>
-                    <p>Convenient & affordable prices for you</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
-            <div class="rec-banner orange">
-                <div class="banner"> <i class="fa fa-headphones"></i>
-                    <h3>24/7 Support</h3>
-                    <p>We support everything we sell</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
-            <div class="rec-banner lightblue">
-                <div class="banner"> <i class="fa fa-female"></i>
-                    <h3>Summer Sale</h3>
-                    <p>Upto 50% off on all women wear</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
-            <div class="rec-banner darkblue">
-                <div class="banner"> <i class="fa fa-gift"></i>
-                    <h3>Surprise Gift</h3>
-                    <p>Value $50 on orders over $700</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
-            <div class="rec-banner black">
-                <div class="banner"> <i class="fa fa-truck"></i>
-                    <h3>Free Shipping</h3>
-                    <p>All over in world over $100</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<?php include_once('features.php') ?>
 <!-- end: Rectangle Banners -->
 
 <div class="row clearfix f-space30"></div>
@@ -281,3 +236,4 @@ if ( isset( $session ) ) {
 </script>
 </body>
 </html>
+

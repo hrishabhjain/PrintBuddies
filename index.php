@@ -128,15 +128,8 @@ session_start();
                 <!-- Sub Menu -->
                 <ul>
                   <li><a href="#">How It Works</a></li>
-                  <li><a href="#">Printers</a></li>
-                  <li> <a href="#a"><span>Account</span> <i class="fa fa-caret-right"></i> </a>
-                    <ul class="dropdown-menu sub flyout-menu">
-                      <li><a href="#a">Login/Register</a></li>
-                      <li><a href="cart.php">Cart</a></li>
-                      <li><a href="checkout.php">Checkout</a></li>
-                    </ul>
-                  </li>
-
+                  <li><a href="printer.php">Printers</a></li>
+                  <li> <a href="profile.php"><span>Account</span> <i class="fa fa-caret-right"></i> </a></li>
                   <li><a href="cart.php">Cart</a></li>
                   <li><a href="checkout.php">Checkout</a></li>
                   <li><a href="contact.php">Contact us</a></li>
@@ -405,7 +398,7 @@ session_start();
                 <div class="iview-caption caption3" data-easing="easeInOutElastic" data-transition="wipeLeft" data-x="100" data-y="160">
                     <br>With Print Buddies, <br>print at most affordable prices <br>by comparing price from printers in your city.
                 </div>
-                <div class="iview-caption btn-more" data-transition="fade" data-x="100" data-y="280"><a href="#a">Post Bid
+                <div class="iview-caption btn-more" data-transition="fade" data-x="100" data-y="280"><a href="Letterhead.php">Post Bid
                 </a></div>
             </div>
               <div data-iview:image="images/minicard.jpg">
@@ -499,8 +492,8 @@ session_start();
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                   <div class="product-block">
                     <div class="image">
-                      <div class="product-label product-sale"><span>SALE</span></div>
-                      <a class="img" href="product.html"><img alt="product info" src="images/products/folder.png" title="product title"></a> </div>
+                      <div class="product-label product-sale"><span>NEW</span></div>
+                      <a class="img" href="Calenders.php"><img alt="product info" src="images/products/folder.png" title="product title"></a> </div>
 
                   </div>
                 </div>
@@ -518,7 +511,7 @@ session_start();
                   <div class="product-block">
                     <div class="image">
                       <div class="product-label product-new"><span>NEW</span></div>
-                      <a class="img" href="product.html"><img alt="product info" src="images/products/standie.png" title="product title"></a> </div>
+                      <a class="img" href="Notepads.php"><img alt="product info" src="images/products/standie.png" title="product title"></a> </div>
 
                   </div>
                 </div>
@@ -542,7 +535,7 @@ session_start();
                   <div class="product-block">
                     <div class="image">
                       <div class="product-label product-new"><span>NEW</span></div>
-                      <a class="img" href="product.html"><img alt="product info" src="images/products/standie.png" title="product title"></a> </div>
+                      <a class="img" href="Notepads.php"><img alt="product info" src="images/products/standie.png" title="product title"></a> </div>
 
                   </div>
                 </div>
@@ -551,8 +544,8 @@ session_start();
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                   <div class="product-block">
                     <div class="image">
-                      <div class="product-label product-sale"><span>SALE</span></div>
-                      <a class="img" href="product.html"><img alt="product info" src="images/products/folder.png" title="product title"></a> </div>
+                      <div class="product-label product-sale"><span>NEW</span></div>
+                      <a class="img" href="Calenders.php"><img alt="product info" src="images/products/folder.png" title="product title"></a> </div>
                   </div>
                 </div>
                 <!-- end: Product -->
@@ -577,8 +570,8 @@ session_start();
             <div class="item active">
               <div class="product-block">
                 <div class="image">
-                  <div class="product-label product-hot"><span>HOT</span></div>
-                  <a class="img" href="product.html"><img alt="product info" src="images/products/brochure.png" title="product title"></a> </div>
+                  <div class="product-label product-hot"><span>NEW</span></div>
+                  <a class="img" href="Brochure.php"><img alt="product info" src="images/products/brochure.png" title="product title"></a> </div>
 
               </div>
             </div>
@@ -586,7 +579,7 @@ session_start();
             <!-- item -->
             <div class="item">
               <div class="product-block">
-                <div class="image"> <a class="img" href="product.html"><img alt="product info" src="images/products/envelope.png" title="product title"></a> </div>
+                <div class="image"> <a class="img" href="product.html"><img alt="product info" src="images/products/notebook.png" title="product title"></a> </div>
 
               </div>
             </div>
@@ -612,7 +605,7 @@ session_start();
 <div class="middle" >
     <h1>BID ON PRINT BUDDIES</h1>
     <p>Request A Visit <span> &nbsp; &nbsp; » &nbsp; &nbsp; </span> Verify Your Details <span> &nbsp; &nbsp; » &nbsp; &nbsp; </span> Start Bidding </p>
-    <p style="font-size: 18px"><a href="#"> Request a Free Visit </a></p>
+    <p style="font-size: 18px"><a href="printer.php"> Request a Free Visit </a></p>
 </div>
 
 <div class="row clearfix f-space30"></div>
@@ -631,11 +624,11 @@ session_start();
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                   <div class="product-block">
                     <div class="image">
-                      <div class="product-label product-sale"><span>SALE</span></div>
-                      <a class="img" href="product.html"><img alt="product info" src="images/products/folder.png" title="product title"></a>
+                      <div class="product-label product-sale"><span>NEW</span></div>
+                      <a class="img" href="product.html"><img alt="product info" src="images/products/3fold_flyer.png" title="product title"></a>
                     </div>
                       <div class="product-meta">
-                          <div class="name"><a href="product.html">Calenders</a></div>
+                          <div class="name"><a href="product.html">3 Fold Flyer</a></div>
 
                       </div>
                   </div>
@@ -645,7 +638,10 @@ session_start();
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                   <div class="product-block">
                     <div class="image"> <a class="img" href="product.html"><img alt="product info" src="images/products/envelope.png" title="product title"></a> </div>
+                      <div class="product-meta">
+                          <div class="name"><a href="product.html">Business Cards</a></div>
 
+                      </div>
                   </div>
                 </div>
                 <!-- end: Product -->
@@ -654,8 +650,11 @@ session_start();
                   <div class="product-block">
                     <div class="image">
                       <div class="product-label product-new"><span>NEW</span></div>
-                      <a class="img" href="product.html"><img alt="product info" src="images/products/standie.png" title="product title"></a> </div>
+                      <a class="img" href="Notepads.php"><img alt="product info" src="images/products/standie.png" title="product title"></a> </div>
+                      <div class="product-meta">
+                          <div class="name"><a href="Notepads.php">Notepads</a></div>
 
+                      </div>
                   </div>
                 </div>
                 <!-- end: Product -->
@@ -664,8 +663,11 @@ session_start();
                   <div class="product-block">
                     <div class="image">
                       <div class="product-label product-sale"><span>NEW</span></div>
-                      <a class="img" href="product.html"><img alt="product info" src="images/products/folder.png" title="product title"></a> </div>
+                      <a class="img" href="product.html"><img alt="product info" src="images/products/notebook.png" title="product title"></a> </div>
+                      <div class="product-meta">
+                          <div class="name"><a href="product.html">Notebooks</a></div>
 
+                      </div>
                   </div>
                 </div>
                 <!-- end: Product -->
@@ -679,7 +681,10 @@ session_start();
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                   <div class="product-block">
                     <div class="image"> <a class="img" href="product.html"><img alt="product info" src="images/products/envelope.png" title="product title"></a> </div>
+                      <div class="product-meta">
+                          <div class="name"><a href="product.html">Business Cards</a></div>
 
+                      </div>
                   </div>
                 </div>
                 <!-- end: Product -->
@@ -689,7 +694,10 @@ session_start();
                     <div class="image">
                       <div class="product-label product-new"><span>NEW</span></div>
                       <a class="img" href="product.html"><img alt="product info" src="images/products/3fold_flyer.png" title="product title"></a> </div>
+                      <div class="product-meta">
+                          <div class="name"><a href="product.html">3 Fold Flyer </a></div>
 
+                      </div>
                   </div>
                 </div>
                 <!-- end: Product -->
@@ -697,8 +705,11 @@ session_start();
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                   <div class="product-block">
                     <div class="image">
-                      <a class="img" href="product.html"><img alt="product info" src="images/products/folder.png" title="product title"></a> </div>
+                      <a class="img" href="Calenders.php"><img alt="product info" src="images/products/folder.png" title="product title"></a> </div>
+                      <div class="product-meta">
+                          <div class="name"><a href="Calenders.php">Calenders</a></div>
 
+                      </div>
                   </div>
                 </div>
                 <!-- end: Product -->
@@ -707,7 +718,10 @@ session_start();
                   <div class="product-block">
                     <div class="image">
                       <a class="img" href="product.html"><img alt="product info" src="images/products/notebook.png" title="product title"></a> </div>
+                      <div class="product-meta">
+                          <div class="name"><a href="product.html">Calenders</a></div>
 
+                      </div>
                   </div>
                 </div>
                 <!-- end: Product -->
@@ -732,10 +746,11 @@ session_start();
     <div class="row">
       <div class="col-sm-3 col-xs-12 shopinfo">
         <h4 class="title">PRINT BUDDIES</h4>
-        <p> This Efficiently negotiate robust communities with extensible systems.
-          Appropriately productize top-line leadership skills rather than team
-          building applications.</p>
-        <p> Phosfluorescently extend highly efficient schemas with intermandated. </p>
+        <p> Printbuddies.com is set up to connect a print buyer with a commercial printing company anywhere in the world that will best suit their needs, whether it's full color printing or a specialized printing job.
+            Print buyers input their quote request using our forms.
+            When the buyer hits the "submit" button on the print request form, it is emailed out to printers specializing in that type of printing.
+            The printers respond to the print buyer directly with pricing. There is no obligation to use our printers.</p>
+       
       </div>
       <div class="col-sm-3 col-xs-12 footermenu">
         <h4 class="title">Information</h4>
@@ -744,14 +759,14 @@ session_start();
           <li class="item"> <a href="#a">FAQs</a></li>
           <li class="item"> <a href="#a">Payment Instructions</a></li>
           <li class="item"> <a href="#a">Request Product</a></li>
-          <li class="item"> <a href="#a">Printer Registration</a></li>
+          <li class="item"> <a href="printer.php">Printer Registration</a></li>
         </ul>
       </div>
       <div class="col-sm-3 col-xs-12 footermenu">
         <h4 class="title">My account</h4>
         <ul>
-          <li class="item"> <a href="#a">My Account</a></li>
-          <li class="item"> <a href="#a">Order History</a></li>
+          <li class="item"> <a href="profile.php">My Account</a></li>
+          <li class="item"> <a href="profile.php">Order History</a></li>
           <li class="item"> <a href="#a">Newsletter</a></li>
         </ul>
       </div>
@@ -776,7 +791,7 @@ session_start();
           <li>
             <div class="icon"> <i class="fa fa-skype fa-fw"></i></div>
             <div class="c-info"> <span>Talk to Us:<br>
-              <a href="#a">skypeid</a></span></div>
+              <a href="#a">printbuddies</a></span></div>
           </li>
         </ul>
         <div class="social-icons">

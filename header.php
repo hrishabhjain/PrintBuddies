@@ -118,7 +118,7 @@ if ( isset( $session ) ) {
                             <!-- Sub Menu -->
                             <ul>
                                 <li><a href="about.php">How It Works</a></li>
-                                <li><a href="#">Printers</a></li>
+                                <li><a href="printer.php">Printers</a></li>
                                 <li> <a href="#a"><span>Account</span> <i class="fa fa-caret-right"></i> </a>
                                     <ul class="dropdown-menu sub flyout-menu">
                                         <li><a href="#a">Login/Register</a></li>
@@ -333,7 +333,7 @@ if ( isset( $session ) ) {
                 <ul class="nav nav-pills nav-justified">
                     <li> <a href="index.php"> <i class="fa fa-home fa-fw"></i> <span class="hidden-sm">Home</span></a> </li>
                     <li> <a href="#"> <i class="fa fa-info-circle fa-fw"></i> <span class="hidden-sm">How It Works</span></a> </li>
-                    <li> <a href="#"> <i class="fa fa-bullhorn fa-fw"></i> <span class="hidden-sm">Printers</span></a> </li>
+                    <li> <a href="printer.php"> <i class="fa fa-bullhorn fa-fw"></i> <span class="hidden-sm">Printers</span></a> </li>
                     <li> <a href="contact.php"> <i class="fa fa-pencil-square-o fa-fw"></i> <span class="hidden-sm ">Contact</span></a> </li>
                     <li class="dropdown"> <a href="cart.php"> <i class="fa fa-shopping-cart fa-fw"></i> <span class="hidden-sm"> Cart </span></a>
                         <!-- Quick Cart -->

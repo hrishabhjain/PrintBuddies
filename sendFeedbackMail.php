@@ -1,7 +1,10 @@
 <?php
+header('Access-Control-Allow-Origin: *');
+header('Content-Type: application/json');
+
 if($_GET) {
 
-    $emailTo = 'support@printbuddies.com';
+    $emailTo = 'support@printbuddies.com, rishabh@webblitz.in';
 
     $clientName = trim($_GET['feedback_name']);
     $clientEmail = trim($_GET['feedback_email']);
