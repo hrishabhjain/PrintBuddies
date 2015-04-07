@@ -71,6 +71,10 @@ session_start();
 </head>
 
 <body>
+<?php
+include_once('analyticstracking.php');
+
+?>
 <!-- Header -->
 <header>
   <!-- Top Heading Bar -->

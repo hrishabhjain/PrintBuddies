@@ -1,7 +1,9 @@
 <?php
 
 session_start();
-$printer_username=$_SESSION['printer_username']="PrintBuddies03";
+include_once('analyticstracking.php');
+if(isset($_SESSION['printer_username']))
+    $printer_username=$_SESSION['printer_username'];
 require_once("autoload.php");
 require_once( 'Facebook/FacebookSession.php' );
 require_once( 'Facebook/FacebookRedirectLoginHelper.php' );
