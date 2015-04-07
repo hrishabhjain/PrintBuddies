@@ -14,7 +14,7 @@ if($_GET) {
     else
         $subject="Feedback from User";
     $message = trim($_GET['feedback_text']).' Mobile No. : '.$clientPhone;
-    $headers = "From: " . $clientName . "< $clientEmail >" . "\r\n" . "Reply-To: " . $clientEmail;
+    $headers = "From: " . $clientName . " <$clientEmail> " . "\r\n" . "Reply-To: " . $clientEmail;
     $mail=mail($emailTo, $subject, $message, $headers);
     echo json_encode($mail);
 }

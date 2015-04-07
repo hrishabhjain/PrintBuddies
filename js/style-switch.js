@@ -33,7 +33,9 @@ function onClickSend()
     document.getElementById('ThankYou').innerHTML='<p style="color: #fff">Sending....</p>';
 
     var string=encodeURI("feedback_name="+feedback_name+'&feedback_email='+feedback_email+"&feedback_subject="+feedback_subject+"&feedback_mobile="+feedback_mobile+"&feedback_text="+feedback_text);
+    //myXHR("sendFeedbackMail.php?"+string,{callback: displayThankUDiv,method:"GET"});
     myXHR("http://webblitz.in/sendFeedbackMail.php?"+string,{callback: displayThankUDiv,method:"GET"})
+
 }
 displayThankUDiv=function(data)
 {

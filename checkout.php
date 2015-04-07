@@ -39,12 +39,13 @@
 
 <!-- Color -->
 <link href="css/skin/color.css" id="colorstyle" rel="stylesheet">
-
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/jquery-ui.js"></script>
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]> <script src="js/html5shiv.js"></script> <script src="js/respond.min.js"></script> <![endif]-->
 
 <!-- Bootstrap core JavaScript -->
-<script src="js/jquery-1.10.2.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/bootstrap-select.js"></script>
 
@@ -54,7 +55,6 @@
 <!-- MegaMenu -->
 <script src="js/menu3d.js" type="text/javascript"></script>
 
-<!-- iView Slider -->
 <!--[if IE 8]>
     <script type="text/javascript" src="js/selectivizr.js"></script>
 <![endif]-->
@@ -132,7 +132,7 @@ if( !(isset($_SESSION['email'])))
           
           <!-- Billing Address panel -->
           <div class="panel panel-default">
-            <div class="panel-heading opened" data-parent="#checkout-options" data-target="#op2" data-toggle="collapse">
+            <div class="panel-heading" data-parent="#checkout-options" data-target="#op2" data-toggle="collapse">
               <h4 class="panel-title"> <a href="#a"> <span class="fa fa-map-marker"></span> SELECT CITY </a><span class="op-number">2</span> </h4>
             </div>
             <div class="panel-collapse collapse" id="op2">
@@ -149,7 +149,7 @@ if( !(isset($_SESSION['email'])))
                     
                     <div class="col-md-6 col-xs-12">
                       <div class="box-content form-box">
-                        <input type="button" class="btn medium color2 pull-right" onclick="displayConfirmBidPanel()" value="Continue">
+                        <!--<input type="button" class="btn medium color2 pull-right" onclick="displayConfirmBidPanel()" value="Continue">-->
                       </div>
                     </div>
                   </form>
@@ -162,10 +162,10 @@ if( !(isset($_SESSION['email'])))
 
           <!-- Confirm Order -->
           <div class="panel panel-default"> <!-- add class disabled to prevent from clicking -->
-            <div class="panel-heading closed" data-parent="#checkout-options" data-target="#op6" data-toggle="collapse">
+            <div class="panel-heading opened" data-parent="#checkout-options" data-target="#op6" data-toggle="collapse">
               <h4 class="panel-title"> <a href="#a"> <span class="fa fa-check"></span> Confirm Bid </a><span class="op-number">3</span> </h4>
             </div>
-            <div class="panel-collapse collapse" id="op6">
+            <div class="panel-collapse " id="op6">
               <div class="panel-body">
                 <div class="row co-row">
                   <div class="col-md-12 col-xs-12">
@@ -177,7 +177,7 @@ if( !(isset($_SESSION['email'])))
                           <div class="col-md-2 hidden-sm hidden-xs p-wr">
                               <div class="qtyinput">
                                   <div class="quantity-inp">
-                                    <input type="date" class="quantity-input" name="bidDate" id="bidDate" value="1">
+                                    <input type="text" class="quantity-input" name="bidDate" id="bidDate" style="text-align: center" >
                                   </div>
                                 </div>
                           </div>

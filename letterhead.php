@@ -97,50 +97,15 @@ include('header.php');
                     <div class="box-content slide carousel-fade" id="blogslide">
                         <div class="carousel-inner">
                             <!-- Post -->
-                            <div class="blog-entry item">
-                                <div class="image"> <span class="blogico"> <i class="fa fa-bullhorn fa-fw"></i><br>
-                  Blog entry</span> <img class="ani-image" src="images/blog-4.jpg" alt="image info"> </div>
-                                <div class="entry-row">
-                                    <div class="date col-xs-12"><span>12</span><span>Aug 2013</span></div>
-                                    <div class="blog-text"> <span>A decent blog title goes here...</span> <span>Appropriately supply high-quality intellectual capital after
-                    client-centered quality vectors. Collaboratively orchestrate end-to-end
-                    strategic theme areas after...</span> <span> <a href="#a"> <i class="fa fa-user fa-fw"></i>John Doe</a> <a href="#a"> <i class="fa fa-comments fa-fw"></i>4 Comments</a> </span> </div>
-                                </div>
-                            </div>
-                            <!--END Post -->
-                            <!-- Post -->
-                            <div class="blog-entry item">
-                                <div class="image"> <span class="blogico"> <i class="fa fa-bullhorn fa-fw"></i><br>
-                  Blog entry</span> <img class="ani-image" src="images/blog-1.jpg" alt=""> </div>
-                                <div class="entry-row">
-                                    <div class="date col-xs-12"><span>27</span><span>Oct 2013</span></div>
-                                    <div class="blog-text"> <span>Nulla quis lorem ut libero malesuada...</span> <span>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec
-                    rutrum congue leo eget malesuada. Nulla quis lorem ut libero malesuada
-                    feugiat. Curabitur arcu erat, accumsan id imperdiet....</span> <span> <a href="#a"> <i class="fa fa-user fa-fw"></i>John Doe</a> <a href="#a"> <i class="fa fa-comments fa-fw"></i>2 Comments</a> </span> </div>
-                                </div>
-                            </div>
-                            <!--END Post -->
                             <!-- Post -->
                             <div class="blog-entry item active">
-                                <div class="image"> <span class="blogico"> <i class="fa fa-bullhorn fa-fw"></i><br>
-                  Blog entry</span> <img class="ani-image" src="images/blog-2.jpg" alt=""> </div>
+                                <div class="image">
+                   <img class="ani-image" src="images/letterhead.jpg" alt=""> </div>
 
                             </div>
                             <!--END Post -->
-                            <!-- Post -->
-                            <div class="blog-entry item">
-                                <div class="image"> <span class="blogico"> <i class="fa fa-bullhorn fa-fw"></i><br>
-                  Blog entry</span> <img class="ani-image" src="images/blog-3.jpg" alt=""> </div>
-                                <div class="entry-row">
-                                    <div class="date col-xs-12"><span>11</span><span>Jan 2013</span></div>
-                                    <div class="blog-text"><span>Dynamically empower equity...</span> <span>Completely cultivate standardized internal or "organic" sources
-                    with unique total linkage. Dynamically empower equity invested e-markets
-                    without premier schemas....</span> <span> <a href="#a"> <i class="fa fa-user fa-fw"></i>John Doe</a> <a href="#a"> <i class="fa fa-comments fa-fw"></i>19 Comments</a> </span> </div>
-                                </div>
-                            </div>
-                            <!--END Post -->
+
                         </div>
-                        <div class="carousel-controls"> <a class="carousel-control left" data-slide="prev" href="#blogslide"> <i class="fa fa-angle-left fa-fw"></i> </a> <a class="carousel-control right" data-slide="next" href="#blogslide"> <i class="fa fa-angle-right fa-fw"></i> </a> </div>
                     </div>
                     <!-- end: Blog widget Box -->
                     <div class="f-space10"></div>

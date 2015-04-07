@@ -1,4 +1,11 @@
 var json_data;
+function showdatepicker() {
+$(function() {
+    $( "#date" ).datepicker({  minDate: +0,
+        dateFormat:"mm-dd-yy"});
+
+});
+}
 function getProductInfo(id)
 {
     myXHR("productbl.php?id="+id,{callback: setProductInfo,method:"GET"});
@@ -29,10 +36,11 @@ setProductInfo=function(data)
                 html+='<option value=\"'+data[key1][key2][i]+'">'+data[key1][key2][i]+'</option>';
             html+="</select>"
         }
-        html+="<br><label>Quantity</label><br><input type='number' name='Quantity' id='quantity' class='select-main'><br><label>Product Ready by : </label><br><input type='date' name='date' id='date' class='select-main'>"+'<br><button class="addtocart"  value="Submit" onclick="checkFields()"> <i class="fa fa-shopping-cart fa-fw"></i> Add to Cart </button>';
+        html+="<br><label>Quantity</label><br><input type='number' name='Quantity' id='quantity' class='select-main'><br><label>Product Ready by : </label><br><input type='text' name='date' id='date' class='select-main'>"+'<br><button class="addtocart"  value="Submit" onclick="checkFields()"> <i class="fa fa-shopping-cart fa-fw"></i> Add to Cart </button>';
     }
     document.getElementById(container_name).innerHTML=html;
-}
+    showdatepicker();
+};
 function checkFields()
 {
     var quantity=document.getElementById('quantity').value;

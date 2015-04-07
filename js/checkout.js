@@ -1,6 +1,12 @@
+
+    $(function() {
+        $( "#bidDate" ).datepicker({  minDate: +0,
+            dateFormat:"mm-dd-yy"});
+
+    });
+
 function displayConfirmBidPanel()
 {
-    alert('inside ');
     document.getElementById('create-bid').disabled='disabled';
 }
 function enableCreateBidButton()

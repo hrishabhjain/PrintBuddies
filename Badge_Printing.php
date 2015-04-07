@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <!--[if IE 7 ]><html class="ie ie7 lte9 lte8 lte7" lang="en-US"><![endif]-->
 <!--[if IE 8]><html class="ie ie8 lte9 lte8" lang="en-US">	<![endif]-->
@@ -41,12 +39,13 @@
     <link rel="stylesheet" href="css/drop-down.css" type="text/css"/>
     <!-- Color -->
     <link href="css/skin/color.css" id="colorstyle" rel="stylesheet">
-
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/jquery-ui.js"></script>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]> <script src="js/html5shiv.js"></script> <script src="js/respond.min.js"></script> <![endif]-->
 
     <!-- Bootstrap core JavaScript -->
-    <script src="js/jquery-1.10.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrap-select.js"></script>
 
@@ -56,14 +55,7 @@
     <!-- MegaMenu -->
     <script src="js/menu3d.js" type="text/javascript"></script>
 
-    <!-- iView Slider -->
-    <script src="js/raphael-min.js" type="text/javascript"></script>
-    <script src="js/jquery.easing.js" type="text/javascript"></script>
-    <script src="js/iview.js" type="text/javascript"></script>
-    <script src="js/retina-1.1.0.min.js" type="text/javascript"></script>
-
     <script src="js/common.js"></script>
-    <script src="js/jquery.min.js"></script>
     <script src="js/handlebars-v2.0.0.js"></script>
     <script src="js/productInfo.js"></script>
     <!--Drpodown--
