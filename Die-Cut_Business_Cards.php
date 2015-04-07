@@ -14,65 +14,11 @@
     <meta name="keywords" content="Online Printing, Bid Online, Affordable Printing">
     <link href="images/favicon.png" rel="shortcut icon">
 
-    <title>Standard Buisness Cards</title>
-
-    <!-- Reset CSS -->
-    <link href="css/normalize.css" rel="stylesheet" type="text/css"/>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-
-    <!-- Iview Slider CSS -->
-    <link href="css/iview.css" rel="stylesheet">
-
-    <!--	Responsive 3D Menu	-->
-    <link href="css/menu3d.css" rel="stylesheet"/>
-
-    <!-- Animations -->
-    <link href="css/animate.css" rel="stylesheet" type="text/css"/>
-
-    <!-- Custom styles for this template -->
-    <link href="css/custom.css" rel="stylesheet" type="text/css" />
-
-    <!-- Style Switcher -->
-    <link href="css/style-switch.css" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" href="css/drop-down.css" type="text/css"/>
-    <!-- Color -->
-    <link href="css/skin/color.css" id="colorstyle" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]> <script src="js/html5shiv.js"></script> <script src="js/respond.min.js"></script> <![endif]-->
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="js/jquery-1.10.2.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/bootstrap-select.js"></script>
-
-    <!-- Custom Scripts -->
-    <script src="js/scripts.js"></script>
-    <script src="js/select-widget.js"></script>
-    <!-- MegaMenu -->
-    <script src="js/menu3d.js" type="text/javascript"></script>
-
-    <!-- iView Slider -->
-    <script src="js/raphael-min.js" type="text/javascript"></script>
-    <script src="js/jquery.easing.js" type="text/javascript"></script>
-    <script src="js/iview.js" type="text/javascript"></script>
-    <script src="js/retina-1.1.0.min.js" type="text/javascript"></script>
-
-    <script src="js/common.js"></script>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/handlebars-v2.0.0.js"></script>
-    <script src="js/productInfo.js"></script>
-    <!--Drpodown--
-<script type="text/javascript" src="js/select-widget-min.js"></script>
-<!--[if IE 8]>
-    <script type="text/javascript" src="js/selectivizr.js"></script>
-    <![endif]-->
-
+    <title>Die-Cut Buisness Cards</title>
+    <?php include_once('include_header_products.php');?>
 </head>
 
-<body  onload=getProductInfo("Standard_Buisness_Cards");>
+<body  onload=getProductInfo("Die-Cut_Buisness_Cards");>
 
 <!-- Header -->
 <script id="handlebar-info" type="text/x-handlebars-template">
@@ -167,7 +113,7 @@ include('header.php');
             <!-- end: Brands -->
         </div>
         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 box-block sidebar">
-            <div class="box-heading"><span>Standard Buisness Cards</span></div>
+            <div class="box-heading"><span>Die-Cut Buisness Cards</span></div>
             <div class="box-content">
                 <div id="productInfo" class="productInfo">
 
