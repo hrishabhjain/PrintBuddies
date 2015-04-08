@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-sm-3 col-xs-12 shopinfo">
                 <h4 class="title">PRINT BUDDIES</h4>
-                <p> Printbuddies.com is set up to connect a print buyer with a commercial printing company anywhere in the world that will best suit their needs, whether it's full color printing or a specialized printing job.
+                <p> <a href="index.php"> Printbuddies.com </a> is set up to connect a print buyer with a commercial printing company anywhere in the world that will best suit their needs, whether it's full color printing or a specialized printing job.
                     Print buyers input their quote request using our forms.
                     When the buyer hits the "submit" button on the print request form, it is emailed out to printers specializing in that type of printing.
                     The printers respond to the print buyer directly with pricing. There is no obligation to use our printers.</p>

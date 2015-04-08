@@ -121,12 +121,7 @@ if ( isset( $session ) ) {
                             <ul>
                                 <li><a href="about.php">How It Works</a></li>
                                 <li><a href="printer.php">Printers</a></li>
-                                <li> <a href="#a"><span>Account</span> <i class="fa fa-caret-right"></i> </a>
-                                    <ul class="dropdown-menu sub flyout-menu">
-                                        <li><a href="#a">Login/Register</a></li>
-                                        <li><a href="cart.php">Cart</a></li>
-                                        <li><a href="checkout.php">Checkout</a></li>
-                                    </ul>
+                                <li> <a href="user_login.php"><span>Account</span> <i class="fa fa-caret-right"></i> </a>
                                 </li>
                                 <li><a href="cart.php">Cart</a></li>
                                 <li><a href="checkout.php">Checkout</a></li>
@@ -147,7 +142,7 @@ if ( isset( $session ) ) {
                                             <li><a href="Booklets.php">Booklets</a></li>
                                             <li><a href="banner.php">Banners</a></li>
                                             <li><a href="Brochure.php">Brochures</a></li>
-                                            <li><a href="flyers.php">Flyers</a></li>
+                                            <li><a href="Flyer.php">Flyers</a></li>
                                             <li><a href="Pocket_Folders.php">Pocket Folders</a></li>
                                             <li><a href="ID_Badges.php">ID Badges</a></li>
                                             <li><a href="Posters.php">Posters</a></li>
@@ -155,11 +150,11 @@ if ( isset( $session ) ) {
                                     </div>
                                     <div class="col-md-4">
                                         <ul>
-                                            <li><a href="#a">Business Cards</a></li>
+                                            <li><a href="Business_Cards.php">Business Cards</a></li>
                                             <li><a href="Calenders.php">Calenders</a></li>
                                             <li><a href="#a">Key Chains</a></li>
                                             <li><a href="#a">Pens</a></li>
-                                            <li><a href="#a">Envelopes</a></li>
+                                            <li><a href="Envelopes.php">Envelopes</a></li>
                                             <li><a href="Letterhead.php">Letterhead</a></li>
                                             <li><a href="Notepads.php">Notepads</a></li>
                                         </ul>
@@ -181,7 +176,7 @@ if ( isset( $session ) ) {
                                             <li><a href="#a">Beavrage Coasters</a></li>
                                             <li><a href="banner.php">Banners</a></li>
                                             <li><a href="Brochure.php">Brochures</a></li>
-                                            <li><a href="#a">Flyers</a></li>
+                                            <li><a href="Flyer.php">Flyers</a></li>
                                             <li><a href="Pocket_Folders.php">Pocket Folders</a></li>
                                             <li><a href="ID_Badges.php">ID Badges</a></li>
                                             <li><a href="Invitation_Cards.php">Invitation Cards</a></li>
@@ -216,15 +211,15 @@ if ( isset( $session ) ) {
                                 <div class="row">
                                     <div class="col-md-4">
                                         <ul>
-                                            <li><a href="#a">Business Cards</a></li>
+                                            <li><a href="Business_Cards.php">Business Cards</a></li>
                                             <li><a href="Calenders.php">Calenders</a></li>
-                                            <li><a href="#">Envelopes</a></li>
+                                            <li><a href="Envelopes.php">Envelopes</a></li>
 
                                         </ul>
                                     </div>
                                     <div class="col-md-4">
                                         <ul>
-                                            <li><a href="#a">Labels</a></li>
+                                            <li><a href="Labels.php">Labels</a></li>
                                             <li><a href="Letterhead.php">Letterhead</a></li>
                                             <li><a href="Memo_Pads.php">Memopads</a></li>
                                         </ul>

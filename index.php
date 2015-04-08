@@ -152,7 +152,7 @@ include_once('analyticstracking.php');
                                   <li><a href="Booklets.php">Booklets</a></li>
                                   <li><a href="banner.php">Banners</a></li>
                                   <li><a href="Brochure.php">Brochures</a></li>
-                                  <li><a href="flyers.php">Flyers</a></li>
+                                  <li><a href="Flyer.php">Flyers</a></li>
                                   <li><a href="Pocket_Folders.php">Pocket Folders</a></li>
                                   <li><a href="ID_Badges.php">ID Badges</a></li>
                                   <li><a href="Posters.php">Posters</a></li>
@@ -160,7 +160,7 @@ include_once('analyticstracking.php');
                           </div>
                           <div class="col-md-4">
                               <ul>
-                                  <li><a href="#a">Business Cards</a></li>
+                                  <li><a href="Business_Cards.php">Business Cards</a></li>
                                   <li><a href="Calenders.php">Calenders</a></li>
                                   <li><a href="#a">Key Chains</a></li>
                                   <li><a href="#a">Pens</a></li>
@@ -188,7 +188,7 @@ include_once('analyticstracking.php');
                             <li><a href="#a">Beavrage Coasters</a></li>
                             <li><a href="banner.php">Banners</a></li>
                             <li><a href="Brochure.php">Brochures</a></li>
-                            <li><a href="#a">Flyers</a></li>
+                            <li><a href="Flyer.php">Flyers</a></li>
                             <li><a href="Pocket_Folders.php">Pocket Folders</a></li>
                             <li><a href="ID_Badges.php">ID Badges</a></li>
                             <li><a href="Invitation_Cards.php">Invitation Cards</a></li>
@@ -223,15 +223,15 @@ include_once('analyticstracking.php');
                   <div class="row">
                     <div class="col-md-4">
                         <ul>
-                            <li><a href="#a">Business Cards</a></li>
+                            <li><a href="Business_Cards.php">Business Cards</a></li>
                             <li><a href="Calenders.php">Calenders</a></li>
-                            <li><a href="#">Envelopes</a></li>
+                            <li><a href="Envelopes.php">Envelopes</a></li>
 
                         </ul>
                     </div>
                       <div class="col-md-4">
                           <ul>
-                              <li><a href="#a">Labels</a></li>
+                              <li><a href="Labels.php">Labels</a></li>
                               <li><a href="Letterhead.php">Letterhead</a></li>
                               <li><a href="Memo_Pads.php">Memopads</a></li>
                           </ul>
@@ -259,7 +259,7 @@ include_once('analyticstracking.php');
                               <div class="col-md-4">
                                   <ul>
                                       <li><a href="#a">Pens</a></li>
-                                      <li><a href="#a">Envelopes</a></li>
+                                      <li><a href="Envelopes.php">Envelopes</a></li>
                                       <li><a href="#a">Envelopes Seals</a></li>
                                   </ul>
                               </div>
@@ -722,7 +722,7 @@ include_once('analyticstracking.php');
                     <div class="image">
                       <a class="img" href="product.html"><img alt="product info" src="images/products/notebook.png" title="product title"></a> </div>
                       <div class="product-meta">
-                          <div class="name"><a href="product.html">Calenders</a></div>
+                          <div class="name"><a href="#">Notebooks</a></div>
 
                       </div>
                   </div>
@@ -749,7 +749,7 @@ include_once('analyticstracking.php');
     <div class="row">
       <div class="col-sm-3 col-xs-12 shopinfo">
         <h4 class="title">PRINT BUDDIES</h4>
-        <p> Printbuddies.com is set up to connect a print buyer with a commercial printing company anywhere in the world that will best suit their needs, whether it's full color printing or a specialized printing job.
+        <p> <a href="index.php">Printbuddies.com </a> is set up to connect a print buyer with a commercial printing company anywhere in the world that will best suit their needs, whether it's full color printing or a specialized printing job.
             Print buyers input their quote request using our forms.
             When the buyer hits the "submit" button on the print request form, it is emailed out to printers specializing in that type of printing.
             The printers respond to the print buyer directly with pricing. There is no obligation to use our printers.</p>
@@ -869,12 +869,6 @@ include_once('analyticstracking.php');
                 });
                $('#monthly-deals').carousel({
                     interval: 3000
-                });
-                $('#productc2').carousel({
-                    interval: 4000
-                });
-                $('#tweets').carousel({
-                    interval: 5000
                 });
 })(jQuery);
 
