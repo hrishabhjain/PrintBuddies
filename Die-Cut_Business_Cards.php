@@ -18,7 +18,7 @@
     <?php include_once('include_header_products.php');?>
 </head>
 
-<body  onload=getProductInfo("Die-Cut_Buisness_Cards");>
+<body  onload=getProductInfo("Die-Cut_Business_Cards");>
 
 <!-- Header -->
 <script id="handlebar-info" type="text/x-handlebars-template">
