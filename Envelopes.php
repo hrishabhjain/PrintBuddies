@@ -9,9 +9,11 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
-    <meta content="Print Buddiesshop online shopping point" name="description">
-    <meta content="logoby.us" name="author">
-    <link href="images/ico.html" rel="shortcut icon">
+    <meta content="Get printing at most affordable prices by comparing price from printers in your city." name="description">
+    <meta content="Print Buddies" name="author">
+    <meta name="keywords" content="Online Printing, Bid Online, Affordable Printing">
+    <link href="images/favicon.png" rel="shortcut icon">
+
     <title>Envelopes | Print Buddies</title>
 
     <!-- Reset CSS -->
@@ -104,7 +106,7 @@ include('header.php');
                 <div class="box-products slide" id="productc3">
                     <div class="carousel-inner" >
                         <!-- Items Row -->
-                        <div class="item active" style="margin-right: 5% ;margin-left: 5% ;">
+                        <div class="item active" style="margin-right: 1% ;margin-left: 10% ;">
                             <div class="row box-product">
                                 <!-- Product -->
                                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">

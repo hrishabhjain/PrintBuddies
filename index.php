@@ -164,7 +164,7 @@ include_once('analyticstracking.php');
                                   <li><a href="Calenders.php">Calenders</a></li>
                                   <li><a href="#a">Key Chains</a></li>
                                   <li><a href="#a">Pens</a></li>
-                                  <li><a href="#a">Envelopes</a></li>
+                                  <li><a href="Envelopes.php">Envelopes</a></li>
                                   <li><a href="Letterhead.php">Letterhead</a></li>
                                   <li><a href="Notepads.php">Notepads</a></li>
                               </ul>
@@ -497,15 +497,21 @@ include_once('analyticstracking.php');
                     <div class="image">
                       <div class="product-label product-sale"><span>NEW</span></div>
                       <a class="img" href="Calenders.php"><img alt="product info" src="images/products/folder.png" title="product title"></a> </div>
+                      <div class="product-meta">
+                          <div class="name"><a href="product.html">Calender</a></div>
 
+                      </div>
                   </div>
                 </div>
                 <!-- end: Product -->
                 <!-- Product -->
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                   <div class="product-block">
-                    <div class="image"> <a class="img" href="product.html"><img alt="product info" src="images/products/envelope.png" title="product title"></a> </div>
+                    <div class="image"> <a class="img" href="Business_Cards.php"><img alt="product info" src="images/products/envelope.png" title="product title"></a> </div>
+                      <div class="product-meta">
+                          <div class="name"><a href="Business_Cards.php">Business Cards</a></div>
 
+                      </div>
                   </div>
                 </div>
                 <!-- end: Product -->
@@ -515,7 +521,10 @@ include_once('analyticstracking.php');
                     <div class="image">
                       <div class="product-label product-new"><span>NEW</span></div>
                       <a class="img" href="Notepads.php"><img alt="product info" src="images/products/standie.png" title="product title"></a> </div>
+                      <div class="product-meta">
+                          <div class="name"><a href="Notepads.php">Notepads</a></div>
 
+                      </div>
                   </div>
                 </div>
                 <!-- end: Product -->
@@ -528,7 +537,7 @@ include_once('analyticstracking.php');
                 <!-- Product -->
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                   <div class="product-block">
-                    <div class="image"> <a class="img" href="product.html"><img alt="product info" src="images/products/envelope.png" title="product title"></a> </div>
+                    <div class="image"> <a class="img" href="Calenders.php"><img alt="product info" src="images/products/envelope.png" title="product title"></a> </div>
 
                   </div>
                 </div>
@@ -628,10 +637,10 @@ include_once('analyticstracking.php');
                   <div class="product-block">
                     <div class="image">
                       <div class="product-label product-sale"><span>NEW</span></div>
-                      <a class="img" href="product.html"><img alt="product info" src="images/products/3fold_flyer.png" title="product title"></a>
+                      <a class="img" href="Flyer.php"><img alt="product info" src="images/products/3fold_flyer.png" title="product title"></a>
                     </div>
                       <div class="product-meta">
-                          <div class="name"><a href="product.html">3 Fold Flyer</a></div>
+                          <div class="name"><a href="Flyer.php">Flyers</a></div>
 
                       </div>
                   </div>
@@ -696,9 +705,9 @@ include_once('analyticstracking.php');
                   <div class="product-block">
                     <div class="image">
                       <div class="product-label product-new"><span>NEW</span></div>
-                      <a class="img" href="product.html"><img alt="product info" src="images/products/3fold_flyer.png" title="product title"></a> </div>
+                      <a class="img" href="Flyer.php"><img alt="product info" src="images/products/3fold_flyer.png" title="product title"></a> </div>
                       <div class="product-meta">
-                          <div class="name"><a href="product.html">3 Fold Flyer </a></div>
+                          <div class="name"><a href="Flyer.php">Flyers </a></div>
 
                       </div>
                   </div>
