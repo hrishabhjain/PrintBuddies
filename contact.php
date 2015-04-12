@@ -124,8 +124,8 @@ include('header.php');
         </div>
         <div class="contactdetails-box"> <span class="icon"><i class="fa fa-phone fa-fw"></i></span> <span class="details">Phone: +91-94608-62-343 <br/>
              +91-75976-31-200</span> </div>
-        <div class="contactdetails-box"> <span class="icon"><i class="fa fa-envelope fa-fw"></i></span> <span class="details">Email: support@printbuddies.in <br/>
-          <br>Website: www.printbuddies.in</span> </div>
+        <div class="contactdetails-box"> <span class="icon"><i class="fa fa-envelope fa-fw"></i></span> <span class="details">Email: support@printbuddies.com <br/>
+          <br>Website: <a href="http://www.printbuddies.com" style="color: #31B167">www.printbuddies.com</a></span> </div>
       </div>
       
       <!-- end: Contact Details -->

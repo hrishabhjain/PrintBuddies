@@ -13,12 +13,12 @@ session_start();
 <head>
 <meta charset="UTF-8">
 <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
-<meta content="Get printing at most affordable prices by comparing price from printers in your city." name="description">
+<meta content="Get printing at most affordable prices by comparing price from printers in your city. Connecting print buyers with printers"  name="description">
 <meta content="Print Buddies" name="author">
 <meta name="keywords" content="Online Printing, Bid Online, Affordable Printing">
 <link href="images/favicon.png" rel="shortcut icon">
 
-<title>Print Buddies</title>
+<title>Print Buddies | Hire Printers and Find Print Jobs Online </title>
 
 <!-- Reset CSS -->
 <link href="css/normalize.css" rel="stylesheet" type="text/css"/>

@@ -11,7 +11,7 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
     <meta content="Flatroshop online shopping point" name="description">
     <meta content="logoby.us" name="author">
-    <link href="images/ico.html" rel="shortcut icon">
+    <link href="images/favicon.png" rel="shortcut icon">
     <title>Print Buddies  </title>
 
     <!-- Reset CSS -->
@@ -86,7 +86,7 @@ use Facebook\GraphSessionInfo;
 use Facebook\GraphUser;
 // init app with app id (APPID) and secret (SECRET)
 FacebookSession::setDefaultApplication('798700396886902','44d8b401d56647f7be781f77d159ecd5');
-$helper = new FacebookRedirectLoginHelper( 'http://localhost/PrintBuddies/flatro/checkout.php' );
+$helper = new FacebookRedirectLoginHelper( 'http://in.printbuddies.com/checkout.php' );
 
 try {
     $session = $helper->getSessionFromRedirect();
@@ -98,7 +98,7 @@ try {
 if( !(isset($_SESSION['BidId'])))
 {
     echo '<script>alert("Cart Empty")</script>';
-    echo '<script>window.location.href="cart.php"</script>';
+    //echo '<script>window.location.href="cart.php"</script>';
 }
 if(isset($_SESSION['email']))
     echo '<script>window.location.href="checkout.php"</script>';
@@ -158,8 +158,9 @@ if ( isset( $session ) ) {
                                         <div class="box-content login-box">
                                             <h4>Customers with a existing account.</h4>
                                             <form action="loginbl.php" method="post">
-                                                <input type="text" value="" placeholder="Email" class="input4">
-                                                <input type="text" value="" placeholder="Password" class="input4">
+                                                <input type="text" value="" name="email" placeholder="Email" class="input4">
+                                                <input type="password" value="" name="password" placeholder="Password" class="input4">
+                                                <input type="text" name="redirect" value="checkout.php" class="input4"hidden="hidden">
                                                 <label class="checkbox" for="checkbox1">
                                                     <input type="checkbox" value="" id="checkbox1" data-toggle="checkbox" class="pull-left">
                                                     <span class="pull-left">Remember me</span> </label>
@@ -174,7 +175,7 @@ if ( isset( $session ) ) {
                                     <div class="col-md-6 col-xs-12">
                                         <div class="box-content register-box">
                                             <br><br><br><br>
-                                            <?php echo '<a href="' . $helper->getLoginUrl(array('scope'=>'public_profile,email')).'"><img src="images/Facebook.jpg" style="width: 100%"></a>'; ?>
+                                            <?php echo '<a href="' . $helper->getLoginUrl(array('scope'=>'public_profile,email')).'"><img src="images/Facebook.jpg" style="width: 75%"></a>'; ?>
                                         </div>
                                     </div>
 
@@ -192,30 +193,7 @@ if ( isset( $session ) ) {
                         <div class="panel-heading closed" data-parent="#checkout-options" data-target="#op2" data-toggle="collapse">
                             <h4 class="panel-title"> <a href="#a"> <span class="fa fa-map-marker"></span> SELECT CITY </a><span class="op-number">2</span> </h4>
                         </div>
-                        <div class="panel-collapse collapse" id="op2">
-                            <div class="panel-body">
-                                <div class="row co-row">
-                                    <form>
-                                        <!-- Login -->
-                                        <div class="col-md-6 col-xs-12">
-                                            <div class="box-content form-box">
-                                                <p>We're currently operational in Jaipur only.</p>
 
-                                            </div>
-                                        </div>
-                                        <!-- end: Login -->
-                                        <!-- Register -->
-
-                                        <div class="col-md-6 col-xs-12">
-                                            <div class="box-content form-box">
-                                                <input type="button" class="btn medium color2 pull-right" onclick="displayConfirmBidPanel()" value="Continue">
-                                            </div>
-                                        </div>
-                                    </form>
-                                    <!-- end: Register -->
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
                     <!-- end: Billing Address panel -->
@@ -225,37 +203,7 @@ if ( isset( $session ) ) {
                         <div class="panel-heading closed" data-parent="#checkout-options" data-target="#op6" data-toggle="collapse">
                             <h4 class="panel-title"> <a href="#a"> <span class="fa fa-check"></span> Confirm Bid </a><span class="op-number">3</span> </h4>
                         </div>
-                        <div class="panel-collapse collapse" id="op6">
-                            <div class="panel-body">
-                                <div class="row co-row">
-                                    <div class="col-md-12 col-xs-12">
-                                        <div class="box-content form-box">
-                                            <h4>Please select bid closing date.</h4>
 
-                                            <!-- product -->
-
-                                            <div class="row">
-                                                <div class="product">
-                                                    <div class="col-md-2 hidden-sm hidden-xs p-wr">
-                                                        <div class="qtyinput">
-                                                            <div class="quantity-inp">
-                                                                <input type="date" class="quantity-input" name="p_quantity" value="1">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <label class="checkbox" for="checkbox1">
-                                                <input type="checkbox" value="" id="change-create-bid" data-toggle="checkbox" class="pull-left" onclick="enableCreateBidButton()">
-                                                <span class="pull-left">By checking this box I agree to all the <a href="" style="color: #31B167">Terms & Conditions</a> of Print Buddies</span> </label>
-
-
-                                            <button type="button"  class="btn large color1 pull-right" id="create-bid-button">Create Bid</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
                     <!-- end: Confirm Order -->
@@ -305,59 +253,7 @@ if ( isset( $session ) ) {
 <div class="row clearfix f-space30"></div>
 
 <!-- Rectangle Banners -->
-
-<div class="container">
-    <div class="row">
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
-            <div class="rec-banner blue">
-                <div class="banner"> <i class="fa fa-thumbs-up"></i>
-                    <h3>Guarantee</h3>
-                    <p>100% Money Back Guarantee*</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
-            <div class="rec-banner red">
-                <div class="banner"> <i class="fa fa-tags"></i>
-                    <h3>Affordable</h3>
-                    <p>Convenient & affordable prices for you</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
-            <div class="rec-banner orange">
-                <div class="banner"> <i class="fa fa-headphones"></i>
-                    <h3>24/7 Support</h3>
-                    <p>We support everything we sell</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
-            <div class="rec-banner lightblue">
-                <div class="banner"> <i class="fa fa-female"></i>
-                    <h3>Summer Sale</h3>
-                    <p>Upto 50% off on all women wear</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
-            <div class="rec-banner darkblue">
-                <div class="banner"> <i class="fa fa-gift"></i>
-                    <h3>Surprise Gift</h3>
-                    <p>Value $50 on orders over $700</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
-            <div class="rec-banner black">
-                <div class="banner"> <i class="fa fa-truck"></i>
-                    <h3>Free Shipping</h3>
-                    <p>All over in world over $100</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<?php include('features.php');?>
 <!-- end: Rectangle Banners -->
 
 <div class="row clearfix f-space30"></div>

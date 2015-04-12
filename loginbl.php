@@ -7,7 +7,10 @@ if($_POST){
     $user=new User();
     if($user->login($email,$password))
     {
-        header('Location: profile.php');
+        if(isset($_POST['redirect']))
+            header('Location: checkout.php');
+        else
+            header('Location: profile.php');
     }else
         header('Location: user_login.php');
 
