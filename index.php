@@ -390,7 +390,7 @@ include_once('analyticstracking.php');
               <div class="iview-caption caption3" data-easing="easeInOutElastic" data-transition="wipeLeft" data-x="100" data-y="160"><br>Kick-off the conversation with a premium Business Card.
                   <br>With Print Buddies, <br>print at most affordable prices <br>by comparing price from printers in your city.
               </div>
-              <div class="iview-caption btn-more" data-transition="fade" data-x="100" data-y="280"><a href="#a">Post Bid
+              <div class="iview-caption btn-more" data-transition="fade" data-x="100" data-y="280"><a href="Business_Cards.php">Post Bid
                 </a></div>
             </div>
             <!-- Slide 2 -->
@@ -411,7 +411,7 @@ include_once('analyticstracking.php');
                   <div class="iview-caption caption3" data-easing="easeInOutElastic" data-transition="wipeLeft" data-x="100" data-y="160">
                       <br>With Print Buddies, <br>print at most affordable prices <br>by comparing price from printers in your city.
                   </div>
-                  <div class="iview-caption btn-more" data-transition="fade" data-x="100" data-y="280"><a href="#a">Post Bid
+                  <div class="iview-caption btn-more" data-transition="fade" data-x="100" data-y="280"><a href="Business_Cards.php">Post Bid
                   </a></div>
               </div>
             </div>
