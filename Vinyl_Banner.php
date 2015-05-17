@@ -9,9 +9,9 @@
 <head>
 <meta charset="UTF-8">
 <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
-<meta content="Print Buddiesshop online shopping point" name="description">
-<meta content="logoby.us" name="author">
-<link href="images/ico.html" rel="shortcut icon">
+<meta content="Print Buddiesshop online printing and bidding" name="description">
+<meta content="Print Buddies" name="author">
+<link href="images/favicon.png" rel="shortcut icon">
 <title>Vinyl Banner</title>
 
     <?php include_once('include_header_products.php');?>

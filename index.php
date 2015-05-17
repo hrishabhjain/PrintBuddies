@@ -112,7 +112,20 @@ include_once('analyticstracking.php');
         <!-- end: logo -->
       <div class="visible-xs f-space20"></div>
 
+        <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12 pull-right">
+            <div class="searchbar">
+                <form action="#">
+                    <ul class="pull-left">
+                        <li class="input-prepend dropdown" data-select="true"> <a class="add-on dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="#a"> <span class="dropdown-display">Do not have a Design ? </span></a>
+                            <!-- this hidden field is used to contain the selected option from the dropdown -->
 
+
+                        </li>
+                    </ul>
+
+                </form>
+            </div>
+        </div>
     </div>
   </div>
   <!-- end: Logo and Search -->
@@ -132,7 +145,6 @@ include_once('analyticstracking.php');
                 <ul>
                   <li><a href="#">How It Works</a></li>
                   <li><a href="printer.php">Printers</a></li>
-                  <li> <a href="profile.php"><span>Account</span> <i class="fa fa-caret-right"></i> </a></li>
                   <li><a href="cart.php">Cart</a></li>
                   <li><a href="checkout.php">Checkout</a></li>
                   <li><a href="contact.php">Contact us</a></li>
@@ -178,7 +190,7 @@ include_once('analyticstracking.php');
             </li>
             <!-- end: Menu Item -->
             <!-- Menu Item -->
-            <li> <a href="#a"> <i class="fa fa-bars"></i> <span>Marketing & Promotions</span> <i class="fa fa-angle-right"></i> </a>
+            <li> <a href="#a"> <i class="fa fa-bars"></i> <span>Marketing</span> <i class="fa fa-angle-right"></i> </a>
               <div class="dropdown-menu">
                 <!-- Sub Menu -->
                 <div class="content">
@@ -283,9 +295,7 @@ include_once('analyticstracking.php');
                       <!-- end: Sub Menu -->
                   </div>
               </li>
-            <!-- end: Menu Item -->
-            <!-- Menu Item -->
-            <li> <a href="#a"> <i class="fa fa-bars"></i> <span>Schools</span></a> </li>
+
             <!-- end: Menu Item -->
             <!-- Menu Item -->
             <li> <a href="#a"> <i class="fa fa-bars"></i> <span>Branding</span> <i class="fa fa-angle-right"></i> </a>
@@ -332,8 +342,8 @@ include_once('analyticstracking.php');
                 </div>
             </li>
             <!-- end: Menu Item --
-            <!-- Menu Item --
-            <li> <a href="#a"> <i class="fa fa-gift"></i> <span>Gift Ideas</span></a> </li>
+            <!-- Menu Item -->
+            <li> <a href="#a"> <i class="fa fa-bars"></i> <span>All Products</span></a> </li>
             <!-- end: Menu Item -->
           </ul>
         </div>
@@ -462,7 +472,7 @@ include_once('analyticstracking.php');
             <div class="rec-banner darkblue">
                 <div class="banner"> <i class="fa fa-gift"></i>
                     <h3>Surprise Gift</h3>
-                    <p>Worth Rs.1000 on orders over Rs.10000*</p>
+                    <p> On all orders over Rs.10000*</p>
                 </div>
             </div>
         </div>
@@ -787,7 +797,7 @@ include_once('analyticstracking.php');
         <ul>
           <li>
             <div class="icon"><i class="fa fa-map-marker fa-fw"></i></div>
-            <div class="c-info"> <span>151/9 Shipra Path, Mansarovar, Jaipur<br>
+            <div class="c-info"> <span>19/1 Chopasini Housing Board, Jodhpur<br>
               <a href="#a">Find us on map</a></span></div>
           </li>
           <li>

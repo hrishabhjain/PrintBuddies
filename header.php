@@ -121,8 +121,7 @@ if ( isset( $session ) ) {
                             <ul>
                                 <li><a href="about.php">How It Works</a></li>
                                 <li><a href="printer.php">Printers</a></li>
-                                <li> <a href="user_login.php"><span>Account</span> <i class="fa fa-caret-right"></i> </a>
-                                </li>
+
                                 <li><a href="cart.php">Cart</a></li>
                                 <li><a href="checkout.php">Checkout</a></li>
                                 <li><a href="contact.php">Contact us</a></li>

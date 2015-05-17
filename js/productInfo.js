@@ -2,7 +2,7 @@ var json_data;
 function showdatepicker() {
 $(function() {
     $( "#date" ).datepicker({  minDate: +0,
-        dateFormat:"mm-dd-yy"});
+        dateFormat:"mm/dd/yy"});
 
 });
 }

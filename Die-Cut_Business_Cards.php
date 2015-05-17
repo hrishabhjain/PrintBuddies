@@ -46,7 +46,7 @@ include('header.php');
                     <div class="box-content slide carousel-fade" id="blogslide">
                         <div class="carousel-inner">
                             <div class="blog-entry item active">
-                                <div class="image"> <img class="ani-image" src="images/products/Product.jpg" alt=""> </div>
+                                <div class="image"> <img class="ani-image" src="images/products/Bcards.jpg" alt=""> </div>
 
                             </div>
                             <!--END Post -->

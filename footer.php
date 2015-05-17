@@ -34,7 +34,7 @@
                 <ul>
                     <li>
                         <div class="icon"> <i class="fa fa-map-marker fa-fw"></i> </div>
-                        <div class="c-info"> <span>151/9 Shipra Path, Mansarovar, Jaipur<br>
+                        <div class="c-info"> <span>19/1 Chopasini Housing Board, Jodhpur<br>
               <a href="#a">Find us on map</a></span> </div>
                     </li>
                     <li>
@@ -80,20 +80,21 @@
     <h2>FEEDBACK <a href="#" class="btn color2"><i class="fa fa-envelope-o fa-fw "></i></a></h2>
     <div class="inner">
         <h3>Name*</h3>
-        <input type="text" style="height:23px">
+        <input type="text" style="height:23px" id="feedback_name" required>
 
         <h3>Email*</h3>
-        <input type="text" style="height:23px">
+        <input type="text" style="height:23px" id="feedback_email" required>
 
         <h3>Mobile*</h3>
-        <input type="text" style="height:23px">
+        <input type="text" style="height:23px" id="feedback_mobile" required>
 
         <h3>Subject</h3>
-        <input type="text" style="height:23px">
+        <input type="text" style="height:23px" id="feedback_subject" required>
 
         <h3>Message*</h3>
-        <textarea type="text" style="height: 111px"></textarea>
+        <textarea type="text" style="height: 111px" id="feedback_text" required></textarea>
         <ul class="colors list-unstyled" id="color1">
+
 
         </ul>
     </div>

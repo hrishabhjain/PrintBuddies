@@ -118,12 +118,12 @@ include('header.php');
         <div class="contactdetails-box"> <span class="icon"><i class="fa fa-map-marker fa-fw"></i></span>
           <div class="details">
             <h1>Print Buddies</h1>
-            151/9 Shipra Path,<br/>
-            Mansarovar, Jaipur, <br/>
-            Rajasthan, India - 302020</div>
+            Basement, 19/1 Chopasini<br/>
+            Housing Board, Jodhpur, <br/>
+            Rajasthan, India - 342001</div>
         </div>
         <div class="contactdetails-box"> <span class="icon"><i class="fa fa-phone fa-fw"></i></span> <span class="details">Phone: +91-94608-62-343 <br/>
-             +91-75976-31-200</span> </div>
+             +91-99501-81-851</span> </div>
         <div class="contactdetails-box"> <span class="icon"><i class="fa fa-envelope fa-fw"></i></span> <span class="details">Email: support@printbuddies.com <br/>
           <br>Website: <a href="http://www.printbuddies.com" style="color: #31B167">www.printbuddies.com</a></span> </div>
       </div>

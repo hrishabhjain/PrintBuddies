@@ -421,7 +421,7 @@ a.color3:hover {
 \*------------------------------------*/
 .searchbar {
 	background-color: #eeeeee;
-	height: 70px;
+	height: 32px;
 	position: relative;
 	width: 100%;
 }
@@ -479,7 +479,7 @@ a.color3:hover {
 .searchbar > form > ul {
 	background-color: #e2e2e2;
 	color: #444444;
-	width: 80%;
+	width: 100%;
 }
 .searchbar > form > ul > li:hover > a {
 	background-color: #e65a4b;
@@ -492,7 +492,7 @@ a.color3:hover {
 	color: #444444;
 	display: block;
 	font-size: 14px;
-	padding: 25px 15px;
+	padding: 13px 15px;
 	position: relative;
 	text-decoration: none;
 }
@@ -3653,7 +3653,7 @@ font-size:20px;
 }
 .product .product-attrb span {
 	float: left;
-	line-height: 10px;
+	line-height: 18px;
 	padding-right: 5px;
 }
 .product .product-attrb .att {
