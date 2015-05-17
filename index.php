@@ -112,20 +112,7 @@ include_once('analyticstracking.php');
         <!-- end: logo -->
       <div class="visible-xs f-space20"></div>
 
-        <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12 pull-right">
-            <div class="searchbar">
-                <form action="#">
-                    <ul class="pull-left">
-                        <li class="input-prepend dropdown" data-select="true"> <a class="add-on dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="#a"> <span class="dropdown-display">Do not have a Design ? </span></a>
-                            <!-- this hidden field is used to contain the selected option from the dropdown -->
 
-
-                        </li>
-                    </ul>
-
-                </form>
-            </div>
-        </div>
     </div>
   </div>
   <!-- end: Logo and Search -->
@@ -144,6 +131,7 @@ include_once('analyticstracking.php');
                 <!-- Sub Menu -->
                 <ul>
                   <li><a href="#">How It Works</a></li>
+                  <li><a href="#">Need a Design</a></li>
                   <li><a href="printer.php">Printers</a></li>
                   <li><a href="cart.php">Cart</a></li>
                   <li><a href="checkout.php">Checkout</a></li>
@@ -353,8 +341,8 @@ include_once('analyticstracking.php');
         <!-- Navigation Buttons/Quick Cart for Tablets and Desktop Only -->
         <div class="menu-links hidden-xs">
           <ul class="nav nav-pills nav-justified">
-            <li> <a href="index.php"> <i class="fa fa-home fa-fw"></i> <span class="hidden-sm">Home</span></a> </li>
-            <li> <a href="#"> <i class="fa fa-info-circle fa-fw"></i> <span class="hidden-sm">How It Works</span></a> </li>
+            <li> <a href="#"> <i class="fa fa-home fa-fw"></i> <span class="hidden-sm">How It Works</span></a> </li>
+            <li> <a href="#"> <i class="fa fa-info-circle fa-fw"></i> <span class="hidden-sm">Need a Design</span></a> </li>
             <li> <a href="printer.php"> <i class="fa fa-bullhorn fa-fw"></i> <span class="hidden-sm">Printers</span></a> </li>
             <li> <a href="contact.php"> <i class="fa fa-pencil-square-o fa-fw"></i> <span class="hidden-sm ">Contact</span></a> </li>
             <li class="dropdown"> <a href="cart.php"> <i class="fa fa-shopping-cart fa-fw"></i> <span class="hidden-sm"> Cart </span></a>

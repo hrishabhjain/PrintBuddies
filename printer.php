@@ -8,7 +8,6 @@ if($_POST){
 
     if(login_pr($username,$password))
     {
-        $_SESSION['printer_username']=$username;
         header('Location: printer_bid.php');
     }else
     {
@@ -30,6 +29,7 @@ function  login_pr($username, $pass)
             return false;
         if ($rows == 1)
         {
+            $_SESSION['printer_username']=$username;
             return true;
         }
         else{

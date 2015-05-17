@@ -1,9 +1,8 @@
 <?php
 
 session_start();
+
 include_once('analyticstracking.php');
-if(isset($_SESSION['printer_username']))
-    $printer_username=$_SESSION['printer_username'];
 require_once("autoload.php");
 require_once( 'Facebook/FacebookSession.php' );
 require_once( 'Facebook/FacebookRedirectLoginHelper.php' );
@@ -120,8 +119,8 @@ if ( isset( $session ) ) {
                             <!-- Sub Menu -->
                             <ul>
                                 <li><a href="about.php">How It Works</a></li>
+                                <li><a href="#">Need a Design</a></li>
                                 <li><a href="printer.php">Printers</a></li>
-
                                 <li><a href="cart.php">Cart</a></li>
                                 <li><a href="checkout.php">Checkout</a></li>
                                 <li><a href="contact.php">Contact us</a></li>
@@ -272,9 +271,6 @@ if ( isset( $session ) ) {
                     </li>
                     <!-- end: Menu Item -->
                     <!-- Menu Item -->
-                    <li> <a href="#a"> <i class="fa fa-bars"></i> <span>Schools</span></a> </li>
-                    <!-- end: Menu Item -->
-                    <!-- Menu Item -->
                     <li> <a href="#a"> <i class="fa fa-bars"></i> <span>Branding</span> <i class="fa fa-angle-right"></i> </a>
                         <div class="dropdown-menu">
                             <!-- Sub Menu -->
@@ -319,6 +315,7 @@ if ( isset( $session ) ) {
                         </div>
                     </li>
                     <!-- end: Menu Item -->
+                    <li> <a href="#a"> <i class="fa fa-bars"></i> <span>All Products</span></a> </li>
                 </ul>
             </div>
             <!-- end: Mega Menu -->
@@ -327,8 +324,8 @@ if ( isset( $session ) ) {
             <!-- Navigation Buttons/Quick Cart for Tablets and Desktop Only -->
             <div class="menu-links hidden-xs">
                 <ul class="nav nav-pills nav-justified">
-                    <li> <a href="index.php"> <i class="fa fa-home fa-fw"></i> <span class="hidden-sm">Home</span></a> </li>
-                    <li> <a href="#"> <i class="fa fa-info-circle fa-fw"></i> <span class="hidden-sm">How It Works</span></a> </li>
+                    <li> <a href=""> <i class="fa fa-home fa-fw"></i> <span class="hidden-sm">How It Works</span></a> </li>
+                    <li> <a href="#"> <i class="fa fa-info-circle fa-fw"></i> <span class="hidden-sm">Need a Design</span></a> </li>
                     <li> <a href="printer.php"> <i class="fa fa-bullhorn fa-fw"></i> <span class="hidden-sm">Printers</span></a> </li>
                     <li> <a href="contact.php"> <i class="fa fa-pencil-square-o fa-fw"></i> <span class="hidden-sm ">Contact</span></a> </li>
                     <li class="dropdown"> <a href="cart.php"> <i class="fa fa-shopping-cart fa-fw"></i> <span class="hidden-sm"> Cart </span></a>
