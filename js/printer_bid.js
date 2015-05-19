@@ -134,7 +134,7 @@ displayBidPriceReveal=function(data)
     reveal_html+='<div class="col-md-35 col-sm-12 col-xs-12 box-block page-sidebar"><div class="box-heading"><span>Bids</span></div><div class="box-content cart-box-wr" id="box-content cart-box-wr"><div class="cart-box-tm"><div class="tm1" style="background-color:#fff">Price (In Rs.)</div><div class="tm2" style="background-color:#fff">On-Time</div></div>';
     for(var key in data)
     {
-        if(data[key]['OnTime'])
+        if(data[key]['OnTime']==1)
             data[key]['OnTime']='Yes';
         else
             data[key]['OnTime']='No';
@@ -160,7 +160,7 @@ displayBidPriceReveal=function(data)
 function postBid()
 {
     var price=document.getElementById('price').value;
-    console.log(price);
+    console.log(document.getElementById('Ontime').checked);
     var ontime="";
     if(document.getElementById('Ontime').checked)
          ontime=1;
@@ -172,6 +172,10 @@ function postBid()
     }else if(isNaN(price)){
         alert('Enter a Valid Price.');
         return;
+    }else if(parseInt(price)==0)
+    {
+        alert('Enter a Valid Price. You cannot enter Zero.');
+        return;
     }
 
     myXHR("printerbl.php?method=postBid&BidId="+reveal_bidId+"&price="+price+"&ontime="+ontime,{callback:destroyReveal,method:"GET"})
@@ -182,7 +186,6 @@ destroyReveal=function(data)
 {
 
     data=JSON.parse(data);
-    console.log(data);
     if(data==true){
         alert('Bided Successfully');
         document.location.reload(true);

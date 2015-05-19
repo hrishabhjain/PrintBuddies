@@ -118,7 +118,7 @@ if ( isset( $session ) ) {
                         <div class="dropdown-menu flyout-menuflyout-menu">
                             <!-- Sub Menu -->
                             <ul>
-                                <li><a href="about.php">How It Works</a></li>
+                                <li><a href="#">How It Works</a></li>
                                 <li><a href="#">Need a Design</a></li>
                                 <li><a href="printer.php">Printers</a></li>
                                 <li><a href="cart.php">Cart</a></li>
