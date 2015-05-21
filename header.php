@@ -164,7 +164,7 @@ if ( isset( $session ) ) {
                     </li>
                     <!-- end: Menu Item -->
                     <!-- Menu Item -->
-                    <li> <a href="#a"> <i class="fa fa-bars"></i> <span>Marketing & Promotions</span> <i class="fa fa-angle-right"></i> </a>
+                    <li> <a href="#a"> <i class="fa fa-bars"></i> <span>Marketing</span> <i class="fa fa-angle-right"></i> </a>
                         <div class="dropdown-menu">
                             <!-- Sub Menu -->
                             <div class="content">

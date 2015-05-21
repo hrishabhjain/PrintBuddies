@@ -142,7 +142,7 @@ if( !(isset($_SESSION['email'])))
                     <!-- Login -->
                     <div class="col-md-6 col-xs-12">
                       <div class="box-content form-box">
-                        <p>We're currently operational in Jaipur only.</p>
+                        <p>We're currently operational in Jodhpur only.</p>
 
                       </div>
                     </div>

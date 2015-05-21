@@ -59,7 +59,7 @@
     <![endif]-->
     <script src="js/common.js"></script>
     <script src="js/handlebars-v2.0.0.js"></script>
-    <script type="text/javascript" src="js/checkout.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
 
 </head>
 
