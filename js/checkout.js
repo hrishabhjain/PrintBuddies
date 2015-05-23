@@ -56,7 +56,7 @@ displaySummary=function(data)
 function createBid()
 {
     var timestamp=new Date(document.getElementById('bidDate').value);
-    timestamp.setHours(timestamp.getHours());
+    timestamp.setHours(timestamp.getHours()+2);
     timestamp=timestamp.getTime();
 
     myXHR("checkoutbl.php?method=createBid&timestamp="+timestamp,{callback: redirectToUserProfile,method:"GET"});
