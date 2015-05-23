@@ -36,7 +36,7 @@
             <div class="rec-banner darkblue">
                 <div class="banner"> <i class="fa fa-gift"></i>
                     <h3>Surprise Gift</h3>
-                    <p>Worth Rs.1000 on orders over Rs.10000*</p>
+                    <p>On all orders over Rs.10000*</p>
                 </div>
             </div>
         </div>

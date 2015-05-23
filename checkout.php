@@ -69,11 +69,13 @@
 <!-- Header -->
 <?php
 include_once('header.php');
+
 if( !(isset($_SESSION['BidId'])))
 {
     echo '<script>alert("Cart Empty")</script>';
     echo '<script>window.location.href="cart.php"</script>';
 }
+
 if( !(isset($_SESSION['email'])))
 {
     echo '<script>window.location.href="login.php"</script>';

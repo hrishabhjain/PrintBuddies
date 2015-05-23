@@ -9,8 +9,8 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
-    <meta content="Flatroshop online shopping point" name="description">
-    <meta content="logoby.us" name="author">
+    <meta content="Print Buddies online printing services" name="description">
+    <meta content="Print Buddies" name="author">
     <link href="images/favicon.png" rel="shortcut icon">
     <title>Print Buddies  </title>
 
@@ -86,7 +86,7 @@ use Facebook\GraphSessionInfo;
 use Facebook\GraphUser;
 // init app with app id (APPID) and secret (SECRET)
 FacebookSession::setDefaultApplication('798700396886902','44d8b401d56647f7be781f77d159ecd5');
-$helper = new FacebookRedirectLoginHelper( 'http://in.printbuddies.com/checkout.php' );
+$helper = new FacebookRedirectLoginHelper( 'http://in.printbuddies.com/profile.php' );
 
 try {
     $session = $helper->getSessionFromRedirect();
@@ -102,6 +102,7 @@ if( !(isset($_SESSION['BidId'])))
 }
 if(isset($_SESSION['email']))
     echo '<script>window.location.href="checkout.php"</script>';
+
 if ( isset( $session ) ) {
     // graph api request for user data
     $request = new FacebookRequest( $session, 'GET', '/me' );

@@ -10,8 +10,13 @@ if($_GET['method'] && $_GET['timestamp'])
     {
         $bid=new Bid();
         $bid_id=$_SESSION['BidId'];
-        $bid->createBid($bid_id,$timestamp);
-        unset($_SESSION['BidId']);
+        $value=$bid->createBid($bid_id,$timestamp);
+        if($value)
+        {
+            unset($_SESSION['BidId']);
+            return true;
+        }else
+            return false;
     }
 }
 ?>

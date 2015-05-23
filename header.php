@@ -39,9 +39,9 @@ $helper = new FacebookRedirectLoginHelper( 'http://in.printbuddies.com/profile.p
 try {
     $session = $helper->getSessionFromRedirect();
 } catch( FacebookRequestException $ex ) {
-    // When Facebook returns an error
+    echo $ex;
 } catch( Exception $ex ) {
-    // When validation fails or other local issues
+    echo $ex;
 }
 if ( isset( $session ) ) {
 

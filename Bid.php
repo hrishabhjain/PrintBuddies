@@ -83,9 +83,9 @@ class Bid {
             $db = $conn->print_buddies;
             $collection=$db->Bids;
             $cursor=$collection->findAndModify(array("_id" =>$bid_id),array('$set'=>array("date"=>$timestamp)));
-            echo json_encode($cursor);
+            echo true;
         }catch (Exception $e){
-            echo json_encode('Could not run query on the Server');
+            return false;
         }
 
     }

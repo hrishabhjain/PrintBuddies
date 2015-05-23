@@ -43,9 +43,7 @@ class User {
                 $import = "SELECT `first_name` FROM `user_details` WHERE `email` = '$email'";
                 $response = $mysql->executeQuery($import);
                 $row=mysqli_fetch_row($response);
-                $_SESSION['first_name']=$row[0];
-                $_SESSION['email']=$email;
-                return true;
+                return $row[0];
             }
             else{
                 return false;

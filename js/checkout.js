@@ -56,6 +56,7 @@ displaySummary=function(data)
 function createBid()
 {
     var timestamp=new Date(document.getElementById('bidDate').value);
+    timestamp.setHours(timestamp.getHours());
     timestamp=timestamp.getTime();
 
     myXHR("checkoutbl.php?method=createBid&timestamp="+timestamp,{callback: redirectToUserProfile,method:"GET"});
@@ -63,6 +64,10 @@ function createBid()
 
 redirectToUserProfile=function(data)
 {
-    window.location.href='profile.php';
+    data=JSON.parse(data);
+    if(data)
+        window.location.href='profile.php';
+    else
+        alert('Error occured please try again.');
 
 }
