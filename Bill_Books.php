@@ -14,12 +14,12 @@
     <meta name="keywords" content="Online Printing, Bid Online, Affordable Printing">
     <link href="images/favicon.png" rel="shortcut icon">
 
-    <title>Standard Business Cards</title>
+    <title>Bill Books</title>
 
     <?php include_once('include_header_products.php');?>
 </head>
 
-<body  onload=getProductInfo("Standard_Business_Cards");>
+<body  onload=getProductInfo("Bill_Books");>
 
 <!-- Header -->
 <script id="handlebar-info" type="text/x-handlebars-template">
@@ -47,7 +47,7 @@ include('header.php');
                     <div class="box-content slide carousel-fade" id="blogslide">
                         <div class="carousel-inner">
                             <div class="blog-entry item active">
-                                <div class="image"> <img class="ani-image" src="images/products/Bcards.jpg" alt=""> </div>
+                                <div class="image"> <img class="ani-image" src="images/products/Product.jpg" alt=""> </div>
 
                             </div>
                             <!--END Post -->
@@ -68,7 +68,7 @@ include('header.php');
                       <!-- Tab panes -->
                     <div class="tab-content">
                         <div class="tab-pane active" id="details-info">
-                            <p>For best prices select quantity in multiple of 1000  </p>
+                            <p>For best prices select quantity in multiple of 5.  </p>
 
                         </div>
                         <div class="tab-pane" id="reviews">
@@ -114,7 +114,7 @@ include('header.php');
             <!-- end: Brands -->
         </div>
         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 box-block sidebar">
-            <div class="box-heading"><span>Standard Business Cards</span></div>
+            <div class="box-heading"><span>Bill Books</span></div>
             <div class="box-content">
                 <div id="productInfo" class="productInfo">
 

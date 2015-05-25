@@ -161,9 +161,9 @@ include_once('analyticstracking.php');
                           <div class="col-md-4">
                               <ul>
                                   <li><a href="Business_Cards.php">Business Cards</a></li>
+                                  <li><a href="Bill_Books.php">Bill Books</a></li>
                                   <li><a href="Calenders.php">Calenders</a></li>
-                                  <li><a href="#a">Key Chains</a></li>
-                                  <li><a href="#a">Pens</a></li>
+                                  <li><a href="Coming_soon.php">Pens</a></li>
                                   <li><a href="Envelopes.php">Envelopes</a></li>
                                   <li><a href="Letterhead.php">Letterhead</a></li>
                                   <li><a href="Notepads.php">Notepads</a></li>
@@ -185,7 +185,7 @@ include_once('analyticstracking.php');
                   <div class="row">
                     <div class="col-md-4">
                         <ul>
-                            <li><a href="#a">Beavrage Coasters</a></li>
+                            <li><a href="Coming_soon.php">Beavrage Coasters</a></li>
                             <li><a href="banner.php">Banners</a></li>
                             <li><a href="Brochure.php">Brochures</a></li>
                             <li><a href="Flyer.php">Flyers</a></li>
@@ -198,13 +198,13 @@ include_once('analyticstracking.php');
                     </div>
                     <div class="col-md-4"> <a class="menu-title" href="#a">Corporate Gifts</a>
                       <ul>
-                        <li><a href="#a">Bottle Openers</a></li>
-                        <li><a href="#a">Key Chains</a></li>
-                        <li><a href="#a">Mouse Pads</a></li>
-                        <li><a href="#a">Pens</a></li>
-                        <li><a href="#a">Personalised Mugs</a></li>
-                        <li><a href="#a">USB Pen Drives</a></li>
-                        <li><a href="#a">Tape Measures</a></li>
+                        <li><a href="Coming_soon.php">Bottle Openers</a></li>
+                        <li><a href="Coming_soon.php">Key Chains</a></li>
+                        <li><a href="Coming_soon.php">Mouse Pads</a></li>
+                        <li><a href="Coming_soon.php">Pens</a></li>
+                        <li><a href="Coming_soon.php">Personalised Mugs</a></li>
+                        <li><a href="Coming_soon.php">USB Pen Drives</a></li>
+                        <li><a href="Coming_soon.php">Tape Measures</a></li>
                       </ul>
                     </div>
 
@@ -224,6 +224,7 @@ include_once('analyticstracking.php');
                     <div class="col-md-4">
                         <ul>
                             <li><a href="Business_Cards.php">Business Cards</a></li>
+                            <li><a href="Bill_Books.php">Bill Books</a></li>
                             <li><a href="Calenders.php">Calenders</a></li>
                             <li><a href="Envelopes.php">Envelopes</a></li>
 
@@ -234,13 +235,15 @@ include_once('analyticstracking.php');
                               <li><a href="Labels.php">Labels</a></li>
                               <li><a href="Letterhead.php">Letterhead</a></li>
                               <li><a href="Memo_Pads.php">Memopads</a></li>
+                              <li><a href="Coming_soon.php">Magazine</a></li>
                           </ul>
                       </div>
                       <div class="col-md-4">
                           <ul>
-                              <li><a href="#a">Magazine</a></li>
                               <li><a href="Notepads.php">Notepads</a></li>
                               <li><a href="Pocket_Folders.php">Pocket Folders</a></li>
+                              <li><a href="Coming_soon.php">Receipt Books</a></li>
+                              <li><a href="#">Voucher</a></li>
                           </ul>
                       </div>
 
@@ -258,9 +261,9 @@ include_once('analyticstracking.php');
                           <div class="row">
                               <div class="col-md-4">
                                   <ul>
-                                      <li><a href="#a">Pens</a></li>
+                                      <li><a href="Coming_soon.php">Pens</a></li>
                                       <li><a href="Envelopes.php">Envelopes</a></li>
-                                      <li><a href="#a">Envelopes Seals</a></li>
+                                      <li><a href="Coming_soon.php">Envelopes Seals</a></li>
                                   </ul>
                               </div>
                               <div class="col-md-4">
@@ -272,8 +275,8 @@ include_once('analyticstracking.php');
                               </div>
                               <div class="col-md-4">
                                   <ul>
-                                      <li><a href="#a">Magazine</a></li>
-                                      <li><a href="#a">Sticky Notes</a></li>
+                                      <li><a href="Coming_soon.php">Magazine</a></li>
+                                      <li><a href="Coming_soon.php">Sticky Notes</a></li>
                                       <li><a href="Table_Tents.php">Table Tents</a></li>
                                   </ul>
                               </div>
@@ -293,15 +296,15 @@ include_once('analyticstracking.php');
                         <div class="row">
                             <div class="col-md-4">
                                 <ul>
-                                    <li><a href="#a">Pens</a></li>
-                                    <li><a href="#a">Calenders</a></li>
-                                    <li><a href="#a">Key Chains</a></li>
+                                    <li><a href="Coming_soon.php">Pens</a></li>
+                                    <li><a href="Calenders.php">Calenders</a></li>
+                                    <li><a href="Coming_soon.php">Key Chains</a></li>
                                 </ul>
                             </div>
                             <div class="col-md-4">
                                 <ul>
-                                    <li><a href="#a">Personalised Mugs</a></li>
-                                    <li><a href="#a">USB Pen Drives</a></li>
+                                    <li><a href="Coming_soon.php">Personalised Mugs</a></li>
+                                    <li><a href="Coming_soon.php">USB Pen Drives</a></li>
 
                                 </ul>
                             </div>
@@ -321,7 +324,7 @@ include_once('analyticstracking.php');
                         <div class="row">
 
                             <div class="col-md-12">
-                                <p><a href="#a"><img alt="" src="images/menu-ad.jpg"></a> </p>
+                                <p><a href="Coming_soon.php"><img alt="" src="images/menu-ad.jpg"></a> </p>
                             </div>
 
                         </div>
@@ -765,10 +768,10 @@ include_once('analyticstracking.php');
       <div class="col-sm-3 col-xs-12 footermenu">
         <h4 class="title">Information</h4>
         <ul>
-          <li class="item"> <a href="#a">Delivery Info</a></li>
-          <li class="item"> <a href="#a">FAQs</a></li>
-          <li class="item"> <a href="#a">Payment Instructions</a></li>
-          <li class="item"> <a href="#a">Request Product</a></li>
+          <li class="item"> <a href="Coming_soon.php">Delivery Info</a></li>
+          <li class="item"> <a href="Coming_soon.php">FAQs</a></li>
+          <li class="item"> <a href="Coming_soon.php">Payment Instructions</a></li>
+          <li class="item"> <a href="Coming_soon.php">Request Product</a></li>
           <li class="item"> <a href="printer.php">Printer Registration</a></li>
         </ul>
       </div>
@@ -777,7 +780,7 @@ include_once('analyticstracking.php');
         <ul>
           <li class="item"> <a href="profile.php">My Account</a></li>
           <li class="item"> <a href="profile.php">Order History</a></li>
-          <li class="item"> <a href="#a">Newsletter</a></li>
+          <li class="item"> <a href="Coming_soon.php">Newsletter</a></li>
         </ul>
       </div>
       <div class="col-sm-3 col-xs-12 getintouch">

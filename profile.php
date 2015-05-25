@@ -237,10 +237,10 @@ if(!(isset($_SESSION['email']))){
                             </div>
                         </div>
                         <div class="tab-pane" id="tags">
-                            <p>Bids is completed when a Printer is selected by You by paying 7% of Bid amount.  </p>
+
                         </div>
                         <div class="tab-pane" id="custom-tab">
-                            <p>Phosfluorescently productize technically sound process improvements for customized bandwidth. Competently coordinate leveraged catalysts for change without multimedia based services. Objectively fabricate user-centric experiences before.</p>
+                            <p></p>
                             <div class="video-wrapper">
                                 <div class="video-container">
                                 </div>

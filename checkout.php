@@ -179,7 +179,7 @@ if( !(isset($_SESSION['email'])))
                           <div class="col-md-2 hidden-sm hidden-xs p-wr">
                               <div class="qtyinput">
                                   <div class="quantity-inp">
-                                    <input type="text" class="quantity-input" name="bidDate" id="bidDate" style="text-align: center" >
+                                    <input type="text" class="quantity-input" name="bidDate" id="bidDate" style="text-align: center ; border:1px #aaaaaa solid" >
                                   </div>
                                 </div>
                           </div>

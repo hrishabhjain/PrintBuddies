@@ -12,7 +12,13 @@ function getActiveBid()
 function getIncompleteBid()
 {
     displayBids_container_name="reviews";
-    myXHR("profilebl.php?method=getIncompleteBid",{callback:displayBids,method:"GET",async:true});
+    myXHR("profilebl.php?method=getIncompleteBid",{callback:displayBids,method:"GET"});
+    getCompletedBid();
+}
+function getCompletedBid()
+{
+    displayBids_container_name="tags";
+    myXHR("profilebl.php?method=getCompletedBid",{callback:displayBids,method:"GET",async:true});
 }
 setSession=function(data)
 {
@@ -37,7 +43,7 @@ displayBids=function(data)
         for(var key2 in data[key1] )
         {
             if(key2=='_id' || key2=='date')
-            {   console.log(data[key1][key2]); continue; }
+                continue;
 
             for(var key3 in data[key1][key2])
                 for(var key4 in data[key1][key2][key3])
@@ -64,7 +70,7 @@ displayBids=function(data)
     document.getElementById(displayBids_container_name).innerHTML=html;
 
 
-}
+};
 function getCompleteBid(bid_id)
 {
     reveal_bidId=bid_id;
@@ -114,7 +120,7 @@ displayBidInReveal=function(data)
 
                         var monthNames = [ "January", "February", "March", "April", "May", "June",
                             "July", "August", "September", "October", "November", "December" ];
-                        data[key1][key2][key3][key4]['Date']=date+'/'+monthNames[month]+'/'+year;
+                        data[key1][key2][key3][key4]['Date']=monthNames[month]+' '+date+', '+year;
 
                         html+=template_info2(data[key1][key2][key3][key4]);
                     }

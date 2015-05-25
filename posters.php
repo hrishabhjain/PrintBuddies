@@ -7,16 +7,17 @@
 <!--<![endif]-->
 
 <head>
-<meta charset="UTF-8">
-<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
-<meta content="Print Buddiesshop online shopping point" name="description">
-<meta content="logoby.us" name="author">
-<link href="images/ico.html" rel="shortcut icon">
-<title>Posters</title>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+    <meta content="Get printing at most affordable prices by comparing price from printers in your city." name="description">
+    <meta content="Print Buddies" name="author">
+    <meta name="keywords" content="Online Printing, Bid Online, Affordable Printing">
+    <link href="images/favicon.png" rel="shortcut icon">
+    <title>Notepads</title>
     <?php include_once('include_header_products.php');?>
 </head>
 
-<body  onload=getProductInfo("posters");>
+<body  onload=getProductInfo("Posters");>
 <!-- Header -->
 <script id="handlebar-info" type="text/x-handlebars-template">
     <div class="post " data-update-id="{{Category}}" id="{{Category}}-attribute" >
@@ -34,7 +35,7 @@ include('header.php');
 <div class="row clearfix f-space10"></div>
 <div class="container">
     <div class="row">
-    
+
         <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
             <div class="row">
                 <div class="col-md-8 blog-block">
@@ -42,51 +43,14 @@ include('header.php');
                     <!-- Blog widget Box -->
                     <div class="box-content slide carousel-fade" id="blogslide">
                         <div class="carousel-inner">
-                            <!-- Post -->
-                            <div class="blog-entry item">
-                                <div class="image"> <span class="blogico"> <i class="fa fa-bullhorn fa-fw"></i><br>
-                  Blog entry</span> <img class="ani-image" src="images/blog-4.jpg" alt="image info"> </div>
-                                <div class="entry-row">
-                                    <div class="date col-xs-12"><span>12</span><span>Aug 2013</span></div>
-                                    <div class="blog-text"> <span>A decent blog title goes here...</span> <span>Appropriately supply high-quality intellectual capital after
-                    client-centered quality vectors. Collaboratively orchestrate end-to-end
-                    strategic theme areas after...</span> <span> <a href="#a"> <i class="fa fa-user fa-fw"></i>John Doe</a> <a href="#a"> <i class="fa fa-comments fa-fw"></i>4 Comments</a> </span> </div>
-                                </div>
-                            </div>
-                            <!--END Post -->
-                            <!-- Post -->
-                            <div class="blog-entry item">
-                                <div class="image"> <span class="blogico"> <i class="fa fa-bullhorn fa-fw"></i><br>
-                  Blog entry</span> <img class="ani-image" src="images/blog-1.jpg" alt=""> </div>
-                                <div class="entry-row">
-                                    <div class="date col-xs-12"><span>27</span><span>Oct 2013</span></div>
-                                    <div class="blog-text"> <span>Nulla quis lorem ut libero malesuada...</span> <span>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec
-                    rutrum congue leo eget malesuada. Nulla quis lorem ut libero malesuada
-                    feugiat. Curabitur arcu erat, accumsan id imperdiet....</span> <span> <a href="#a"> <i class="fa fa-user fa-fw"></i>John Doe</a> <a href="#a"> <i class="fa fa-comments fa-fw"></i>2 Comments</a> </span> </div>
-                                </div>
-                            </div>
-                            <!--END Post -->
-                            <!-- Post -->
                             <div class="blog-entry item active">
                                 <div class="image"> <span class="blogico"> <i class="fa fa-bullhorn fa-fw"></i><br>
-                  Blog entry</span> <img class="ani-image" src="images/blog-2.jpg" alt=""> </div>
+                  Blog entry</span> <img class="ani-image" src="images/products/Product.jpg" alt=""> </div>
 
                             </div>
-                            <!--END Post -->
-                            <!-- Post -->
-                            <div class="blog-entry item">
-                                <div class="image"> <span class="blogico"> <i class="fa fa-bullhorn fa-fw"></i><br>
-                  Blog entry</span> <img class="ani-image" src="images/blog-3.jpg" alt=""> </div>
-                                <div class="entry-row">
-                                    <div class="date col-xs-12"><span>11</span><span>Jan 2013</span></div>
-                                    <div class="blog-text"><span>Dynamically empower equity...</span> <span>Completely cultivate standardized internal or "organic" sources
-                    with unique total linkage. Dynamically empower equity invested e-markets
-                    without premier schemas....</span> <span> <a href="#a"> <i class="fa fa-user fa-fw"></i>John Doe</a> <a href="#a"> <i class="fa fa-comments fa-fw"></i>19 Comments</a> </span> </div>
-                                </div>
-                            </div>
+
                             <!--END Post -->
                         </div>
-                        <div class="carousel-controls"> <a class="carousel-control left" data-slide="prev" href="#blogslide"> <i class="fa fa-angle-left fa-fw"></i> </a> <a class="carousel-control right" data-slide="next" href="#blogslide"> <i class="fa fa-angle-right fa-fw"></i> </a> </div>
                     </div>
                     <!-- end: Blog widget Box -->
                     <div class="f-space10"></div>
@@ -97,57 +61,48 @@ include('header.php');
                     <li class="active"><a href="#details-info" data-toggle="tab"><i class="fa  fa-th-list fa-fw"></i> Tips & Ideas</a></li>
                     <li><a href="#reviews" data-toggle="tab"><i class="fa fa-comments fa-fw"></i> Paper Choices</a></li>
                     <li> <a href="#tags" data-toggle="tab"><i class="fa fa-tags fa-fw"></i> Folding & Options</a> </li>
-              <!--      <li><a href="#custom-tab" data-toggle="tab"><i class="fa fa-video-camera fa-fw"></i> Custom Tab</a></li>
-                </ul>
-                <!-- Tab panes -->
-                <div class="tab-content">
-                    <div class="tab-pane active" id="details-info">
-                        <p>A poster can have a lot of impact. Announce your event or get your message out in a big way with custom printing effects that will get noticed.</p>
-                      
-                    </div>
-                     <div class="tab-pane" id="reviews">
-                       
-                        <div class="table-responsive">
-                            <table class="table table-striped">
-                                <tbody>
-                            
-<tr><td>100 lb. Gloss Text Stock</td><td>
-100 lb. Gloss Text is a high-quality paper stock that is excellent for projects requiring high resolution and sharp imagery.</td></tr><tr> <td>80 lb. Recycled Matte Cover Stock</td><td>
-This high-quality matte cover stock is known for its elegant finish, sharp color reproduction and unmatched environmental specifications.</td></tr><tr> <td>70 lb. Recycled Matte Text Stock</td><td>
-This high-quality matte text stock is known for its elegant finish, sharp color reproduction and unmatched environmental specifications.<tr> <td>13 pt. Recycled Matte Cover Stock</td><td>
-This high-quality matte text stock is known for its elegant finish, sharp color reproduction and unmatched environmental specifications.
-                       </td></tr>
-                       </td></tr> 
-                                </tbody>
-                            </table>
+                    <!--      <li><a href="#custom-tab" data-toggle="tab"><i class="fa fa-video-camera fa-fw"></i> Custom Tab</a></li>
+                      </ul>
+                      <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="details-info">
+                            <p>A personalized notepad is a great little advertising device. </p>
+
                         </div>
-                    </div>
-                    <div class="tab-pane" id="tags">
-       <p>
-Posters are available in four standard trim sizes:</p><p>
-11" x 17" </p><p>
-12.25" x 17.25"</p><p>
-18" x 24" </p><p>
-24" x 36"</p>
-</div>
-                   <div class="tab-pane" id="custom-tab">
-                        <p>Phosfluorescently productize technically sound process improvements for customized bandwidth. Competently coordinate leveraged catalysts for change without multimedia based services. Objectively fabricate user-centric experiences before.</p>
-                        <div class="video-wrapper">
-                            <div class="video-container">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/keDneypw3HY" frameborder="0" allowfullscreen></iframe>
+                        <div class="tab-pane" id="reviews">
+
+                            <div class="table-responsive">
+                                <table class="table table-striped">
+                                    <tbody>
+                                    <tr><td>Standard 70 lb. White Paper</td><td>
+                                            Our standard 70 lb. white paper is a high-grade, elegant stationery paper with a white wove finish. It is also compatible with laser and ink jet printers. </td></tr>    </tbody>
+                                </table>
                             </div>
-                            <!-- /video -->
                         </div>
-                        <!-- /video-wrapper -->
+                        <div class="tab-pane" id="tags">
+                            <p>
+                                We offer custom finishing options, including:</p><p>
+                                Custom placement of 3/16", 1/4" or 5/16" hole</p><p>
+                                Hardcopy proof if you need the most accurate color matching</p>
+                        </div>
+                        <div class="tab-pane" id="custom-tab">
+                            <p>Phosfluorescently productize technically sound process improvements for customized bandwidth. Competently coordinate leveraged catalysts for change without multimedia based services. Objectively fabricate user-centric experiences before.</p>
+                            <div class="video-wrapper">
+                                <div class="video-container">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/keDneypw3HY" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <!-- /video -->
+                            </div>
+                            <!-- /video-wrapper -->
+                        </div>
                     </div>
-                </div>
 
             </div>
 
             <!-- end: Brands -->
         </div>
         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 box-block sidebar">
-            <div class="box-heading"><span>Posters</span></div>
+            <div class="box-heading"><span>Notepads</span></div>
             <div class="box-content">
                 <div id="productInfo" class="productInfo">
 
@@ -165,319 +120,53 @@ Posters are available in four standard trim sizes:</p><p>
 <!-- container -->
 <!-- Relate Products -->
 <div class="clearfix f-space30"></div>
-<div class="container">
-  <div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 main-column box-block">
-      <div class="box-heading"><span>Related Products</span></div>
-      <div class="box-content">
-        <div class="box-products slide" id="productc3">
-          <div class="carousel-controls"> <a class="carousel-control left" data-slide="prev" href="#productc3"> <i class="fa fa-angle-left fa-fw"></i> </a> <a class="carousel-control right" data-slide="next" href="#productc3"> <i class="fa fa-angle-right fa-fw"></i> </a> </div>
-          <div class="carousel-inner"> 
-            <!-- Items Row -->
-            <div class="item active">
-              <div class="row box-product"> 
-                <!-- Product -->
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                  <div class="product-block">
-                    <div class="image">
-                      <div class="product-label product-sale"><span>SALE</span></div>
-                      <a class="img" href="product.html"><img alt="product info" src="images/products/product1.jpg" title="product title"></a> </div>
-                    <div class="product-meta">
-                      <div class="name"><a href="product.html">Ladies Stylish Handbag</a></div>
-                      <div class="big-price"> <span class="price-new"><span class="sym">$</span>96</span> <span class="price-old"><span class="sym">$</span>119.50</span> </div>
-                      <div class="big-btns"> <a class="btn btn-default btn-view pull-left" href="#">View</a> <a class="btn btn-default btn-addtocart pull-right" href="#">Add to
-                        Cart</a> </div>
-                      <div class="small-price"> <span class="price-new"><span class="sym">$</span>96</span> <span class="price-old"><span class="sym">$</span>119.50</span> </div>
-                      <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-o"></i> <i class="fa fa-star-o"></i> </div>
-                      <div class="small-btns">
-                        <button class="btn btn-default btn-compare pull-left" data-toggle="tooltip" title="Add to Compare"> <i class="fa fa-retweet fa-fw"></i> </button>
-                        <button class="btn btn-default btn-wishlist pull-left" data-toggle="tooltip" title="Add to Wishlist"> <i class="fa fa-heart fa-fw"></i> </button>
-                        <button class="btn btn-default btn-addtocart pull-left" data-toggle="tooltip" title="Add to Cart"> <i class="fa fa-shopping-cart fa-fw"></i> </button>
-                      </div>
-                    </div>
-                    <div class="meta-back"></div>
-                  </div>
-                </div>
-                <!-- end: Product --> 
-                <!-- Product -->
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                  <div class="product-block">
-                    <div class="image"> <a class="img" href="product.html"><img alt="product info" src="images/products/product2.jpg" title="product title"></a> </div>
-                    <div class="product-meta">
-                      <div class="name"><a href="product.html">Female Strips Handbag</a></div>
-                      <div class="big-price"> <span class="price-new"><span class="sym">$</span>520</span> </div>
-                      <div class="big-btns"> <a class="btn btn-default btn-view pull-left" href="#">View</a> <a class="btn btn-default btn-addtocart pull-right" href="#">Add to
-                        Cart</a> </div>
-                      <div class="small-price"> <span class="price-new"><span class="sym">$</span>520</span> </div>
-                      <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-o"></i> <i class="fa fa-star-o"></i> </div>
-                      <div class="small-btns">
-                        <button class="btn btn-default btn-compare pull-left" data-toggle="tooltip" title="Add to Compare"> <i class="fa fa-retweet fa-fw"></i> </button>
-                        <button class="btn btn-default btn-wishlist pull-left" data-toggle="tooltip" title="Add to Wishlist"> <i class="fa fa-heart fa-fw"></i> </button>
-                        <button class="btn btn-default btn-addtocart pull-left" data-toggle="tooltip" title="Add to Cart"> <i class="fa fa-shopping-cart fa-fw"></i> </button>
-                      </div>
-                    </div>
-                    <div class="meta-back"></div>
-                  </div>
-                </div>
-                <!-- end: Product --> 
-                <!-- Product -->
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                  <div class="product-block">
-                    <div class="image">
-                      <div class="product-label product-new"><span>NEW</span></div>
-                      <a class="img" href="product.html"><img alt="product info" src="images/products/product3.jpg" title="product title"></a> </div>
-                    <div class="product-meta">
-                      <div class="name"><a href="product.html">Blue Fashion Bag</a></div>
-                      <div class="big-price"> <span class="price-new"><span class="sym">$</span>320</span> </div>
-                      <div class="big-btns"> <a class="btn btn-default btn-view pull-left" href="#">View</a> <a class="btn btn-default btn-addtocart pull-right" href="#">Add to
-                        Cart</a> </div>
-                      <div class="small-price"> <span class="price-new"><span class="sym">$</span>320</span> </div>
-                      <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-o"></i> <i class="fa fa-star-o"></i> </div>
-                      <div class="small-btns">
-                        <button class="btn btn-default btn-compare pull-left" data-toggle="tooltip" title="Add to Compare"> <i class="fa fa-retweet fa-fw"></i> </button>
-                        <button class="btn btn-default btn-wishlist pull-left" data-toggle="tooltip" title="Add to Wishlist"> <i class="fa fa-heart fa-fw"></i> </button>
-                        <button class="btn btn-default btn-addtocart pull-left" data-toggle="tooltip" title="Add to Cart"> <i class="fa fa-shopping-cart fa-fw"></i> </button>
-                      </div>
-                    </div>
-                    <div class="meta-back"></div>
-                  </div>
-                </div>
-                <!-- end: Product --> 
-                <!-- Product -->
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                  <div class="product-block">
-                    <div class="image">
-                      <div class="product-label product-sale"><span>SALE</span></div>
-                      <a class="img" href="product.html"><img alt="product info" src="images/products/product1.jpg" title="product title"></a> </div>
-                    <div class="product-meta">
-                      <div class="name"><a href="product.html">Ladies Stylish Handbag</a></div>
-                      <div class="big-price"> <span class="price-new"><span class="sym">$</span>96</span> <span class="price-old"><span class="sym">$</span>119.50</span> </div>
-                      <div class="big-btns"> <a class="btn btn-default btn-view pull-left" href="#">View</a> <a class="btn btn-default btn-addtocart pull-right" href="#">Add to
-                        Cart</a> </div>
-                      <div class="small-price"> <span class="price-new"><span class="sym">$</span>96</span> <span class="price-old"><span class="sym">$</span>119.50</span> </div>
-                      <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-o"></i> <i class="fa fa-star-o"></i> </div>
-                      <div class="small-btns">
-                        <button class="btn btn-default btn-compare pull-left" data-toggle="tooltip" title="Add to Compare"> <i class="fa fa-retweet fa-fw"></i> </button>
-                        <button class="btn btn-default btn-wishlist pull-left" data-toggle="tooltip" title="Add to Wishlist"> <i class="fa fa-heart fa-fw"></i> </button>
-                        <button class="btn btn-default btn-addtocart pull-left" data-toggle="tooltip" title="Add to Cart"> <i class="fa fa-shopping-cart fa-fw"></i> </button>
-                      </div>
-                    </div>
-                    <div class="meta-back"></div>
-                  </div>
-                </div>
-                <!-- end: Product --> 
-              </div>
-            </div>
-            <!-- end: Items Row --> 
-            <!-- Items Row -->
-            <div class="item">
-              <div class="row box-product"> 
-                <!-- Product -->
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                  <div class="product-block">
-                    <div class="image"> <a class="img" href="product.html"><img alt="product info" src="images/products/product2.jpg" title="product title"></a> </div>
-                    <div class="product-meta">
-                      <div class="name"><a href="product.html">Female Strips Handbag</a></div>
-                      <div class="big-price"> <span class="price-new"><span class="sym">$</span>520</span> </div>
-                      <div class="big-btns"> <a class="btn btn-default btn-view pull-left" href="#">View</a> <a class="btn btn-default btn-addtocart pull-right" href="#">Add to
-                        Cart</a> </div>
-                      <div class="small-price"> <span class="price-new"><span class="sym">$</span>520</span> </div>
-                      <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-o"></i> <i class="fa fa-star-o"></i> </div>
-                      <div class="small-btns">
-                        <button class="btn btn-default btn-compare pull-left" data-toggle="tooltip" title="Add to Compare"> <i class="fa fa-retweet fa-fw"></i> </button>
-                        <button class="btn btn-default btn-wishlist pull-left" data-toggle="tooltip" title="Add to Wishlist"> <i class="fa fa-heart fa-fw"></i> </button>
-                        <button class="btn btn-default btn-addtocart pull-left" data-toggle="tooltip" title="Add to Cart"> <i class="fa fa-shopping-cart fa-fw"></i> </button>
-                      </div>
-                    </div>
-                    <div class="meta-back"></div>
-                  </div>
-                </div>
-                <!-- end: Product --> 
-                <!-- Product -->
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                  <div class="product-block">
-                    <div class="image">
-                      <div class="product-label product-new"><span>NEW</span></div>
-                      <a class="img" href="product.html"><img alt="product info" src="images/products/product3.jpg" title="product title"></a> </div>
-                    <div class="product-meta">
-                      <div class="name"><a href="product.html">Blue Fashion Bag</a></div>
-                      <div class="big-price"> <span class="price-new"><span class="sym">$</span>320</span> </div>
-                      <div class="big-btns"> <a class="btn btn-default btn-view pull-left" href="#">View</a> <a class="btn btn-default btn-addtocart pull-right" href="#">Add to
-                        Cart</a> </div>
-                      <div class="small-price"> <span class="price-new"><span class="sym">$</span>320</span> </div>
-                      <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-o"></i> <i class="fa fa-star-o"></i> </div>
-                      <div class="small-btns">
-                        <button class="btn btn-default btn-compare pull-left" data-toggle="tooltip" title="Add to Compare"> <i class="fa fa-retweet fa-fw"></i> </button>
-                        <button class="btn btn-default btn-wishlist pull-left" data-toggle="tooltip" title="Add to Wishlist"> <i class="fa fa-heart fa-fw"></i> </button>
-                        <button class="btn btn-default btn-addtocart pull-left" data-toggle="tooltip" title="Add to Cart"> <i class="fa fa-shopping-cart fa-fw"></i> </button>
-                      </div>
-                    </div>
-                    <div class="meta-back"></div>
-                  </div>
-                </div>
-                <!-- end: Product --> 
-                <!-- Product -->
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                  <div class="product-block">
-                    <div class="image">
-                      <div class="product-label product-sale"><span>SALE</span></div>
-                      <a class="img" href="product.html"><img alt="product info" src="images/products/product1.jpg" title="product title"></a> </div>
-                    <div class="product-meta">
-                      <div class="name"><a href="product.html">Ladies Stylish Handbag</a></div>
-                      <div class="big-price"> <span class="price-new"><span class="sym">$</span>96</span> <span class="price-old"><span class="sym">$</span>119.50</span> </div>
-                      <div class="big-btns"> <a class="btn btn-default btn-view pull-left" href="#">View</a> <a class="btn btn-default btn-addtocart pull-right" href="#">Add to
-                        Cart</a> </div>
-                      <div class="small-price"> <span class="price-new"><span class="sym">$</span>96</span> <span class="price-old"><span class="sym">$</span>119.50</span> </div>
-                      <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-o"></i> <i class="fa fa-star-o"></i> </div>
-                      <div class="small-btns">
-                        <button class="btn btn-default btn-compare pull-left" data-toggle="tooltip" title="Add to Compare"> <i class="fa fa-retweet fa-fw"></i> </button>
-                        <button class="btn btn-default btn-wishlist pull-left" data-toggle="tooltip" title="Add to Wishlist"> <i class="fa fa-heart fa-fw"></i> </button>
-                        <button class="btn btn-default btn-addtocart pull-left" data-toggle="tooltip" title="Add to Cart"> <i class="fa fa-shopping-cart fa-fw"></i> </button>
-                      </div>
-                    </div>
-                    <div class="meta-back"></div>
-                  </div>
-                </div>
-                <!-- end: Product --> 
-                <!-- Product -->
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                  <div class="product-block">
-                    <div class="image">
-                      <div class="product-label product-sale"><span>SALE</span></div>
-                      <a class="img" href="product.html"><img alt="product info" src="images/products/product1.jpg" title="product title"></a> </div>
-                    <div class="product-meta">
-                      <div class="name"><a href="product.html">Ladies Stylish Handbag</a></div>
-                      <div class="big-price"> <span class="price-new"><span class="sym">$</span>96</span> <span class="price-old"><span class="sym">$</span>119.50</span> </div>
-                      <div class="big-btns"> <a class="btn btn-default btn-view pull-left" href="#">View</a> <a class="btn btn-default btn-addtocart pull-right" href="#">Add to
-                        Cart</a> </div>
-                      <div class="small-price"> <span class="price-new"><span class="sym">$</span>96</span> <span class="price-old"><span class="sym">$</span>119.50</span> </div>
-                      <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-o"></i> <i class="fa fa-star-o"></i> </div>
-                      <div class="small-btns">
-                        <button class="btn btn-default btn-compare pull-left" data-toggle="tooltip" title="Add to Compare"> <i class="fa fa-retweet fa-fw"></i> </button>
-                        <button class="btn btn-default btn-wishlist pull-left" data-toggle="tooltip" title="Add to Wishlist"> <i class="fa fa-heart fa-fw"></i> </button>
-                        <button class="btn btn-default btn-addtocart pull-left" data-toggle="tooltip" title="Add to Cart"> <i class="fa fa-shopping-cart fa-fw"></i> </button>
-                      </div>
-                    </div>
-                    <div class="meta-back"></div>
-                  </div>
-                </div>
-                <!-- end: Product --> 
-              </div>
-            </div>
-            <!-- end: Items Row --> 
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- end: Related products -->
-
-<div class="row clearfix f-space30"></div>
-
-<!-- Rectangle Banners -->
-
-<div class="container">
-  <div class="row">
-    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
-      <div class="rec-banner blue">
-        <div class="banner"> <i class="fa fa-thumbs-up"></i>
-          <h3>Guarantee</h3>
-          <p>100% Money Back Guarantee*</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
-      <div class="rec-banner red">
-        <div class="banner"> <i class="fa fa-tags"></i>
-          <h3>Affordable</h3>
-          <p>Convenient & affordable prices for you</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
-      <div class="rec-banner orange">
-        <div class="banner"> <i class="fa fa-headphones"></i>
-          <h3>24/7 Support</h3>
-          <p>We support everything we sell</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
-      <div class="rec-banner lightblue">
-        <div class="banner"> <i class="fa fa-female"></i>
-          <h3>Summer Sale</h3>
-          <p>Upto 50% off on all women wear</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
-      <div class="rec-banner darkblue">
-        <div class="banner"> <i class="fa fa-gift"></i>
-          <h3>Surprise Gift</h3>
-          <p>Value $50 on orders over $700</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
-      <div class="rec-banner black">
-        <div class="banner"> <i class="fa fa-truck"></i>
-          <h3>Free Shipping</h3>
-          <p>All over in world over $100</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- end: Rectangle Banners -->
-
+<?php include('features.php');?>
 <div class="row clearfix f-space30"></div>
 
 <!-- footer -->
 <?php
 include('footer.php');
 ?>
-<script src="js/jquery.elevatezoom.js" type="text/javascript"></script> 
+<script src="js/jquery.elevatezoom.js" type="text/javascript"></script>
 <script>
 
-(function($) {
-  "use strict";
-  //Mega Menu
- $('#menuMega').menu3d();
-             
-              //Help/Contact Number/Quick Message
-			$('.quickbox').carousel({
-				interval: 10000
-			});
-			
-			//SPECIALS
-			$('#productc2').carousel({
-				interval: 4000
-			}); 
-			//RELATED PRODUCTS
-			$('#productc3').carousel({
-				interval: 4000
-			}); 
-			
-			//Zoom Product
-			$("#product-image").elevateZoom({
-												  zoomType : "inner",
-												  cursor : "crosshair",
-												  easing: true,
-												   gallery: "thumbs",
-												   galleryActiveClass: "active",
-												  loadingIcon : true
-												});	
-			$("#product-image").bind("click", function(e) {  
-  var ez =   $('#product-image').data('elevateZoom');
-  ez.closeAll(); //NEW: This function force hides the lens, tint and window	
-	//$.fancybox(ez.getGalleryList());     
-  return false;
-});
-})(jQuery);
+    (function($) {
+        "use strict";
+        //Mega Menu
+        $('#menuMega').menu3d();
 
- </script>
+        //Help/Contact Number/Quick Message
+        $('.quickbox').carousel({
+            interval: 10000
+        });
+
+        //SPECIALS
+        $('#productc2').carousel({
+            interval: 4000
+        });
+        //RELATED PRODUCTS
+        $('#productc3').carousel({
+            interval: 4000
+        });
+
+        //Zoom Product
+        $("#product-image").elevateZoom({
+            zoomType : "inner",
+            cursor : "crosshair",
+            easing: true,
+            gallery: "thumbs",
+            galleryActiveClass: "active",
+            loadingIcon : true
+        });
+        $("#product-image").bind("click", function(e) {
+            var ez =   $('#product-image').data('elevateZoom');
+            ez.closeAll(); //NEW: This function force hides the lens, tint and window
+            //$.fancybox(ez.getGalleryList());
+            return false;
+        });
+    })(jQuery);
+
+</script>
 
 </body>
 </html>

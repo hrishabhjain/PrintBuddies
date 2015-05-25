@@ -18,6 +18,7 @@ require_once( 'Facebook/HttpClients/FacebookHttpable.php' );
 require_once( 'Facebook/HttpClients/FacebookCurl.php' );
 require_once( 'Facebook/HttpClients/FacebookCurlHttpClient.php' );
 require_once('Bid.php');
+require_once('User.php');
 use Facebook\HttpClients\FacebookHttpable;
 use Facebook\HttpClients\FacebookCurl;
 use Facebook\HttpClients\FacebookCurlHttpClient;
@@ -48,8 +49,10 @@ if ( isset( $session ) ) {
     $request = new FacebookRequest( $session, 'GET', '/me' );
     $response = $request->execute();
     $graphObject = $response->getGraphObject(GraphUser::className());
-    $_SESSION['first_name']=$graphObject->getFirstName();
+    $fname=$_SESSION['first_name']=$graphObject->getFirstName();
     $email=$_SESSION['email']=$graphObject->getEmail();
+    $user= new User();
+    $user->signup($email,$fname,'','','');
 
     if(isset($_SESSION['BidId']))
     {
@@ -149,9 +152,9 @@ if ( isset( $session ) ) {
                                     <div class="col-md-4">
                                         <ul>
                                             <li><a href="Business_Cards.php">Business Cards</a></li>
+                                            <li><a href="Bill_Books.php">Bill Books</a></li>
                                             <li><a href="Calenders.php">Calenders</a></li>
-                                            <li><a href="#a">Key Chains</a></li>
-                                            <li><a href="#a">Pens</a></li>
+                                            <li><a href="Coming_soon.php">Pens</a></li>
                                             <li><a href="Envelopes.php">Envelopes</a></li>
                                             <li><a href="Letterhead.php">Letterhead</a></li>
                                             <li><a href="Notepads.php">Notepads</a></li>
@@ -171,7 +174,7 @@ if ( isset( $session ) ) {
                                 <div class="row">
                                     <div class="col-md-4">
                                         <ul>
-                                            <li><a href="#a">Beavrage Coasters</a></li>
+                                            <li><a href="Coming_soon.php">Beavrage Coasters</a></li>
                                             <li><a href="banner.php">Banners</a></li>
                                             <li><a href="Brochure.php">Brochures</a></li>
                                             <li><a href="Flyer.php">Flyers</a></li>
@@ -184,13 +187,13 @@ if ( isset( $session ) ) {
                                     </div>
                                     <div class="col-md-4"> <a class="menu-title" href="#a">Corporate Gifts</a>
                                         <ul>
-                                            <li><a href="#a">Bottle Openers</a></li>
-                                            <li><a href="#a">Key Chains</a></li>
-                                            <li><a href="#a">Mouse Pads</a></li>
-                                            <li><a href="#a">Pens</a></li>
-                                            <li><a href="#a">Personalised Mugs</a></li>
-                                            <li><a href="#a">USB Pen Drives</a></li>
-                                            <li><a href="#a">Tape Measures</a></li>
+                                            <li><a href="Coming_soon.php">Bottle Openers</a></li>
+                                            <li><a href="Coming_soon.php">Key Chains</a></li>
+                                            <li><a href="Coming_soon.php">Mouse Pads</a></li>
+                                            <li><a href="Coming_soon.php">Pens</a></li>
+                                            <li><a href="Coming_soon.php">Personalised Mugs</a></li>
+                                            <li><a href="Coming_soon.php">USB Pen Drives</a></li>
+                                            <li><a href="Coming_soon.php">Tape Measures</a></li>
                                         </ul>
                                     </div>
 
@@ -210,6 +213,7 @@ if ( isset( $session ) ) {
                                     <div class="col-md-4">
                                         <ul>
                                             <li><a href="Business_Cards.php">Business Cards</a></li>
+                                            <li><a href="Bill_Books.php">Bill Books</a></li>
                                             <li><a href="Calenders.php">Calenders</a></li>
                                             <li><a href="Envelopes.php">Envelopes</a></li>
 
@@ -220,13 +224,15 @@ if ( isset( $session ) ) {
                                             <li><a href="Labels.php">Labels</a></li>
                                             <li><a href="Letterhead.php">Letterhead</a></li>
                                             <li><a href="Memo_Pads.php">Memopads</a></li>
+                                            <li><a href="Coming_soon.php">Magazine</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-md-4">
                                         <ul>
-                                            <li><a href="#a">Magazine</a></li>
                                             <li><a href="Notepads.php">Notepads</a></li>
                                             <li><a href="Pocket_Folders.php">Pocket Folders</a></li>
+                                            <li><a href="Coming_soon.php">Receipt Books</a></li>
+                                            <li><a href="#">Voucher</a></li>
                                         </ul>
                                     </div>
 
@@ -244,22 +250,22 @@ if ( isset( $session ) ) {
                                 <div class="row">
                                     <div class="col-md-4">
                                         <ul>
-                                            <li><a href="#a">Pens</a></li>
-                                            <li><a href="#a">Envelopes</a></li>
-                                            <li><a href="#a">Envelopes Seals</a></li>
+                                            <li><a href="Coming_soon.php">Pens</a></li>
+                                            <li><a href="Envelopes.php">Envelopes</a></li>
+                                            <li><a href="Coming_soon.php">Envelopes Seals</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-md-4">
                                         <ul>
                                             <li><a href="Letterhead.php">Letterhead</a></li>
-                                            <li><a href="#">Notebooks</a></li>
+                                            <li><a href="Coming_soon.php">Notebooks</a></li>
                                             <li><a href="Notepads.php">Note Pads</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-md-4">
                                         <ul>
-                                            <li><a href="#a">Magazine</a></li>
-                                            <li><a href="#a">Sticky Notes</a></li>
+                                            <li><a href="Coming_soon.php">Magazine</a></li>
+                                            <li><a href="Coming_soon.php">Sticky Notes</a></li>
                                             <li><a href="Table_Tents.php">Table Tents</a></li>
                                         </ul>
                                     </div>
@@ -278,15 +284,15 @@ if ( isset( $session ) ) {
                                 <div class="row">
                                     <div class="col-md-4">
                                         <ul>
-                                            <li><a href="#a">Pens</a></li>
+                                            <li><a href="Coming_soon.php">Pens</a></li>
                                             <li><a href="Calenders.php">Calenders</a></li>
-                                            <li><a href="#a">Key Chains</a></li>
+                                            <li><a href="Coming_soon.php">Key Chains</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-md-4">
                                         <ul>
-                                            <li><a href="#a">Personalised Mugs</a></li>
-                                            <li><a href="#a">USB Pen Drives</a></li>
+                                            <li><a href="Coming_soon.php">Personalised Mugs</a></li>
+                                            <li><a href="Coming_soon.php">USB Pen Drives</a></li>
 
                                         </ul>
                                     </div>
@@ -306,7 +312,7 @@ if ( isset( $session ) ) {
                                 <div class="row">
 
                                     <div class="col-md-12">
-                                        <p><a href="#a"><img alt="" src="images/menu-ad.jpg"></a> </p>
+                                        <p><a href="Coming_soon.php"><img alt="" src="images/menu-ad.jpg"></a> </p>
                                     </div>
 
                                 </div>
