@@ -73,7 +73,7 @@ if ( isset( $session ) ) {
             <div class="topheadrow">
                 <ul class="nav nav-pills pull-right">
                     <li> <a href="#a">  <span class="hidden-xs">We're hiring! </span></a> </li>
-                    <li> <a href="#a">  <i class="fa fa-phone fa-fw"></i><span class="hidden-xs">+91-94608-62-343 </span></a> </li>
+                    <li> <a href="#a">  <i class="fa fa-phone fa-fw"></i><span class="hidden-xs">+91-9950-1818-51 </span></a> </li>
 
                         <?php
                         if(isset($_SESSION['email']))
@@ -122,7 +122,7 @@ if ( isset( $session ) ) {
                             <!-- Sub Menu -->
                             <ul>
                                 <li><a href="#">How It Works</a></li>
-                                <li><a href="#">Need a Design</a></li>
+                                <li><a href="designing.php">Need a Design</a></li>
                                 <li><a href="printer.php">Printers</a></li>
                                 <li><a href="cart.php">Cart</a></li>
                                 <li><a href="checkout.php">Checkout</a></li>
@@ -331,7 +331,7 @@ if ( isset( $session ) ) {
             <div class="menu-links hidden-xs">
                 <ul class="nav nav-pills nav-justified">
                     <li> <a href=""> <i class="fa fa-home fa-fw"></i> <span class="hidden-sm">How It Works</span></a> </li>
-                    <li> <a href="#"> <i class="fa fa-info-circle fa-fw"></i> <span class="hidden-sm">Need a Design</span></a> </li>
+                    <li> <a href="designing.php"> <i class="fa fa-info-circle fa-fw"></i> <span class="hidden-sm">Need a Design</span></a> </li>
                     <li> <a href="printer.php"> <i class="fa fa-bullhorn fa-fw"></i> <span class="hidden-sm">Printers</span></a> </li>
                     <li> <a href="contact.php"> <i class="fa fa-pencil-square-o fa-fw"></i> <span class="hidden-sm ">Contact</span></a> </li>
                     <li class="dropdown"> <a href="cart.php"> <i class="fa fa-shopping-cart fa-fw"></i> <span class="hidden-sm"> Cart </span></a>

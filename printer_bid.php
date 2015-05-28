@@ -127,8 +127,8 @@ if(!(isset($_SESSION['printer_username'])))
     <div class="dropdown-menu flyout-menuflyout-menu">
         <!-- Sub Menu -->
         <ul>
-            <li><a href="about.php">How It Works</a></li>
-            <li><a href="#">Need a Design</a></li>
+            <li><a href="#">How It Works</a></li>
+            <li><a href="designing.php">Need a Design</a></li>
             <li><a href="printer.php">Printers</a></li>
             <li><a href="cart.php">Cart</a></li>
             <li><a href="checkout.php">Checkout</a></li>
@@ -173,7 +173,7 @@ if(!(isset($_SESSION['printer_username'])))
 </li>
 <!-- end: Menu Item -->
 <!-- Menu Item -->
-<li> <a href="#a"> <i class="fa fa-bars"></i> <span>Marketing & Promotions</span> <i class="fa fa-angle-right"></i> </a>
+<li> <a href="#a"> <i class="fa fa-bars"></i> <span>Marketing</span> <i class="fa fa-angle-right"></i> </a>
     <div class="dropdown-menu">
         <!-- Sub Menu -->
         <div class="content">
@@ -334,7 +334,7 @@ if(!(isset($_SESSION['printer_username'])))
     <div class="menu-links hidden-xs">
         <ul class="nav nav-pills nav-justified">
             <li> <a href=""> <i class="fa fa-home fa-fw"></i> <span class="hidden-sm">How It Works</span></a> </li>
-            <li> <a href="#"> <i class="fa fa-info-circle fa-fw"></i> <span class="hidden-sm">Need a Design</span></a> </li>
+            <li> <a href="designing.php"> <i class="fa fa-info-circle fa-fw"></i> <span class="hidden-sm">Need a Design</span></a> </li>
             <li> <a href="printer.php"> <i class="fa fa-bullhorn fa-fw"></i> <span class="hidden-sm">Printers</span></a> </li>
             <li> <a href="contact.php"> <i class="fa fa-pencil-square-o fa-fw"></i> <span class="hidden-sm ">Contact</span></a> </li>
             <li class="dropdown"> <a href="cart.php"> <i class="fa fa-shopping-cart fa-fw"></i> <span class="hidden-sm"> Cart </span></a>

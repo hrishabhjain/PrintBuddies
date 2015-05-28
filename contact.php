@@ -122,8 +122,8 @@ include('header.php');
             Housing Board, Jodhpur, <br/>
             Rajasthan, India - 342001</div>
         </div>
-        <div class="contactdetails-box"> <span class="icon"><i class="fa fa-phone fa-fw"></i></span> <span class="details">Phone: +91-94608-62-343 <br/>
-             +91-99501-81-851</span> </div>
+        <div class="contactdetails-box"> <span class="icon"><i class="fa fa-phone fa-fw"></i></span> <span class="details">Phone: +91-9950-1818-51 <br/>
+             +91-94608-62-343</span> </div>
         <div class="contactdetails-box"> <span class="icon"><i class="fa fa-envelope fa-fw"></i></span> <span class="details">Email: support@printbuddies.com <br/>
           <br>Website: <a href="http://www.printbuddies.com" style="color: #31B167">www.printbuddies.com</a></span> </div>
       </div>

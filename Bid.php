@@ -137,7 +137,7 @@ class Bid {
         try{
 
             $mysql = new MySql();
-            $import="SELECT * FROM `bids` WHERE `bidId`=$bid_id ORDER BY `bids`.`price` DESC";
+            $import="SELECT * FROM `bids` WHERE `bidId`=$bid_id ORDER BY `bids`.`price` ";
             $response = $mysql->executeQuery($import);
             //$mysql->write_log($import);
 

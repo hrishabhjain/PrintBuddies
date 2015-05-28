@@ -144,7 +144,7 @@ displayBidPriceReveal=function(data)
     reveal_html+='<div class="col-md-35 col-sm-12 col-xs-12 box-block page-sidebar"><div class="box-heading"><span>Bids</span></div><div class="box-content cart-box-wr" id="box-content cart-box-wr"><div class="cart-box-tm"><div class="tm1" style="background-color:#fff">Price (In Rs.)</div><div class="tm2" style="background-color:#fff">On-Time</div></div>';
     for(var key in data)
     {
-        if(data[key]['OnTime'])
+        if(data[key]['OnTime']==1)
             data[key]['OnTime']='Yes';
         else
             data[key]['OnTime']='No';

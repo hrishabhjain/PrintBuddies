@@ -131,7 +131,7 @@ include_once('analyticstracking.php');
                 <!-- Sub Menu -->
                 <ul>
                   <li><a href="#">How It Works</a></li>
-                  <li><a href="#">Need a Design</a></li>
+                  <li><a href="designing.php">Need a Design</a></li>
                   <li><a href="printer.php">Printers</a></li>
                   <li><a href="cart.php">Cart</a></li>
                   <li><a href="checkout.php">Checkout</a></li>
@@ -345,7 +345,7 @@ include_once('analyticstracking.php');
         <div class="menu-links hidden-xs">
           <ul class="nav nav-pills nav-justified">
             <li> <a href="#"> <i class="fa fa-home fa-fw"></i> <span class="hidden-sm">How It Works</span></a> </li>
-            <li> <a href="#"> <i class="fa fa-info-circle fa-fw"></i> <span class="hidden-sm">Need a Design</span></a> </li>
+            <li> <a href="designing.php"> <i class="fa fa-info-circle fa-fw"></i> <span class="hidden-sm">Need a Design</span></a> </li>
             <li> <a href="printer.php"> <i class="fa fa-bullhorn fa-fw"></i> <span class="hidden-sm">Printers</span></a> </li>
             <li> <a href="contact.php"> <i class="fa fa-pencil-square-o fa-fw"></i> <span class="hidden-sm ">Contact</span></a> </li>
             <li class="dropdown"> <a href="cart.php"> <i class="fa fa-shopping-cart fa-fw"></i> <span class="hidden-sm"> Cart </span></a>
@@ -799,7 +799,7 @@ include_once('analyticstracking.php');
           <li>
             <div class="icon"><i class="fa fa-phone fa-fw"></i></div>
             <div class="c-info"> <span>24/7 Phone Support:<br>
-              <a href="#a">+91-94608-62-343</a></span></div>
+              <a href="#a">+91-9950-1818-51</a></span></div>
           </li>
           <li>
             <div class="icon"> <i class="fa fa-skype fa-fw"></i></div>
@@ -809,7 +809,7 @@ include_once('analyticstracking.php');
         </ul>
         <div class="social-icons">
           <ul>
-            <li class="icon google-plus"><a href="https://plus.google.com/109885489687057454413" rel="publisher" target="_blank"><i class="fa fa-google-plus fa-fw"></i></a></li>
+            <li class="icon google-plus"><a href="https://plus.google.com/+Printbuddiescom" rel="publisher" target="_blank"><i class="fa fa-google-plus fa-fw"></i></a></li>
             <li class="icon linkedin"><a href="#a"><i class="fa fa-linkedin fa-fw"></i></a></li>
             <li class="icon twitter"><a href="#a"><i class="fa fa-twitter fa-fw"></i></a></li>
             <li class="icon facebook"><a href="https://www.facebook.com/printbuddies" target="_blank"><i class="fa fa-facebook fa-fw"></i></a></li>
@@ -822,7 +822,7 @@ include_once('analyticstracking.php');
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-sm-8 col-xs-12"> <span class="copytxt">&copy; Copyright 2015 by <a href="index.php">Print Buddies</a> -  All rights reserved</span> <span class="btmlinks"><a href="#a">Return Policy</a> | <a href="#a">Privacy Policy</a> | <a href="#a">Terms of Use</a></span> </div>
-        <div class="col-lg-4 col-sm-4 col-xs-12 payment-icons"> <a href="#a"> <img src="images/icons/discover.png" alt="discover"> </a> <a href="#a"> <img src="images/icons/2co.png" alt="2co"> </a> <a href="#a"> <img src="images/icons/paypal.png" alt="paypal"> </a> <a href="#a"> <img src="images/icons/mastercard.png" alt="master card"> </a> <a href="#a"> <img src="images/icons/visa.png" alt="visa card"> </a> <a href="#a"> <img src="images/icons/moneybookers.png" alt="moneybookers"> </a> </div>
+        <div class="col-lg-4 col-sm-4 col-xs-12 payment-icons"> </div>
       </div>
     </div>
   </div>

@@ -55,7 +55,7 @@
                 </ul>
                 <div class="social-icons">
                     <ul>
-                        <li class="icon google-plus"> <a href="https://plus.google.com/109885489687057454413" rel="publisher" target="_blank"> <i class="fa fa-google-plus fa-fw"></i> </a> </li>
+                        <li class="icon google-plus"> <a href="https://plus.google.com/+Printbuddiescom" rel="publisher" target="_blank"> <i class="fa fa-google-plus fa-fw"></i> </a> </li>
                         <li class="icon linkedin"> <a href="#a"> <i class="fa fa-linkedin fa-fw"></i> </a> </li>
                         <li class="icon twitter"> <a href="#a"> <i class="fa fa-twitter fa-fw"></i> </a> </li>
                         <li class="icon facebook"> <a href="https://www.facebook.com/printbuddies"> <i class="fa fa-facebook fa-fw"></i> </a> </li>
@@ -68,7 +68,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-sm-8 col-xs-12"> <span class="copytxt">&copy; Copyright 2015 by <a href="index.html">Print Buddies</a> - All rights reserved</span> <span class="btmlinks"><a href="#a">Return Policy</a> | <a href="#a">Privacy Policy</a> | <a href="#a">Terms of Use</a></span> </div>
-                <div class="col-lg-4 col-sm-4 col-xs-12 payment-icons"> <a href="#a"> <img alt="discover" src="images/icons/discover.png"> </a> <a href="#a"> <img alt="2co" src="images/icons/2co.png"> </a> <a href="#a"> <img alt="paypal" src="images/icons/paypal.png"> </a> <a href="#a"> <img alt="master card" src="images/icons/mastercard.png"> </a> <a href="#a"> <img alt="visa card" src="images/icons/visa.png"> </a> <a href="#a"> <img alt="moneybookers" src="images/icons/moneybookers.png"> </a> </div>
+                <div class="col-lg-4 col-sm-4 col-xs-12 payment-icons"></div>
             </div>
         </div>
     </div>
