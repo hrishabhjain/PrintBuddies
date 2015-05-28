@@ -27,6 +27,9 @@ if(isset($_GET['method']))
     }elseif($method=='getSession')
     {
         echo json_encode($_SESSION);
+    }if($method=='getPreviousBid')
+    {
+      $bid->getPreviousBid();
     }
 }
 ?>

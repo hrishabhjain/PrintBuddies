@@ -65,11 +65,11 @@ if(!(isset($_SESSION['printer_username'])))
     <![endif]-->
     <script src="js/common.js"></script>
     <script src="js/handlebars-v2.0.0.js"></script>
-    <script src="js/printer_bid.js"></script>
+    <script src="js/previous_bid.js"></script>
     <script src="js/jquery.reveal.js"></script>
 
 </head>
-<body onload="getExistingBid();">
+<body onload="getPreviousBid();">
 <!-- Header -->
 <header>
 <!-- Top Heading Bar -->
@@ -453,21 +453,7 @@ if(!(isset($_SESSION['printer_username'])))
                 </div>
 
 </script>
-<script id="handlebar-info-7" type="text/x-handlebars-">
 
-                <div class="cart-box-tm">
-                    <div class="tm1" style="background-color:#fff">Your Bid &nbsp; &nbsp; Rs.</div>
-                    <div class="tm2" style="background-color:#fff"><input type="text" name="price" id="price"  style="border: 1px #aaaaaa solid ; height: 35px" value=""></div>
-                </div>
-                <div class="cart-box-tm">
-                    <div class="tm1" style="background-color:#fff ; margin-top: 5px"><label class="checkbox" for="checkbox1">On time Delivery <input type="checkbox"  id="Ontime"></label></div>
-                    <div class="tm2" style="background-color:#fff;"> <a href="#a" class="btn normal color2" onclick="postBid()">Bid</a></div>
-                </div>
-
-
-
-
-</script>
 <script id="handlebar-info-8" type="text/x-handlebars-">
 
                 <div class="cart-box-tm">
@@ -482,7 +468,7 @@ if(!(isset($_SESSION['printer_username'])))
     <div class="row">
         <div class="col-md-12">
             <div class="page-title">
-                <h2>Existing Bids <a href="previous_bid.php" style="font-size: 14px; color: #31B167">Previous Bids--> Click Here</a> </h2>
+                <h2>Previous Bids <a href="printer_bid.php" style="font-size: 14px; color: #31B167">Existing Bids--> Click Here</a> </h2>
 
             </div>
         </div>

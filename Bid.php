@@ -116,6 +116,21 @@ class Bid {
             echo json_encode('Could not run query on the Server');
         }
     }
+    public function getPreviousBid()
+    {
+        try{
+            $conn = new MongoClient(MONGO_PRODUCT_IP);
+            $db = $conn->print_buddies;
+            $collection=$db->Bids;
+            $timestamp=time()*1000;
+            $cursor=$collection->find(array('date' => array( '$lt' =>$timestamp)),array('products'=>1,'date'=>1))->sort(array('date'=>-1))->limit(25);
+            $cursor=iterator_to_array($cursor);
+            echo json_encode($cursor);
+        }catch (Exception $e){
+            echo $e;
+            echo json_encode('Could not run query on the Server');
+        }
+    }
     public function getBidByIdForPrinter($bid_id)
     {
         try{
