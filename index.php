@@ -130,7 +130,7 @@ include_once('analyticstracking.php');
               <div class="dropdown-menu flyout-menu">
                 <!-- Sub Menu -->
                 <ul>
-                  <li><a href="#">How It Works</a></li>
+                  <li><a href="how_it_works.php">How It Works</a></li>
                   <li><a href="designing.php">Need a Design</a></li>
                   <li><a href="printer.php">Printers</a></li>
                   <li><a href="cart.php">Cart</a></li>
@@ -344,7 +344,7 @@ include_once('analyticstracking.php');
         <!-- Navigation Buttons/Quick Cart for Tablets and Desktop Only -->
         <div class="menu-links hidden-xs">
           <ul class="nav nav-pills nav-justified">
-            <li> <a href="#"> <i class="fa fa-home fa-fw"></i> <span class="hidden-sm">How It Works</span></a> </li>
+            <li> <a href="how_it_works.php"> <i class="fa fa-home fa-fw"></i> <span class="hidden-sm">How It Works</span></a> </li>
             <li> <a href="designing.php"> <i class="fa fa-info-circle fa-fw"></i> <span class="hidden-sm">Need a Design</span></a> </li>
             <li> <a href="printer.php"> <i class="fa fa-bullhorn fa-fw"></i> <span class="hidden-sm">Printers</span></a> </li>
             <li> <a href="contact.php"> <i class="fa fa-pencil-square-o fa-fw"></i> <span class="hidden-sm ">Contact</span></a> </li>

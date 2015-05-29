@@ -9,7 +9,7 @@
 <head>
 <meta charset="UTF-8">
 <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
-<meta content="Flatroshop online shopping point" name="description">
+<meta content="Get printing at lowest price in your city" name="description">
 <meta content="Print Buddies" name="author">
 <link href="images/favicon.png" rel="shortcut icon">
 <title>Need A Designer</title>
@@ -141,7 +141,7 @@ include('header.php');
     <div class="row">
 <div class="middle" >
     <h1>CALL @ 9950-1818-51</h1>
-    <p>Give an Appointment <span> &nbsp; &nbsp; » &nbsp; &nbsp; </span> Get It Designed <span> &nbsp; &nbsp; » &nbsp; &nbsp; </span> Pay </p>
+    <p>Give an Appointment <span> &nbsp; &nbsp; » &nbsp; &nbsp; </span> Get It Designed <span> &nbsp; &nbsp; » &nbsp; &nbsp; </span> Pay for designing</p>
 </div>
     </div>
 </div>
