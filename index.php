@@ -384,35 +384,28 @@ include_once('analyticstracking.php');
                 </span> </div>
             </div>
             <!-- Slide 1 -->
-            <div data-iview:image="images/slide1.jpg">
-              <div class="iview-caption caption1" data-transition="wipeUp" data-x="100" data-y="10"></div>
-              <div class="iview-caption caption2" data-easing="easeInOutElastic" data-transition="wipeLeft" data-x="100" data-y="100">Business
-                Cards</div>
-              <div class="iview-caption caption3" data-easing="easeInOutElastic" data-transition="wipeLeft" data-x="100" data-y="160"><br>Kick-off the conversation with a premium Business Card.
-                  <br>With Print Buddies, <br>print at most affordable prices <br>by comparing price from printers in your city.
-              </div>
-              <div class="iview-caption btn-more" data-transition="fade" data-x="100" data-y="280"><a href="Business_Cards.php">Post Bid
-                </a></div>
+            <div data-iview:image="images/how_it_works.jpg">
+
             </div>
             <!-- Slide 2 -->
-            <div data-iview:image="images/letterhead.jpg">
+            <div data-iview:image="images/slide1.jpg">
                 <div class="iview-caption caption1" data-transition="wipeUp" data-x="100" data-y="10"></div>
-                <div class="iview-caption caption2" data-easing="easeInOutElastic" data-transition="wipeLeft" data-x="100" data-y="100">Letterhead
+                <div class="iview-caption caption2" data-easing="easeInOutElastic" data-transition="wipeLeft" data-x="100" data-y="100">Business Cards
                     </div>
                 <div class="iview-caption caption3" data-easing="easeInOutElastic" data-transition="wipeLeft" data-x="100" data-y="160">
                     <br>With Print Buddies, <br>print at most affordable prices <br>by comparing price from printers in your city.
                 </div>
-                <div class="iview-caption btn-more" data-transition="fade" data-x="100" data-y="280"><a href="Letterhead.php">Post Bid
+                <div class="iview-caption btn-more" data-transition="fade" data-x="100" data-y="280"><a href="Business_Cards.php">Post Bid
                 </a></div>
             </div>
-              <div data-iview:image="images/minicard.jpg">
+              <div data-iview:image="images/letterhead.jpg">
                   <div class="iview-caption caption1" data-transition="wipeUp" data-x="100" data-y="10"></div>
-                  <div class="iview-caption caption2" data-easing="easeInOutElastic" data-transition="wipeLeft" data-x="100" data-y="100">Mini
-                  Cards</div>
+                  <div class="iview-caption caption2" data-easing="easeInOutElastic" data-transition="wipeLeft" data-x="100" data-y="100">Letterhead
+                  </div>
                   <div class="iview-caption caption3" data-easing="easeInOutElastic" data-transition="wipeLeft" data-x="100" data-y="160">
                       <br>With Print Buddies, <br>print at most affordable prices <br>by comparing price from printers in your city.
                   </div>
-                  <div class="iview-caption btn-more" data-transition="fade" data-x="100" data-y="280"><a href="Business_Cards.php">Post Bid
+                  <div class="iview-caption btn-more" data-transition="fade" data-x="100" data-y="280"><a href="Letterhead.php">Post Bid
                   </a></div>
               </div>
             </div>

@@ -89,6 +89,12 @@ include('header.php');
 
 
 <div class="row clearfix f-space30"></div>
+<div class="container">
+    <div class="row">
+        <img src="images/how_it_works2.jpg">
+    </div>
+</div>
+<div class="row clearfix f-space30"></div>
 <!-- shop features -->
 <div class="container">
     <div class="row">
