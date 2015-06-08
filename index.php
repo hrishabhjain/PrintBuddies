@@ -83,7 +83,7 @@ include_once('analyticstracking.php');
         <div class="topheadrow">
           <ul class="nav nav-pills pull-right">
             <li> <a href="#a">  <span class="hidden-xs">We're hiring! </span></a> </li>
-            <li> <a href="#a">  <i class="fa fa-phone fa-fw"></i><span class="hidden-xs">+91-94608-62-343 </span></a> </li>
+            <li> <a href="#a">  <i class="fa fa-phone fa-fw"></i><span class="hidden-xs">+91-9950-1818-51 </span></a> </li>
 
 
               <?php
@@ -185,13 +185,12 @@ include_once('analyticstracking.php');
                   <div class="row">
                     <div class="col-md-4">
                         <ul>
-                            <li><a href="Coming_soon.php">Beavrage Coasters</a></li>
                             <li><a href="banner.php">Banners</a></li>
                             <li><a href="Brochure.php">Brochures</a></li>
                             <li><a href="Flyer.php">Flyers</a></li>
-                            <li><a href="Pocket_Folders.php">Pocket Folders</a></li>
+                            <li><a href="Hang_Tags.php">Hang Tags</a></li>
                             <li><a href="ID_Badges.php">ID Badges</a></li>
-                            <li><a href="Invitation_Cards.php">Invitation Cards</a></li>
+                            <li><a href="Pocket_Folders.php">Pocket Folders</a></li>
                             <li><a href="Posters.php">Posters</a></li>
                             <li><a href="Table_Tents.php">Table Tents</a></li>
                         </ul>

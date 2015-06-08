@@ -230,13 +230,12 @@ function  login_pr($username, $pass)
             <div class="row">
                 <div class="col-md-4">
                     <ul>
-                        <li><a href="#a">Beavrage Coasters</a></li>
                         <li><a href="banner.php">Banners</a></li>
                         <li><a href="Brochure.php">Brochures</a></li>
                         <li><a href="Flyer.php">Flyers</a></li>
-                        <li><a href="Pocket_Folders.php">Pocket Folders</a></li>
+                        <li><a href="Hang_Tags.php">Hang Tags</a></li>
                         <li><a href="ID_Badges.php">ID Badges</a></li>
-                        <li><a href="Invitation_Cards.php">Invitation Cards</a></li>
+                        <li><a href="Pocket_Folders.php">Pocket Folders</a></li>
                         <li><a href="Posters.php">Posters</a></li>
                         <li><a href="Table_Tents.php">Table Tents</a></li>
                     </ul>
@@ -435,18 +434,8 @@ function  login_pr($username, $pass)
                                     <!-- Login -->
                                     <div class="col-md-6 col-xs-12">
                                         <div class="box-content login-box">
-                                            <h4>Request a FREE Visit</h4>
-                                            <form method="POST" action="register_visit.php" id="signup">
-                                                <input type="email" value="" placeholder="Email" class="input4" name="email" required>
-                                                <input type="text" value="" placeholder="Name" class="input4" name="name" required>
-                                                <input type="number" maxlength="10" value="" placeholder="Phone" class="input4" name="phone" required>
-                                                <input type="text" value="" placeholder="Address" class="input4" name="address" required>
-                                                <input type="text" value="" placeholder="City" class="input4" name="city" required>
-                                                <input type="number" maxlength="6" value="" placeholder="Pincode" class="input4" name="pincode" required>
-                                                <label class="checkbox" for="checkbox1">
-                                                </label>
-                                                <button type="submit" form="signup" value="Submit" class="btn medium color2 pull-right">Request</button>
-                                            </form>
+                                            <h2>Request a FREE Visit</h2>
+                                                <h2>Call / Whtsapp on <br>+91-9950-1818-51</h2>
                                         </div>
                                     </div>
                                     <!-- end: Login -->

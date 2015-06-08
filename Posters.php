@@ -102,7 +102,7 @@ include('header.php');
             <!-- end: Brands -->
         </div>
         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 box-block sidebar">
-            <div class="box-heading"><span>Notepads</span></div>
+            <div class="box-heading"><span>Posters</span></div>
             <div class="box-content">
                 <div id="productInfo" class="productInfo">
 
