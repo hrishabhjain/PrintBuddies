@@ -56,10 +56,11 @@ displaySummary=function(data)
 function createBid()
 {
     var timestamp=new Date(document.getElementById('bidDate').value);
+    var city=document.getElementById('city').value;
     timestamp.setHours(timestamp.getHours()+2);
     timestamp=timestamp.getTime();
 
-    myXHR("checkoutbl.php?method=createBid&timestamp="+timestamp,{callback: redirectToUserProfile,method:"GET"});
+    myXHR("checkoutbl.php?method=createBid&timestamp="+timestamp+"&city="+city,{callback: redirectToUserProfile,method:"GET"});
 }
 
 redirectToUserProfile=function(data)

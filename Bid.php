@@ -39,6 +39,7 @@ class Bid {
             $collection=$db->Bids;
             $bid['_id']=$bid_id;
             $bid['date']=null;
+            $bid['city']=null;
             $bid['email']=$email;
             $bid['products'][0]=$product_info;
             $bid['bids'][0]=null;
@@ -76,13 +77,13 @@ class Bid {
             return;
         }
     }
-    public function createBid($bid_id,$timestamp)
+    public function createBid($bid_id,$timestamp,$city)
     {
         try{
             $conn = new MongoClient(MONGO_PRODUCT_IP);
             $db = $conn->print_buddies;
             $collection=$db->Bids;
-            $cursor=$collection->findAndModify(array("_id" =>$bid_id),array('$set'=>array("date"=>$timestamp)));
+            $cursor=$collection->findAndModify(array("_id" =>$bid_id),array('$set'=>array("date"=>$timestamp,"city"=>$city)));
             echo true;
         }catch (Exception $e){
             return false;
@@ -123,7 +124,7 @@ class Bid {
             $db = $conn->print_buddies;
             $collection=$db->Bids;
             $timestamp=time()*1000;
-            $cursor=$collection->find(array('date' => array( '$lt' =>$timestamp)),array('products'=>1,'date'=>1))->sort(array('date'=>-1))->limit(25);
+            $cursor=$collection->find(array('date' => array( '$lt' =>$timestamp)),array('products'=>1,'date'=>1))->sort(array('_id'=>-1))->limit(25);
             $cursor=iterator_to_array($cursor);
             echo json_encode($cursor);
         }catch (Exception $e){

@@ -15,7 +15,7 @@ displayBids=function(data)
 {
     var container_name="cart";
     data = JSON.parse(data);
-
+    console.log(data);
     var source_info1 = document.getElementById("handlebar-info-1").innerHTML;
     var template_info1 = Handlebars.compile(source_info1);
     var source_info2 = document.getElementById("handlebar-info-2").innerHTML;
@@ -151,30 +151,6 @@ displayBidPriceReveal=function(data)
         closeonbackgroundclick: true,              //if you click background will modal close?
         dismissmodalclass: 'close-reveal-modal'    //the class of a button or element that will close an open modal
     });
-}
-
-function postBid()
-{
-    var price=document.getElementById('price').value;
-    console.log(document.getElementById('Ontime').checked);
-    var ontime="";
-    if(document.getElementById('Ontime').checked)
-        ontime=1;
-    else
-        ontime=0;
-    if(price==''){
-        alert('Enter a Valid Price.');
-        return;
-    }else if(isNaN(price)){
-        alert('Enter a Valid Price.');
-        return;
-    }else if(parseInt(price)==0)
-    {
-        alert('Enter a Valid Price. You cannot enter Zero.');
-        return;
-    }
-
-    myXHR("printerbl.php?method=postBid&BidId="+reveal_bidId+"&price="+price+"&ontime="+ontime,{callback:destroyReveal,method:"GET"})
 }
 
 

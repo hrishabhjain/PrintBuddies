@@ -1,4 +1,5 @@
 <?php
+error_reporting(E_ERROR);
 interface DBAuth{
     const url = "107.180.2.14";
     const uname = "rishabh";
@@ -21,12 +22,12 @@ class MySql implements DBAuth {
         try{
             $this->con = mysqli_connect(DBAuth::url, DBAuth::uname, DBAuth::pwd, DBAuth::db);
             if ($x=mysqli_connect_errno($this->con)){
-                echo $x;
                 throw new Exception("Failed to connect to MySQL: ". mysqli_connect_error());
 
             }
         }catch(Exception $e){
-            echo $e;
+            echo "<script>alert('Please check your internet connection.')</script>";
+            return;
         }
     }
 
@@ -34,7 +35,7 @@ class MySql implements DBAuth {
         try{
             $result = mysqli_query($this->con,$import);
         }catch (Exception $e){
-            echo $e;
+            echo "<script>alert('Could not connect to server. Please try again')</script>";
         }
         return $result;
     }
@@ -97,7 +98,8 @@ class MySql implements DBAuth {
             try{
                 mysqli_close($this->con);
             }catch(Exception $e){
-                throw $e;
+                echo "<script>alert('Please check your internet connection.')</script>";
+                return;
             }
         }
         //print "Destroying ";

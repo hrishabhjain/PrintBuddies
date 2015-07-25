@@ -14,13 +14,13 @@ include_once('mysqlclass.php');
 
 
 if($_POST){
-    $username=$_POST['username'];
+    $username=trim($_POST['username']);
     $password = $_POST['password'];
 
-    if(login_pr($username,$password))
+    if($city=login_pr($username,$password))
     {
         $_SESSION['printer_username']=$username;
-
+        $_SESSION['city']=$city;
         header('Location: printer_bid.php');
     }else
     {
@@ -34,19 +34,16 @@ function  login_pr($username, $pass)
 {
     try{
         $mysql = new Mysql();
-        $import = "SELECT `username` FROM `printer` WHERE `username`= '$username' AND `password` = '$pass' " ;
+        $import = "SELECT `username`, `city` FROM `printer` WHERE `username`= '$username' AND `password` = '$pass' " ;
         $response = $mysql->executeQuery($import);
         if($response)
-            $rows = mysqli_num_rows($response);
+        {
+            $rows = mysqli_fetch_row($response);
+            $city= $rows[1];
+            return $city;
+        }
         else
             return false;
-        if ($rows == 1)
-        {
-            return true;
-        }
-        else{
-            return false;
-        }
 
     }catch(Exception $error){
 

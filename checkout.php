@@ -36,6 +36,7 @@
 
 <!-- Style Switcher -->
 <link href="css/style-switch.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="css/drop-down.css" type="text/css"/>
 
 <!-- Color -->
 <link href="css/skin/color.css" id="colorstyle" rel="stylesheet">
@@ -132,7 +133,7 @@ if( !(isset($_SESSION['email'])))
         </div>
           <!-- end: login and register panel --> 
           
-          <!-- Billing Address panel -->
+          <!-- Billing Address panel --
           <div class="panel panel-default">
             <div class="panel-heading" data-parent="#checkout-options" data-target="#op2" data-toggle="collapse">
               <h4 class="panel-title"> <a href="#a"> <span class="fa fa-map-marker"></span> SELECT CITY </a><span class="op-number">2</span> </h4>
@@ -141,7 +142,7 @@ if( !(isset($_SESSION['email'])))
               <div class="panel-body">
                 <div class="row co-row">
                   <form>
-                    <!-- Login -->
+                    <!-- Login --
                     <div class="col-md-6 col-xs-12">
                       <div class="box-content form-box">
                         <p>We're currently operational in Jodhpur only.</p>
@@ -151,28 +152,29 @@ if( !(isset($_SESSION['email'])))
                     
                     <div class="col-md-6 col-xs-12">
                       <div class="box-content form-box">
-                        <!--<input type="button" class="btn medium color2 pull-right" onclick="displayConfirmBidPanel()" value="Continue">-->
+                        <!--<input type="button" class="btn medium color2 pull-right" onclick="displayConfirmBidPanel()" value="Continue">--
                       </div>
                     </div>
                   </form>
-                  <!-- end: Register -->
+                  <!-- end: Register --
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
           <!-- end: Billing Address panel -->
 
           <!-- Confirm Order -->
           <div class="panel panel-default"> <!-- add class disabled to prevent from clicking -->
             <div class="panel-heading opened" data-parent="#checkout-options" data-target="#op6" data-toggle="collapse">
-              <h4 class="panel-title"> <a href="#a"> <span class="fa fa-check"></span> Confirm Bid </a><span class="op-number">3</span> </h4>
+              <h4 class="panel-title"> <a href="#a"> <span class="fa fa-check"></span> Confirm Bid Order</a><span class="op-number">2</span> </h4>
             </div>
             <div class="panel-collapse " id="op6">
               <div class="panel-body">
                 <div class="row co-row">
+
                   <div class="col-md-12 col-xs-12">
                     <div class="box-content form-box">
-                      <h4>Please select bid closing date.</h4>
+                      <h4>Please enter bid closing date.</h4>
 
                       <div class="row">
                         <div class="product">
@@ -180,6 +182,13 @@ if( !(isset($_SESSION['email'])))
                               <div class="qtyinput">
                                   <div class="quantity-inp">
                                     <input type="text" class="quantity-input" name="bidDate" id="bidDate" style="text-align: center ; border:1px #aaaaaa solid" >
+                                      <div data-update-id="Color" id="Color-attribute" style="width: 150px">
+                                          <h4>Please select a city</h4>
+                                      <select id="city" class="select-main" style="font-size: 14px">
+                                          <option value="Delhi">Delhi</option>
+                                          <option value="Jodhpur">Jodhpur</option>
+                                      </select>
+                                      </div>
                                   </div>
                                 </div>
                           </div>

@@ -15,7 +15,6 @@ if($_POST)
     $last_name = $_POST['last_name'];
     $phone = $_POST['phone'];
 
-
     $user = new User();
     if($user->signup($email,$first_name,$last_name,$phone,$password))
     {
